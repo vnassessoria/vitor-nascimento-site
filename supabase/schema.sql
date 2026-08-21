@@ -72,6 +72,24 @@ create policy "messages_admin_select" on messages for select using (auth.role() 
 create policy "messages_admin_update" on messages for update using (auth.role() = 'authenticated');
 create policy "messages_admin_delete" on messages for delete using (auth.role() = 'authenticated');
 
+-- Permissões de acesso às tabelas (necessário se a opção "Expor
+-- automaticamente novas tabelas" estiver desmarcada no projeto).
+grant usage on schema public to anon, authenticated;
+
+grant select on public.news to anon, authenticated;
+grant all on public.news to authenticated;
+
+grant select on public.services to anon, authenticated;
+grant all on public.services to authenticated;
+
+grant select on public.settings to anon, authenticated;
+grant all on public.settings to authenticated;
+
+grant insert on public.messages to anon;
+grant select, update, delete on public.messages to authenticated;
+
+grant usage, select on all sequences in schema public to anon, authenticated;
+
 -- ============================================================
 -- Conteúdo inicial (o que já está no site hoje)
 -- ============================================================
