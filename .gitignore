@@ -1,0 +1,10 @@
+# Servidor Node (não é mais necessário com Supabase + GitHub Pages,
+# mas deixamos os arquivos aqui caso queira usar no futuro)
+server/node_modules/
+server/.env
+server/data/
+server/ADMIN_CREDENTIALS.txt
+
+# Sistema
+.DS_Store
+Thumbs.db
