@@ -8,3 +8,4 @@ server/ADMIN_CREDENTIALS.txt
 # Sistema
 .DS_Store
 Thumbs.db
+preview-local.ps1
