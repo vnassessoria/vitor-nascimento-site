@@ -52,6 +52,9 @@ function escapeHtml(str) {
    iniciadas com "## " viram subtítulos. */
 function renderArticleBody(text) {
   if (!text) return "";
+  // Notícias criadas com o editor de texto rico já vêm em HTML — exibimos direto.
+  if (/<[a-z][\s\S]*>/i.test(text)) return text;
+  // Compatibilidade com notícias antigas (texto simples com "## " para subtítulos).
   return text
     .split(/\n\s*\n/)
     .map((block) => block.trim())

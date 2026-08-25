@@ -119,6 +119,30 @@ document.getElementById("cancelNewsBtn").addEventListener("click", () => closeNe
 let currentImageUrl = null;
 const newsImagePreview = document.getElementById("newsImagePreview");
 
+/* ---- Editor de texto rico (TinyMCE) ---- */
+async function uploadEditorImage(blob, filename) {
+  const ext = ((filename || "").split(".").pop() || "jpg").toLowerCase();
+  const path = `body/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
+  const { error } = await supabaseClient.storage.from("news-images").upload(path, blob);
+  if (error) throw error;
+  const { data } = supabaseClient.storage.from("news-images").getPublicUrl(path);
+  return data.publicUrl;
+}
+
+tinymce.init({
+  selector: "#newsBodyField",
+  height: 420,
+  menubar: false,
+  plugins: "advlist autolink lists link image table code help wordcount",
+  toolbar:
+    "undo redo | blocks | fontfamily fontsizeinput | bold italic underline forecolor | " +
+    "alignleft aligncenter alignright | bullist numlist | link image table | removeformat",
+  images_upload_handler: (blobInfo) =>
+    uploadEditorImage(blobInfo.blob(), blobInfo.filename()),
+  branding: false,
+  promotion: false,
+});
+
 newsForm.image.addEventListener("change", () => {
   const file = newsForm.image.files[0];
   if (!file) return;
@@ -144,12 +168,16 @@ function openNewsForm(item) {
     newsForm.tag.value = item.tag;
     newsForm.title.value = item.title;
     newsForm.summary.value = item.summary;
-    newsForm.body.value = item.body || "";
     newsForm.sort_order.value = item.sort_order;
     newsForm.is_active.checked = !!item.is_active;
   } else {
     newsForm.is_active.checked = true;
   }
+
+  const editor = tinymce.get("newsBodyField");
+  if (editor) editor.setContent((item && item.body) || "");
+  else newsForm.body.value = (item && item.body) || "";
+
   newsFormCard.style.display = "block";
   newsFormCard.scrollIntoView({ behavior: "smooth", block: "start" });
 }
@@ -159,6 +187,8 @@ function closeNewsForm() {
   currentImageUrl = null;
   newsImagePreview.style.display = "none";
   newsImagePreview.src = "";
+  const editor = tinymce.get("newsBodyField");
+  if (editor) editor.setContent("");
 }
 
 async function uploadNewsImage(file, slugHint) {
@@ -172,6 +202,8 @@ async function uploadNewsImage(file, slugHint) {
 
 newsForm.addEventListener("submit", async (e) => {
   e.preventDefault();
+  const editor = tinymce.get("newsBodyField");
+  if (editor) editor.save();
   const id = newsForm.id.value;
   try {
     const slug = await uniqueSlug(newsForm.title.value, id || undefined);

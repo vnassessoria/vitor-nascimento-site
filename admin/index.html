@@ -99,10 +99,10 @@
             <label class="span-2">Resumo (aparece no card do carrossel)
               <textarea name="summary" rows="2" required></textarea>
             </label>
-            <label class="span-2">
-              Texto completo (aparece na página da notícia)
-              <textarea name="body" rows="10" placeholder="Escreva os parágrafos separados por uma linha em branco. Uma linha começando com ## vira um subtítulo."></textarea>
-            </label>
+            <div class="span-2">
+              <label for="newsBodyField">Texto completo (aparece na página da notícia)</label>
+              <textarea name="body" id="newsBodyField"></textarea>
+            </div>
             <label style="flex-direction:row; align-items:center; gap:8px;">
               <input type="checkbox" name="is_active" style="width:auto;" checked>
               Notícia ativa (visível no site)
@@ -327,6 +327,7 @@
   </main>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/tinymce@6/tinymce.min.js" referrerpolicy="origin"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="../js/supabase-config.js"></script>
 <script src="../js/icons.js"></script>
