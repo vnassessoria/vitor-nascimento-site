@@ -1,0 +1,509 @@
+{
+  "fonte": {
+    "anexoVI": [
+      "https://www.gov.br/empresas-e-negocios/pt-br/drei/arquivos/AnexoVI.pdf",
+      "https://normas.receita.fazenda.gov.br/sijut2consulta/anexoOutros.action?idArquivoBinario=48435"
+    ],
+    "anexoVII": [
+      "https://www.gov.br/empresas-e-negocios/pt-br/drei/arquivos/AnexoVII.pdf"
+    ],
+    "norma": "Resolução CGSN nº 140/2018, Anexos VI (art. 8º, §1º) e VII (art. 8º, §2º)",
+    "nota": "Anexo VI e VII baixados de fontes oficiais; Anexo VI conferido contra duas fontes independentes (RFB/SIJUT e DREI) com resultado idêntico. Todos os códigos validados contra a base de subclasses do IBGE."
+  },
+  "anexoVI_impeditivos": [
+    {
+      "codigo": "1220-4/01",
+      "denominacao": "FABRICAÇÃO DE CIGARROS"
+    },
+    {
+      "codigo": "1220-4/02",
+      "denominacao": "FABRICAÇÃO DE CIGARRILHAS E CHARUTOS"
+    },
+    {
+      "codigo": "1220-4/03",
+      "denominacao": "FABRICAÇÃO DE FILTROS PARA CIGARROS"
+    },
+    {
+      "codigo": "2092-4/01",
+      "denominacao": "FABRICAÇÃO DE PÓLVORAS, EXPLOSIVOS E DETONANTES"
+    },
+    {
+      "codigo": "2550-1/01",
+      "denominacao": "FABRICAÇÃO DE EQUIPAMENTO BÉLICO PESADO, EXCETO VEÍCULOS MILITARES DE COMBATE"
+    },
+    {
+      "codigo": "2550-1/02",
+      "denominacao": "FABRICAÇÃO DE ARMAS DE FOGO, OUTRAS ARMAS E MUNIÇÕES"
+    },
+    {
+      "codigo": "2910-7/01",
+      "denominacao": "FABRICAÇÃO DE AUTOMÓVEIS, CAMIONETAS E UTILITÁRIOS"
+    },
+    {
+      "codigo": "3091-1/01",
+      "denominacao": "FABRICAÇÃO DE MOTOCICLETAS"
+    },
+    {
+      "codigo": "3511-5/01",
+      "denominacao": "GERAÇÃO DE ENERGIA ELÉTRICA"
+    },
+    {
+      "codigo": "3511-5/02",
+      "denominacao": "ATIVIDADES DE COORDENAÇÃO E CONTROLE DA OPERAÇÃO DA GERAÇÃO E TRANSMISSÃO DE ENERGIA ELÉTRICA"
+    },
+    {
+      "codigo": "3512-3/00",
+      "denominacao": "TRANSMISSÃO DE ENERGIA ELÉTRICA"
+    },
+    {
+      "codigo": "3513-1/00",
+      "denominacao": "COMÉRCIO ATACADISTA DE ENERGIA ELÉTRICA"
+    },
+    {
+      "codigo": "3514-0/00",
+      "denominacao": "DISTRIBUIÇÃO DE ENERGIA ELÉTRICA"
+    },
+    {
+      "codigo": "4110-7/00",
+      "denominacao": "INCORPORAÇÃO DE EMPREENDIMENTOS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "4636-2/02",
+      "denominacao": "COMÉRCIO ATACADISTA DE CIGARROS, CIGARRILHAS E CHARUTOS"
+    },
+    {
+      "codigo": "4912-4/01",
+      "denominacao": "TRANSPORTE FERROVIÁRIO DE PASSAGEIROS INTERMUNICIPAL E INTERESTADUAL"
+    },
+    {
+      "codigo": "4922-1/01",
+      "denominacao": "TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, COM ITINERÁRIO FIXO, INTERMUNICIPAL, EXCETO EM REGIÃO METROPOLITANA"
+    },
+    {
+      "codigo": "4922-1/02",
+      "denominacao": "TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, COM ITINERÁRIO FIXO, INTERESTADUAL"
+    },
+    {
+      "codigo": "5310-5/01",
+      "denominacao": "ATIVIDADES DO CORREIO NACIONAL"
+    },
+    {
+      "codigo": "6410-7/00",
+      "denominacao": "BANCO CENTRAL"
+    },
+    {
+      "codigo": "6421-2/00",
+      "denominacao": "BANCOS COMERCIAIS"
+    },
+    {
+      "codigo": "6422-1/00",
+      "denominacao": "BANCOS MÚLTIPLOS, COM CARTEIRA COMERCIAL"
+    },
+    {
+      "codigo": "6423-9/00",
+      "denominacao": "CAIXAS ECONÔMICAS"
+    },
+    {
+      "codigo": "6424-7/01",
+      "denominacao": "BANCOS COOPERATIVOS"
+    },
+    {
+      "codigo": "6424-7/02",
+      "denominacao": "COOPERATIVAS CENTRAIS DE CRÉDITO"
+    },
+    {
+      "codigo": "6424-7/03",
+      "denominacao": "COOPERATIVAS DE CRÉDITO MÚTUO"
+    },
+    {
+      "codigo": "6424-7/04",
+      "denominacao": "COOPERATIVAS DE CRÉDITO RURAL"
+    },
+    {
+      "codigo": "6431-0/00",
+      "denominacao": "BANCOS MÚLTIPLOS, SEM CARTEIRA COMERCIAL"
+    },
+    {
+      "codigo": "6432-8/00",
+      "denominacao": "BANCOS DE INVESTIMENTO"
+    },
+    {
+      "codigo": "6433-6/00",
+      "denominacao": "BANCOS DE DESENVOLVIMENTO"
+    },
+    {
+      "codigo": "6434-4/00",
+      "denominacao": "AGÊNCIAS DE FOMENTO"
+    },
+    {
+      "codigo": "6435-2/01",
+      "denominacao": "SOCIEDADES DE CRÉDITO IMOBILIÁRIO"
+    },
+    {
+      "codigo": "6435-2/02",
+      "denominacao": "ASSOCIAÇÕES DE POUPANÇA E EMPRÉSTIMO"
+    },
+    {
+      "codigo": "6435-2/03",
+      "denominacao": "COMPANHIAS HIPOTECÁRIAS"
+    },
+    {
+      "codigo": "6436-1/00",
+      "denominacao": "SOCIEDADES DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO - FINANCEIRAS"
+    },
+    {
+      "codigo": "6437-9/00",
+      "denominacao": "SOCIEDADES DE CRÉDITO AO MICROEMPREENDEDOR"
+    },
+    {
+      "codigo": "6438-7/01",
+      "denominacao": "BANCOS DE CÂMBIO"
+    },
+    {
+      "codigo": "6438-7/99",
+      "denominacao": "OUTRAS INSTITUIÇÕES DE INTERMEDIAÇÃO NÃO MONETÁRIA NÃO ESPECIFICADAS ANTERIORMENTE"
+    },
+    {
+      "codigo": "6440-9/00",
+      "denominacao": "ARRENDAMENTO MERCANTIL"
+    },
+    {
+      "codigo": "6450-6/00",
+      "denominacao": "SOCIEDADES DE CAPITALIZAÇÃO"
+    },
+    {
+      "codigo": "6461-1/00",
+      "denominacao": "HOLDINGS DE INSTITUIÇÕES FINANCEIRAS"
+    },
+    {
+      "codigo": "6462-0/00",
+      "denominacao": "HOLDINGS DE INSTITUIÇÕES NÃO FINANCEIRAS"
+    },
+    {
+      "codigo": "6463-8/00",
+      "denominacao": "OUTRAS SOCIEDADES DE PARTICIPAÇÃO, EXCETO HOLDINGS"
+    },
+    {
+      "codigo": "6470-1/01",
+      "denominacao": "FUNDOS DE INVESTIMENTO, EXCETO PREVIDENCIÁRIOS E IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "6470-1/02",
+      "denominacao": "FUNDOS DE INVESTIMENTO PREVIDENCIÁRIOS"
+    },
+    {
+      "codigo": "6470-1/03",
+      "denominacao": "FUNDOS DE INVESTIMENTO IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "6491-3/00",
+      "denominacao": "SOCIEDADES DE FOMENTO MERCANTIL - FACTORING"
+    },
+    {
+      "codigo": "6492-1/00",
+      "denominacao": "SECURITIZAÇÃO DE CRÉDITOS"
+    },
+    {
+      "codigo": "6499-9/01",
+      "denominacao": "CLUBES DE INVESTIMENTO"
+    },
+    {
+      "codigo": "6499-9/02",
+      "denominacao": "SOCIEDADES DE INVESTIMENTO"
+    },
+    {
+      "codigo": "6499-9/03",
+      "denominacao": "FUNDO GARANTIDOR DE CRÉDITO"
+    },
+    {
+      "codigo": "6499-9/04",
+      "denominacao": "CAIXAS DE FINANCIAMENTO DE CORPORAÇÕES"
+    },
+    {
+      "codigo": "6499-9/05",
+      "denominacao": "CONCESSÃO DE CRÉDITO PELAS OSCIP"
+    },
+    {
+      "codigo": "6499-9/99",
+      "denominacao": "OUTRAS ATIVIDADES DE SERVIÇOS FINANCEIROS NÃO ESPECIFICADAS ANTERIORMENTE"
+    },
+    {
+      "codigo": "6511-1/01",
+      "denominacao": "SOCIEDADE SEGURADORA DE SEGUROS VIDA"
+    },
+    {
+      "codigo": "6511-1/02",
+      "denominacao": "PLANOS DE AUXÍLIO-FUNERAL"
+    },
+    {
+      "codigo": "6512-0/00",
+      "denominacao": "SOCIEDADE SEGURADORA DE SEGUROS NÃO VIDA"
+    },
+    {
+      "codigo": "6520-1/00",
+      "denominacao": "SOCIEDADE SEGURADORA DE SEGUROS SAÚDE"
+    },
+    {
+      "codigo": "6530-8/00",
+      "denominacao": "RESSEGUROS"
+    },
+    {
+      "codigo": "6541-3/00",
+      "denominacao": "PREVIDÊNCIA COMPLEMENTAR FECHADA"
+    },
+    {
+      "codigo": "6542-1/00",
+      "denominacao": "PREVIDÊNCIA COMPLEMENTAR ABERTA"
+    },
+    {
+      "codigo": "6611-8/01",
+      "denominacao": "BOLSA DE VALORES"
+    },
+    {
+      "codigo": "6611-8/02",
+      "denominacao": "BOLSA DE MERCADORIAS"
+    },
+    {
+      "codigo": "6611-8/03",
+      "denominacao": "BOLSA DE MERCADORIAS E FUTUROS"
+    },
+    {
+      "codigo": "6611-8/04",
+      "denominacao": "ADMINISTRAÇÃO DE MERCADOS DE BALCÃO ORGANIZADOS"
+    },
+    {
+      "codigo": "6612-6/01",
+      "denominacao": "CORRETORAS DE TÍTULOS E VALORES MOBILIÁRIOS"
+    },
+    {
+      "codigo": "6612-6/02",
+      "denominacao": "DISTRIBUIDORAS DE TÍTULOS E VALORES MOBILIÁRIOS"
+    },
+    {
+      "codigo": "6612-6/03",
+      "denominacao": "CORRETORAS DE CÂMBIO"
+    },
+    {
+      "codigo": "6612-6/04",
+      "denominacao": "CORRETORAS DE CONTRATOS DE MERCADORIAS"
+    },
+    {
+      "codigo": "6612-6/05",
+      "denominacao": "AGENTES DE INVESTIMENTOS EM APLICAÇÕES FINANCEIRAS"
+    },
+    {
+      "codigo": "6619-3/01",
+      "denominacao": "SERVIÇOS DE LIQUIDAÇÃO E CUSTÓDIA"
+    },
+    {
+      "codigo": "6619-3/03",
+      "denominacao": "REPRESENTAÇÕES DE BANCOS ESTRANGEIROS"
+    },
+    {
+      "codigo": "6619-3/04",
+      "denominacao": "CAIXAS ELETRÔNICOS"
+    },
+    {
+      "codigo": "6810-2/02",
+      "denominacao": "ALUGUEL DE IMÓVEIS PRÓPRIOS"
+    },
+    {
+      "codigo": "6810-2/03",
+      "denominacao": "LOTEAMENTO DE IMÓVEIS PRÓPRIOS"
+    },
+    {
+      "codigo": "6911-7/02",
+      "denominacao": "ATIVIDADES AUXILIARES DA JUSTIÇA"
+    },
+    {
+      "codigo": "6912-5/00",
+      "denominacao": "CARTÓRIOS"
+    },
+    {
+      "codigo": "7820-5/00",
+      "denominacao": "LOCAÇÃO DE MÃO-DE-OBRA TEMPORÁRIA"
+    },
+    {
+      "codigo": "7830-2/00",
+      "denominacao": "FORNECIMENTO E GESTÃO DE RECURSOS HUMANOS PARA TERCEIROS"
+    },
+    {
+      "codigo": "8112-5/00",
+      "denominacao": "CONDOMÍNIOS PREDIAIS"
+    },
+    {
+      "codigo": "8299-7/04",
+      "denominacao": "LEILOEIROS INDEPENDENTES"
+    },
+    {
+      "codigo": "8411-6/00",
+      "denominacao": "ADMINISTRAÇÃO PÚBLICA EM GERAL"
+    },
+    {
+      "codigo": "8412-4/00",
+      "denominacao": "REGULAÇÃO DAS ATIVIDADES DE SAÚDE, EDUCAÇÃO, SERVIÇOS CULTURAIS E OUTROS SERVIÇOS SOCIAIS"
+    },
+    {
+      "codigo": "8413-2/00",
+      "denominacao": "REGULAÇÃO DAS ATIVIDADES ECONÔMICAS"
+    },
+    {
+      "codigo": "8421-3/00",
+      "denominacao": "RELAÇÕES EXTERIORES"
+    },
+    {
+      "codigo": "8422-1/00",
+      "denominacao": "DEFESA"
+    },
+    {
+      "codigo": "8423-0/00",
+      "denominacao": "JUSTIÇA"
+    },
+    {
+      "codigo": "8424-8/00",
+      "denominacao": "SEGURANÇA E ORDEM PÚBLICA"
+    },
+    {
+      "codigo": "8425-6/00",
+      "denominacao": "DEFESA CIVIL"
+    },
+    {
+      "codigo": "8430-2/00",
+      "denominacao": "SEGURIDADE SOCIAL OBRIGATÓRIA"
+    },
+    {
+      "codigo": "8550-3/01",
+      "denominacao": "ADMINISTRAÇÃO DE CAIXAS ESCOLARES"
+    },
+    {
+      "codigo": "9411-1/00",
+      "denominacao": "ATIVIDADES DE ORGANIZAÇÕES ASSOCIATIVAS PATRONAIS E EMPRESARIAIS"
+    },
+    {
+      "codigo": "9412-0/01",
+      "denominacao": "ATIVIDADES DE FISCALIZAÇÃO PROFISSIONAL"
+    },
+    {
+      "codigo": "9412-0/99",
+      "denominacao": "OUTRAS ATIVIDADES ASSOCIATIVAS PROFISSIONAIS"
+    },
+    {
+      "codigo": "9420-1/00",
+      "denominacao": "ATIVIDADES DE ORGANIZAÇÕES SINDICAIS"
+    },
+    {
+      "codigo": "9430-8/00",
+      "denominacao": "ATIVIDADES DE ASSOCIAÇÕES DE DEFESA DE DIREITOS SOCIAIS"
+    },
+    {
+      "codigo": "9491-0/00",
+      "denominacao": "ATIVIDADES DE ORGANIZAÇÕES RELIGIOSAS OU FILOSÓFICAS"
+    },
+    {
+      "codigo": "9492-8/00",
+      "denominacao": "ATIVIDADES DE ORGANIZAÇÕES POLÍTICAS"
+    },
+    {
+      "codigo": "9493-6/00",
+      "denominacao": "ATIVIDADES DE ORGANIZAÇÕES ASSOCIATIVAS LIGADAS À CULTURA E À ARTE"
+    },
+    {
+      "codigo": "9499-5/00",
+      "denominacao": "ATIVIDADES ASSOCIATIVAS NÃO ESPECIFICADAS ANTERIORMENTE"
+    },
+    {
+      "codigo": "9900-8/00",
+      "denominacao": "ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS"
+    }
+  ],
+  "anexoVII_ambiguos": [
+    {
+      "codigo": "1113-5/02",
+      "denominacao": "FABRICAÇÃO DE CERVEJAS E CHOPES"
+    },
+    {
+      "codigo": "4635-4/02",
+      "denominacao": "COMÉRCIO ATACADISTA DE CERVEJA, CHOPE E REFRIGERANTE"
+    },
+    {
+      "codigo": "4635-4/03",
+      "denominacao": "COMÉRCIO ATACADISTA DE BEBIDAS COM ATIVIDADE DE FRACIONAMENTO E ACONDICIONAMENTO ASSOCIADA"
+    },
+    {
+      "codigo": "4635-4/99",
+      "denominacao": "COMÉRCIO ATACADISTA DE BEBIDAS NÃO ESPECIFICADAS ANTERIORMENTE"
+    },
+    {
+      "codigo": "4684-2/99",
+      "denominacao": "COMÉRCIO ATACADISTA DE OUTROS PRODUTOS QUÍMICOS E PETROQUÍMICOS NÃO ESPECIFICADOS ANTERIORMENTE"
+    },
+    {
+      "codigo": "4924-8/00",
+      "denominacao": "TRANSPORTE ESCOLAR"
+    },
+    {
+      "codigo": "4929-9/02",
+      "denominacao": "TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, SOB REGIME DE FRETAMENTO, INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL"
+    },
+    {
+      "codigo": "4929-9/04",
+      "denominacao": "ORGANIZAÇÃO DE EXCURSÕES EM VEÍCULOS RODOVIÁRIOS PRÓPRIOS, INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL"
+    },
+    {
+      "codigo": "4929-9/99",
+      "denominacao": "OUTROS TRANSPORTES RODOVIÁRIOS DE PASSAGEIROS NÃO ESPECIFICADOS ANTERIORMENTE"
+    },
+    {
+      "codigo": "4950-7/00",
+      "denominacao": "TRENS TURÍSTICOS, TELEFÉRICOS E SIMILARES"
+    },
+    {
+      "codigo": "5011-4/02",
+      "denominacao": "TRANSPORTE MARÍTIMO DE CABOTAGEM - PASSAGEIROS"
+    },
+    {
+      "codigo": "5091-2/02",
+      "denominacao": "TRANSPORTE POR NAVEGAÇÃO DE TRAVESSIA, INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL"
+    },
+    {
+      "codigo": "5099-8/01",
+      "denominacao": "TRANSPORTE AQUAVIÁRIO PARA PASSEIOS TURÍSTICOS"
+    },
+    {
+      "codigo": "5099-8/99",
+      "denominacao": "OUTROS TRANSPORTES AQUAVIÁRIOS NÃO ESPECIFICADOS ANTERIORMENTE"
+    },
+    {
+      "codigo": "5111-1/00",
+      "denominacao": "TRANSPORTE AÉREO DE PASSAGEIROS REGULAR"
+    },
+    {
+      "codigo": "5112-9/01",
+      "denominacao": "SERVIÇO DE TÁXI AÉREO E LOCAÇÃO DE AERONAVES COM TRIPULAÇÃO"
+    },
+    {
+      "codigo": "5112-9/99",
+      "denominacao": "OUTROS SERVIÇOS DE TRANSPORTE AÉREO DE PASSAGEIROS NÃO REGULAR"
+    },
+    {
+      "codigo": "5229-0/01",
+      "denominacao": "SERVIÇOS DE APOIO AO TRANSPORTE POR TÁXI, INCLUSIVE CENTRAIS DE CHAMADA"
+    },
+    {
+      "codigo": "5229-0/99",
+      "denominacao": "OUTRAS ATIVIDADES AUXILIARES DOS TRANSPORTES TERRESTRES NÃO ESPECIFICADAS ANTERIORMENTE"
+    },
+    {
+      "codigo": "6619-3/02",
+      "denominacao": "CORRESPONDENTES DE INSTITUIÇÕES FINANCEIRAS"
+    },
+    {
+      "codigo": "6619-3/99",
+      "denominacao": "OUTRAS ATIVIDADES AUXILIARES DOS SERVIÇOS FINANCEIROS NÃO ESPECIFICADAS ANTERIORMENTE"
+    },
+    {
+      "codigo": "8299-7/99",
+      "denominacao": "OUTRAS ATIVIDADES DE SERVIÇOS PRESTADOS PRINCIPALMENTE ÀS EMPRESAS NÃO ESPECIFICADAS ANTERIORMENTE"
+    }
+  ]
+}

@@ -41,14 +41,15 @@ function renderCnaeDetail(item) {
       <span class="cnae-badge__value">${value}</span>
     </div>`;
 
+  const anexoIndefinido = item.anexo === "Não determinado automaticamente" || item.anexo === "Depende da atividade efetiva exercida";
   const anexoValue = item.simples ? item.anexo || "—" : "Não se aplica";
-  const fatorRValue = item.simples ? (item.fator_r ? "Sim" : "Não") : "Não se aplica";
+  const fatorRValue = !item.simples ? "Não se aplica" : anexoIndefinido ? "A definir" : (item.fator_r ? "Sim" : "Não");
 
   const badgesHtml = [
     badge("Permite MEI", item.mei ? "Sim" : "Não", item.mei ? "yes" : "no"),
     badge("Permite Simples Nacional", item.simples ? "Sim" : "Não", item.simples ? "yes" : "no"),
-    badge("Anexo do Simples", escapeHtml(anexoValue), item.simples ? "neutral" : "no"),
-    badge("Sujeito ao Fator R", fatorRValue, item.simples && item.fator_r ? "yes" : "no"),
+    badge("Anexo do Simples", escapeHtml(anexoValue), !item.simples ? "no" : anexoIndefinido ? "neutral" : "neutral"),
+    badge("Sujeito ao Fator R", fatorRValue, item.simples && item.fator_r === true && !anexoIndefinido ? "yes" : "no"),
   ].join("");
 
   const meiNote = item.mei_nota ? `<p class="cnae-badge__note">${escapeHtml(item.mei_nota)}</p>` : "";
