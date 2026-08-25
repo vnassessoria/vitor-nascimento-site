@@ -41,11 +41,14 @@ function renderCnaeDetail(item) {
       <span class="cnae-badge__value">${value}</span>
     </div>`;
 
+  const anexoValue = item.simples ? item.anexo || "—" : "Não se aplica";
+  const fatorRValue = item.simples ? (item.fator_r ? "Sim" : "Não") : "Não se aplica";
+
   const badgesHtml = [
     badge("Permite MEI", item.mei ? "Sim" : "Não", item.mei ? "yes" : "no"),
     badge("Permite Simples Nacional", item.simples ? "Sim" : "Não", item.simples ? "yes" : "no"),
-    badge("Anexo do Simples", escapeHtml(item.anexo || "—"), "neutral"),
-    badge("Sujeito ao Fator R", item.fator_r ? "Sim" : "Não", item.fator_r ? "yes" : "no"),
+    badge("Anexo do Simples", escapeHtml(anexoValue), item.simples ? "neutral" : "no"),
+    badge("Sujeito ao Fator R", fatorRValue, item.simples && item.fator_r ? "yes" : "no"),
   ].join("");
 
   const meiNote = item.mei_nota ? `<p class="cnae-badge__note">${escapeHtml(item.mei_nota)}</p>` : "";

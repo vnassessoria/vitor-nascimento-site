@@ -1,1 +1,272 @@
-[]
+[
+  {
+    "codigo": "4781-4/00",
+    "descricao": "Comércio varejista de artigos do vestuário e acessórios",
+    "mei": true,
+    "mei_nota": "Consta no Anexo XI da Resolução CGSN 140/2018 (ocupação: Comerciante de artigos do vestuário e acessórios independente).",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "I",
+    "fator_r": false,
+    "observacoes": "Tributação pelo Anexo I por se tratar de revenda de mercadorias (art. 18, §4º, I, LC 123/2006).",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/4781400",
+      "https://www8.receita.fazenda.gov.br/simplesnacional/arquivos/manual/anexo_xi.pdf"
+    ]
+  },
+  {
+    "codigo": "5611-2/01",
+    "descricao": "Restaurantes e similares",
+    "mei": true,
+    "mei_nota": "Consta no Anexo XI (ocupação: Proprietário(a) de restaurante independente).",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "I",
+    "fator_r": false,
+    "observacoes": "⚠️ Revisar com o contador: o entendimento predominante é Anexo I, pois o preparo de alimentos vendidos ao consumidor não é industrialização (RIPI, art. 5º, I, \"a\"). Porém, receita de buffet/catering fornecido fora do estabelecimento deve ser segregada e tributada pelo Anexo III — há divergência entre fontes secundárias sobre esse ponto.",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/5611201",
+      "https://atendimento.receita.rs.gov.br/como-funciona-a-tributacao-de-bares-e-restaurantes-para-optantes-do-simples-nacional"
+    ]
+  },
+  {
+    "codigo": "1091-1/02",
+    "descricao": "Fabricação de produtos de padaria e confeitaria com predominância de produção própria",
+    "mei": true,
+    "mei_nota": "Consta no Anexo XI (ocupação: Confeiteiro(a) independente).",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "II",
+    "fator_r": false,
+    "observacoes": "Exige predominância de produção própria. Se a receita for majoritariamente de revenda de produtos de terceiros, o CNAE correto é 4721-1/02 (Anexo I).",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/1091102",
+      "https://www8.receita.fazenda.gov.br/simplesnacional/arquivos/manual/anexo_xi.pdf"
+    ]
+  },
+  {
+    "codigo": "3101-2/00",
+    "descricao": "Fabricação de móveis com predominância de madeira",
+    "mei": true,
+    "mei_nota": "Consta no Anexo XI (ocupação: Marceneiro(a) sob encomenda ou não, independente).",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "II",
+    "fator_r": false,
+    "observacoes": "",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/3101200",
+      "https://www8.receita.fazenda.gov.br/simplesnacional/arquivos/manual/anexo_xi.pdf"
+    ]
+  },
+  {
+    "codigo": "1412-6/01",
+    "descricao": "Confecção de peças de vestuário, exceto roupas íntimas e as confeccionadas sob medida",
+    "mei": true,
+    "mei_nota": "Consta no Anexo XI (ocupação: Costureiro(a) de roupas, exceto sob medida, independente).",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "II",
+    "fator_r": false,
+    "observacoes": "Confecção sob medida é um CNAE distinto: 1412-6/02 (MEI: Alfaiate independente).",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/1412601",
+      "https://www8.receita.fazenda.gov.br/simplesnacional/arquivos/manual/anexo_xi.pdf"
+    ]
+  },
+  {
+    "codigo": "9602-5/01",
+    "descricao": "Cabeleireiros, manicure e pedicure",
+    "mei": true,
+    "mei_nota": "Consta 3 vezes no Anexo XI: Cabeleireiro(a) independente, Barbeiro independente, Manicure/Pedicure independente.",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "III",
+    "fator_r": false,
+    "observacoes": "Verificar o regime de salão-parceiro (Lei 13.352/2016) quando aplicável — muda a base de cálculo.",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/9602501",
+      "https://www8.receita.fazenda.gov.br/simplesnacional/arquivos/manual/anexo_xi.pdf"
+    ]
+  },
+  {
+    "codigo": "9511-8/00",
+    "descricao": "Reparação e manutenção de computadores e de equipamentos periféricos",
+    "mei": true,
+    "mei_nota": "Consta no Anexo XI (ocupação: Técnico(a) de manutenção de computador independente).",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "III",
+    "fator_r": false,
+    "observacoes": "",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/9511800",
+      "https://www8.receita.fazenda.gov.br/simplesnacional/arquivos/manual/anexo_xi.pdf"
+    ]
+  },
+  {
+    "codigo": "7311-4/00",
+    "descricao": "Agências de publicidade",
+    "mei": false,
+    "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018.",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "III ou V, conforme o Fator R",
+    "fator_r": true,
+    "observacoes": "Base legal: art. 18, §5º-I e §5º-J, LC 123/2006 (jornalismo e publicidade). O enquadramento é recalculado mensalmente conforme a razão entre folha de pagamento e receita bruta dos últimos 12 meses: ≥28% tributa pelo Anexo III; abaixo disso, pelo Anexo V.",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/7311400",
+      "https://legismap.com.br/leis-e-normas/resolucao-cgsn-n-140-de-22-05-2018"
+    ]
+  },
+  {
+    "codigo": "6920-6/01",
+    "descricao": "Atividades de contabilidade",
+    "mei": false,
+    "mei_nota": "Não consta no Anexo XI (profissão regulamentada).",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "III (fixo)",
+    "fator_r": false,
+    "observacoes": "⚠️ Não é sujeita ao Fator R, diferente do que muitos presumem — é Anexo III fixo, por determinação expressa do art. 18, §5º-B, XIV, LC 123/2006. O próprio PGDAS-D traz a opção literal \"Prestação de serviços > Não sujeitos ao fator 'r' e tributados pelo Anexo III\" para esta atividade. Quando a legislação municipal permitir, o ISS pode ser fixo e recolhido diretamente ao município (art. 18, §22-A).",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/6920601",
+      "https://legismap.com.br/leis-e-normas/resolucao-cgsn-n-140-de-22-05-2018"
+    ]
+  },
+  {
+    "codigo": "7111-1/00",
+    "descricao": "Serviços de arquitetura",
+    "mei": false,
+    "mei_nota": "Não consta no Anexo XI.",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "III ou V, conforme o Fator R",
+    "fator_r": true,
+    "observacoes": "Base legal: art. 18, §5º-B, XVIII c/c §5º-M, LC 123/2006.",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/7111100",
+      "https://legismap.com.br/leis-e-normas/resolucao-cgsn-n-140-de-22-05-2018"
+    ]
+  },
+  {
+    "codigo": "7112-0/00",
+    "descricao": "Serviços de engenharia",
+    "mei": false,
+    "mei_nota": "Não consta no Anexo XI.",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "III ou V, conforme o Fator R",
+    "fator_r": true,
+    "observacoes": "Base legal: art. 18, §5º-I e §5º-J, LC 123/2006.",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/7112000",
+      "https://legismap.com.br/leis-e-normas/resolucao-cgsn-n-140-de-22-05-2018"
+    ]
+  },
+  {
+    "codigo": "7020-4/00",
+    "descricao": "Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",
+    "mei": false,
+    "mei_nota": "Não consta no Anexo XI.",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "V ou III, conforme o Fator R",
+    "fator_r": true,
+    "observacoes": "Base legal: art. 18, §5º-I e §5º-J, LC 123/2006. Enquadramento originário no Anexo V, migra para o Anexo III quando o Fator R (folha/receita) atinge 28% ou mais.",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/7020400",
+      "https://legismap.com.br/leis-e-normas/resolucao-cgsn-n-140-de-22-05-2018"
+    ]
+  },
+  {
+    "codigo": "8593-7/00",
+    "descricao": "Ensino de idiomas",
+    "mei": true,
+    "mei_nota": "Consta no Anexo XI (ocupação: Instrutor(a) de idiomas independente).",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "III (fixo)",
+    "fator_r": false,
+    "observacoes": "⚠️ Revisar: a base legal (art. 18, §5º-B, II c/c art. 25, §1º, III da Res. CGSN 140/2018) aponta Anexo III fixo, sem Fator R. Porém há divergência em fontes secundárias que classificam essa atividade como sujeita ao Fator R — recomenda-se confirmação antes de publicar.",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8593700",
+      "https://legismap.com.br/leis-e-normas/resolucao-cgsn-n-140-de-22-05-2018"
+    ]
+  },
+  {
+    "codigo": "8630-5/03",
+    "descricao": "Atividade médica ambulatorial restrita a consultas",
+    "mei": false,
+    "mei_nota": "Não consta no Anexo XI.",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "III ou V, conforme o Fator R",
+    "fator_r": true,
+    "observacoes": "Base legal: art. 18, §5º-B, XIX c/c §5º-M, LC 123/2006. Este código é específico para consultas (consultórios, clínicas médicas, policlínicas). Para procedimentos cirúrgicos, o CNAE correto é 8630-5/01; para exames complementares, 8630-5/02 — o tratamento tributário (Anexo III/V + Fator R) é o mesmo nos três.",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8630503",
+      "https://legismap.com.br/leis-e-normas/resolucao-cgsn-n-140-de-22-05-2018"
+    ]
+  },
+  {
+    "codigo": "6911-7/01",
+    "descricao": "Serviços advocatícios",
+    "mei": false,
+    "mei_nota": "Não consta no Anexo XI (profissão regulamentada; a OAB também não admite MEI).",
+    "simples": true,
+    "simples_nota": "Permitido desde a LC 147/2014, que incluiu a advocacia no Simples Nacional.",
+    "anexo": "IV",
+    "fator_r": false,
+    "observacoes": "Não existe um sub-regime tributário específico para \"sociedade de advogados\" dentro do Simples — é o Anexo IV regular (art. 18, §5º-C). A particularidade é societária, não tributária: a OAB só admite Sociedade Unipessoal de Advocacia ou Sociedade Simples de Advocacia (veda LTDA/S.A.). A CPP (INSS patronal) é recolhida fora do DAS.",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/6911701",
+      "https://legismap.com.br/leis-e-normas/resolucao-cgsn-n-140-de-22-05-2018"
+    ]
+  },
+  {
+    "codigo": "4930-2/02",
+    "descricao": "Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",
+    "mei": true,
+    "mei_nota": "Consta na Tabela B do Anexo XI (MEI Caminhoneiro — Transportador autônomo de carga intermunicipal, interestadual e internacional), com limite de receita maior (R$ 251.600,00/ano) que o MEI comum.",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "III, com regra especial (deduz ISS, acresce ICMS do Anexo I)",
+    "fator_r": false,
+    "observacoes": "Base legal: art. 18, §5º-E, LC 123/2006. Por se tratar de fato gerador de ICMS (não de ISS), a tributação segue o Anexo III com ajuste: deduz a parcela do ISS e acrescenta a parcela do ICMS prevista no Anexo I.",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/4930202",
+      "https://www8.receita.fazenda.gov.br/simplesnacional/arquivos/manual/anexo_xi.pdf"
+    ]
+  },
+  {
+    "codigo": "8011-1/01",
+    "descricao": "Atividades de vigilância e segurança privada",
+    "mei": false,
+    "mei_nota": "Não consta no Anexo XI.",
+    "simples": true,
+    "simples_nota": "",
+    "anexo": "IV",
+    "fator_r": false,
+    "observacoes": "Permitida mediante cessão de mão de obra por ressalva expressa do art. 18, §5º-H (que remete ao §5º-C: vigilância, limpeza, conservação). Atenção: o entendimento da Receita Federal é de que serviços de portaria NÃO se enquadram nessa ressalva — se prestados mediante cessão de mão de obra, são impeditivos do Simples.",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8011101",
+      "https://legismap.com.br/leis-e-normas/resolucao-cgsn-n-140-de-22-05-2018"
+    ]
+  },
+  {
+    "codigo": "7820-5/00",
+    "descricao": "Locação de mão de obra temporária",
+    "mei": false,
+    "mei_nota": "Não consta no Anexo XI.",
+    "simples": false,
+    "simples_nota": "Atividade impeditiva do Simples Nacional — art. 17, XII, LC 123/2006 (veda cessão ou locação de mão de obra). Consta na lista de CNAEs impeditivos do Anexo VI da Resolução CGSN 140/2018. A empresa deve optar por Lucro Presumido ou Lucro Real.",
+    "anexo": "—",
+    "fator_r": false,
+    "observacoes": "Risco relevante: uma empresa optante pelo Simples que exercer esta atividade pode ser excluída do regime, com cobrança retroativa, multa e juros.",
+    "fontes": [
+      "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/7820500",
+      "https://www.gov.br/empresas-e-negocios/pt-br/drei/arquivos/AnexoVI.pdf"
+    ]
+  }
+]
