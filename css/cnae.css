@@ -75,7 +75,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 14px;
-  margin-bottom: 8px;
+  margin-bottom: 28px;
 }
 .cnae-badge {
   padding: 20px 22px;
@@ -91,7 +91,7 @@
 .cnae-badge--yes .cnae-badge__value { color: #3f7a4f; }
 .cnae-badge--no .cnae-badge__value { color: #b3442f; }
 .cnae-badge--neutral .cnae-badge__value { color: var(--gold-dark); }
-.cnae-badge__note { grid-column: 1 / -1; color: var(--ink-muted); font-size: 0.85rem; margin: -6px 0 4px; }
+.cnae-badge__note { color: var(--ink-muted); font-size: 0.88rem; line-height: 1.6; margin: 0 0 12px; }
 
 .cnae-note {
   margin-top: 2.4rem;
@@ -103,17 +103,17 @@
 
 .cnae-disclaimer {
   margin-top: 2.4rem;
-  padding: 26px 28px;
+  padding: 32px 36px;
   border-radius: var(--radius);
   background: var(--paper-card);
   border: 1px solid rgba(150, 121, 74, 0.28);
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  text-align: center;
   gap: 20px;
-  flex-wrap: wrap;
 }
-.cnae-disclaimer p { margin: 0; color: var(--ink-muted); font-size: 0.88rem; max-width: 480px; line-height: 1.6; }
+.cnae-disclaimer p { margin: 0 auto; color: var(--ink-muted); font-size: 0.9rem; max-width: 560px; line-height: 1.6; }
 
 @media (max-width: 560px) {
   .cnae-badges { grid-template-columns: 1fr; }
