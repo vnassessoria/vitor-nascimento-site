@@ -1,0 +1,120 @@
+/* ============================================================
+   Consulta CNAE
+   ============================================================ */
+
+.cnae-search { padding-bottom: 80px; }
+
+.cnae-search__box {
+  position: relative;
+  max-width: 640px;
+  margin: 0 auto 12px;
+}
+.cnae-search__box input {
+  width: 100%;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 16px 20px 16px 50px;
+  border-radius: 999px;
+  border: 1px solid rgba(150, 121, 74, 0.3);
+  background: #fff;
+  color: var(--ink);
+}
+.cnae-search__box input:focus { outline: none; border-color: var(--gold); }
+.cnae-search__icon {
+  position: absolute;
+  left: 18px; top: 50%;
+  transform: translateY(-50%);
+  width: 20px; height: 20px;
+  fill: none;
+  stroke: var(--ink-muted);
+  stroke-width: 2;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+.cnae-search__status {
+  text-align: center;
+  color: var(--ink-muted);
+  font-size: 0.85rem;
+  max-width: 640px;
+  margin: 0 auto 32px;
+}
+
+.cnae-results {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cnae-result {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  background: var(--paper-card);
+  border: 1px solid rgba(150, 121, 74, 0.22);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.cnae-result:hover { border-color: var(--gold); transform: translateX(2px); }
+.cnae-result__code {
+  flex-shrink: 0;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--gold-dark);
+  font-size: 0.95rem;
+}
+.cnae-result__desc { color: var(--ink); font-size: 0.92rem; }
+.cnae-results__empty { text-align: center; color: var(--ink-muted); padding: 20px; }
+
+/* ---- Página de detalhe ---- */
+.cnae-detail__inner { max-width: 760px; }
+
+.cnae-badges {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin-bottom: 8px;
+}
+.cnae-badge {
+  padding: 20px 22px;
+  border-radius: 12px;
+  background: var(--paper-card);
+  border: 1px solid rgba(150, 121, 74, 0.22);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.cnae-badge__label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-muted); }
+.cnae-badge__value { font-family: var(--font-serif); font-size: 1.3rem; }
+.cnae-badge--yes .cnae-badge__value { color: #3f7a4f; }
+.cnae-badge--no .cnae-badge__value { color: #b3442f; }
+.cnae-badge--neutral .cnae-badge__value { color: var(--gold-dark); }
+.cnae-badge__note { grid-column: 1 / -1; color: var(--ink-muted); font-size: 0.85rem; margin: -6px 0 4px; }
+
+.cnae-note {
+  margin-top: 2.4rem;
+  padding-top: 1.8rem;
+  border-top: 1px solid rgba(150, 121, 74, 0.14);
+}
+.cnae-note h3 { font-size: 1.05rem; margin-bottom: 0.5em; }
+.cnae-note p { color: var(--ink-muted); font-size: 0.98rem; line-height: 1.7; }
+
+.cnae-disclaimer {
+  margin-top: 2.4rem;
+  padding: 26px 28px;
+  border-radius: var(--radius);
+  background: var(--paper-card);
+  border: 1px solid rgba(150, 121, 74, 0.28);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cnae-disclaimer p { margin: 0; color: var(--ink-muted); font-size: 0.88rem; max-width: 480px; line-height: 1.6; }
+
+@media (max-width: 768px) {
+  .cnae-badges { grid-template-columns: 1fr 1fr; }
+}

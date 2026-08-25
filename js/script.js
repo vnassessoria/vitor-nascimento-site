@@ -121,6 +121,29 @@ function initMobileNav() {
   });
 }
 
+/* ============ Menu suspenso (ex.: Conteúdo) ============ */
+function initNavDropdowns() {
+  const dropdowns = document.querySelectorAll(".nav-dropdown");
+  if (!dropdowns.length) return;
+
+  dropdowns.forEach((dropdown) => {
+    const trigger = dropdown.querySelector(".nav-dropdown__trigger");
+    if (!trigger) return;
+    trigger.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const isOpen = dropdown.classList.toggle("is-open");
+      dropdowns.forEach((other) => {
+        if (other !== dropdown) other.classList.remove("is-open");
+      });
+      trigger.setAttribute("aria-expanded", String(isOpen));
+    });
+  });
+
+  document.addEventListener("click", () => {
+    dropdowns.forEach((dropdown) => dropdown.classList.remove("is-open"));
+  });
+}
+
 /* ============ Scroll reveal ============ */
 function initReveal() {
   const elements = document.querySelectorAll("[data-reveal]");
@@ -339,6 +362,7 @@ document.addEventListener("DOMContentLoaded", () => {
   loadSettings();
   initHeaderScroll();
   initMobileNav();
+  initNavDropdowns();
   initReveal();
   initContactForm();
   initNewsCarousel();

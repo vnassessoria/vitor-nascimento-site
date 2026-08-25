@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consulta CNAE | Vitor Nascimento</title>
+<meta name="description" content="Consulte qualquer CNAE e descubra se a atividade permite MEI, Simples Nacional, qual o Anexo e se está sujeita ao Fator R.">
+<link rel="icon" href="../assets/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/cnae.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="../index.html#inicio" class="brand">
+      <img src="../assets/logo.jpg" alt="Vitor Nascimento Assessoria Contábil" class="brand__logo">
+      <span class="brand__text">
+        <span class="brand__name">Vitor Nascimento</span>
+        <span class="brand__sub">Assessoria Contábil</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="../index.html#inicio">Início</a>
+      <a href="../index.html#noticias">Notícias</a>
+      <a href="../index.html#sobre">Sobre</a>
+      <a href="../index.html#servicos">Serviços</a>
+      <div class="nav-dropdown is-open">
+        <button type="button" class="nav-dropdown__trigger">Conteúdo</button>
+        <div class="nav-dropdown__menu">
+          <a href="consulta-cnae.html">Consulta CNAE</a>
+        </div>
+      </div>
+      <a href="../index.html#contato">Contato</a>
+    </nav>
+
+    <a href="#" class="btn btn--gold btn--sm header__cta" data-contact="whatsapp-link" target="_blank" rel="noopener">Fale no WhatsApp</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= CONSULTA CNAE ================= -->
+<section class="section article-hero section--light">
+  <div class="container">
+    <span class="article-hero__tag">Conteúdo</span>
+    <h1>Consulta CNAE</h1>
+    <p class="article-hero__meta">Pesquise pelo código ou pela atividade e descubra se ela permite MEI, Simples Nacional, qual o Anexo e se está sujeita ao Fator R.</p>
+  </div>
+</section>
+
+<section class="section cnae-search section--light" style="padding-top:0;">
+  <div class="container">
+    <div class="cnae-search__box">
+      <svg viewBox="0 0 24 24" class="cnae-search__icon"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="search" id="cnaeSearchInput" placeholder="Digite o código (ex: 6201-5/01) ou a atividade (ex: cabeleireiro)" autocomplete="off">
+    </div>
+
+    <p class="cnae-search__status" id="cnaeSearchStatus"></p>
+
+    <div class="cnae-results" id="cnaeResults"></div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <a href="../index.html#inicio" class="brand brand--footer">
+      <img src="../assets/logo.jpg" alt="Vitor Nascimento Assessoria Contábil" class="brand__logo">
+    </a>
+
+    <nav class="footer__nav">
+      <a href="../index.html#inicio">Início</a>
+      <a href="../index.html#noticias">Notícias</a>
+      <a href="../index.html#sobre">Sobre</a>
+      <a href="../index.html#servicos">Serviços</a>
+      <a href="consulta-cnae.html">Consulta CNAE</a>
+      <a href="../index.html#contato">Contato</a>
+    </nav>
+
+    <div class="footer__social">
+      <a href="#" data-contact="instagram-link" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+      </a>
+      <a href="#" data-contact="whatsapp-link" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24"><path d="M3 5a2 2 0 0 1 2-2h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 12l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 5z"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container footer__bottom-inner">
+      <span data-contact-text="crc-display">CRC/UF 000000/O-0</span>
+      <span>&copy; <span id="year"></span> Vitor Nascimento Assessoria Contábil. Todos os direitos reservados.</span>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="whatsapp-float" data-contact="whatsapp-link" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M3 5a2 2 0 0 1 2-2h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 12l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 5z"/></svg>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../js/supabase-config.js"></script>
+<script src="../js/icons.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/cnae.js"></script>
+<script>
+  (async function () {
+    const input = document.getElementById("cnaeSearchInput");
+    const statusEl = document.getElementById("cnaeSearchStatus");
+    const resultsEl = document.getElementById("cnaeResults");
+
+    let cnaes = [];
+    try {
+      cnaes = await loadCnaes();
+      statusEl.textContent = `${cnaes.length} atividades disponíveis para consulta.`;
+    } catch (err) {
+      statusEl.textContent = "Não foi possível carregar a base de CNAEs agora. Tente novamente em instantes.";
+      return;
+    }
+
+    function render(list) {
+      if (!input.value.trim()) {
+        resultsEl.innerHTML = "";
+        return;
+      }
+      if (list.length === 0) {
+        resultsEl.innerHTML = '<p class="cnae-results__empty">Nenhum CNAE encontrado para essa busca.</p>';
+        return;
+      }
+      resultsEl.innerHTML = list
+        .slice(0, 30)
+        .map(
+          (item) => `
+        <a class="cnae-result" href="cnae-detalhe.html?codigo=${encodeURIComponent(item.codigo)}">
+          <span class="cnae-result__code">${escapeHtml(item.codigo)}</span>
+          <span class="cnae-result__desc">${escapeHtml(item.descricao)}</span>
+        </a>`
+        )
+        .join("");
+    }
+
+    input.addEventListener("input", () => {
+      const term = input.value.trim();
+      render(term ? searchCnaes(cnaes, term) : []);
+    });
+  })();
+</script>
+</body>
+</html>
