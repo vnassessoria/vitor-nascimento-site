@@ -48,6 +48,7 @@
       <button data-panel="noticias" class="active">Notícias</button>
       <button data-panel="mensagens">Mensagens <span id="unreadBadge"></span></button>
       <button data-panel="servicos">Serviços</button>
+      <button data-panel="estatisticas">Estatísticas</button>
       <button data-panel="config">Configurações</button>
       <button data-panel="conta">Minha conta</button>
     </nav>
@@ -180,6 +181,52 @@
           </table>
         </div>
         <div class="empty-state" id="servicesEmpty" style="display:none;">Nenhum serviço cadastrado ainda.</div>
+      </div>
+    </section>
+
+    <!-- ---------- Estatísticas ---------- -->
+    <section class="panel" id="panel-estatisticas">
+      <div class="main__header">
+        <div>
+          <h2>Estatísticas</h2>
+          <p>Volume de acessos ao site, contado automaticamente a cada visita.</p>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="card stat-card">
+          <span class="stat-card__label">Hoje</span>
+          <span class="stat-card__value" id="statToday">–</span>
+        </div>
+        <div class="card stat-card">
+          <span class="stat-card__label">Últimos 7 dias</span>
+          <span class="stat-card__value" id="statWeek">–</span>
+        </div>
+        <div class="card stat-card">
+          <span class="stat-card__label">Últimos 30 dias</span>
+          <span class="stat-card__value" id="statMonth">–</span>
+        </div>
+        <div class="card stat-card">
+          <span class="stat-card__label">Total de visualizações</span>
+          <span class="stat-card__value" id="statTotal">–</span>
+        </div>
+        <div class="card stat-card">
+          <span class="stat-card__label">Visitantes únicos (total)</span>
+          <span class="stat-card__value" id="statUnique">–</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-bottom:16px;">Páginas mais acessadas</h3>
+        <div class="table-wrap">
+          <table id="topPagesTable">
+            <thead>
+              <tr><th>Página</th><th>Visualizações</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div class="empty-state" id="statsEmpty" style="display:none;">Ainda não há visitas registradas.</div>
       </div>
     </section>
 

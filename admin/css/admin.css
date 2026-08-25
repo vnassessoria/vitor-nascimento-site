@@ -137,6 +137,16 @@ label { display: flex; flex-direction: column; gap: 6px; font-size: 0.82rem; col
   padding: 26px; margin-bottom: 20px;
 }
 
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.stat-card { display: flex; flex-direction: column; gap: 8px; margin-bottom: 0; padding: 22px; }
+.stat-card__label { font-size: 0.78rem; color: var(--ink-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.stat-card__value { font-family: var(--font-serif); font-size: 2rem; color: var(--gold-dark); }
+
 table { width: 100%; border-collapse: collapse; font-size: 0.87rem; }
 th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
 th { color: var(--ink-muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; }

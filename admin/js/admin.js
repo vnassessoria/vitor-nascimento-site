@@ -36,6 +36,7 @@ function showDashboard() {
   loadMessages();
   loadServices();
   loadSettings();
+  loadStats();
 }
 
 document.getElementById("loginForm").addEventListener("submit", async (e) => {
@@ -329,6 +330,54 @@ async function loadServices() {
     });
     servicesTableBody.appendChild(tr);
   });
+}
+
+/* ============ Estatísticas ============ */
+async function loadStats() {
+  const { data, error } = await supabaseClient
+    .from("page_views")
+    .select("path, visitor_id, created_at")
+    .order("created_at", { ascending: false })
+    .limit(20000);
+  if (error) { showAlert(error.message); return; }
+  const rows = data || [];
+
+  const now = new Date();
+  const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const sevenDaysAgo = new Date(startOfToday.getTime() - 6 * 24 * 60 * 60 * 1000);
+  const thirtyDaysAgo = new Date(startOfToday.getTime() - 29 * 24 * 60 * 60 * 1000);
+
+  let today = 0, week = 0, month = 0;
+  const uniqueVisitors = new Set();
+  const pathCounts = {};
+
+  rows.forEach((row) => {
+    const date = new Date(row.created_at);
+    if (date >= startOfToday) today += 1;
+    if (date >= sevenDaysAgo) week += 1;
+    if (date >= thirtyDaysAgo) month += 1;
+    if (row.visitor_id) uniqueVisitors.add(row.visitor_id);
+    pathCounts[row.path] = (pathCounts[row.path] || 0) + 1;
+  });
+
+  document.getElementById("statToday").textContent = today;
+  document.getElementById("statWeek").textContent = week;
+  document.getElementById("statMonth").textContent = month;
+  document.getElementById("statTotal").textContent = rows.length;
+  document.getElementById("statUnique").textContent = uniqueVisitors.size;
+
+  const topPagesBody = document.querySelector("#topPagesTable tbody");
+  topPagesBody.innerHTML = "";
+  document.getElementById("statsEmpty").style.display = rows.length ? "none" : "block";
+
+  Object.entries(pathCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
+    .forEach(([path, count]) => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${escapeHtml(path)}</td><td>${count}</td>`;
+      topPagesBody.appendChild(tr);
+    });
 }
 
 /* ============ Configurações ============ */

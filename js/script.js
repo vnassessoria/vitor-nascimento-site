@@ -306,6 +306,31 @@ async function initNewsCarousel() {
   initReveal();
 }
 
+/* ============ Contador de visitas ============ */
+function getVisitorId() {
+  try {
+    let id = localStorage.getItem("vn_visitor_id");
+    if (!id) {
+      id = crypto.randomUUID();
+      localStorage.setItem("vn_visitor_id", id);
+    }
+    return id;
+  } catch (err) {
+    return null;
+  }
+}
+
+async function trackPageView() {
+  try {
+    await supabaseClient.from("page_views").insert({
+      path: window.location.pathname,
+      visitor_id: getVisitorId(),
+    });
+  } catch (err) {
+    console.warn("Não foi possível registrar a visita.", err);
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   loadSettings();
   initHeaderScroll();
@@ -315,4 +340,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initNewsCarousel();
   loadServices();
   initYear();
+  trackPageView();
 });
