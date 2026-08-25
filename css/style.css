@@ -332,6 +332,7 @@ h1, h2, h3 {
 }
 .hero__badges span {
   font-size: 0.78rem;
+  font-weight: 600;
   letter-spacing: 0.05em;
   color: var(--text-muted);
   border: 1px solid var(--border);
