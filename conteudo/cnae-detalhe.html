@@ -135,7 +135,7 @@
     }
 
     document.title = `${item.codigo} — ${item.descricao} | Vitor Nascimento`;
-    codeEl.textContent = item.codigo;
+    codeEl.textContent = `CNAE ${item.codigo}`;
     titleEl.textContent = item.descricao;
     contentEl.innerHTML = renderCnaeDetail(item);
     applyContactData();
