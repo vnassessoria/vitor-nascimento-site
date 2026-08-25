@@ -26,10 +26,9 @@
 
     <nav class="nav" id="nav">
       <a href="index.html#inicio">Início</a>
+      <a href="index.html#noticias">Notícias</a>
       <a href="index.html#sobre">Sobre</a>
       <a href="index.html#servicos">Serviços</a>
-      <a href="index.html#diferenciais">Diferenciais</a>
-      <a href="index.html#noticias">Notícias</a>
       <a href="index.html#contato">Contato</a>
     </nav>
 
@@ -51,6 +50,7 @@
     <span class="article-hero__tag" id="articleTag">Notícia</span>
     <h1 id="articleTitle">Carregando…</h1>
     <p class="article-hero__meta" id="articleMeta"></p>
+    <img id="articleImage" class="article-hero__image" style="display:none;" alt="">
   </div>
 </section>
 
@@ -74,10 +74,9 @@
 
     <nav class="footer__nav">
       <a href="index.html#inicio">Início</a>
+      <a href="index.html#noticias">Notícias</a>
       <a href="index.html#sobre">Sobre</a>
       <a href="index.html#servicos">Serviços</a>
-      <a href="index.html#diferenciais">Diferenciais</a>
-      <a href="index.html#noticias">Notícias</a>
       <a href="index.html#contato">Contato</a>
     </nav>
 
@@ -115,6 +114,7 @@
     const metaEl = document.getElementById("articleMeta");
     const bodyEl = document.getElementById("articleBody");
     const ctaEl = document.getElementById("articleCta");
+    const imageEl = document.getElementById("articleImage");
 
     if (!slug) {
       titleEl.textContent = "Notícia não encontrada";
@@ -135,6 +135,11 @@
       tagEl.textContent = item.tag;
       titleEl.textContent = item.title;
       metaEl.textContent = "Vitor Nascimento Assessoria Contábil";
+      if (item.image_url) {
+        imageEl.src = item.image_url;
+        imageEl.alt = item.title;
+        imageEl.style.display = "block";
+      }
       bodyEl.innerHTML = renderArticleBody(item.body) || `<p>${escapeHtml(item.summary)}</p>`;
       ctaEl.style.display = "block";
     } catch (err) {

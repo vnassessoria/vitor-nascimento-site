@@ -116,10 +116,30 @@ const newsTableBody = document.querySelector("#newsTable tbody");
 document.getElementById("newNewsBtn").addEventListener("click", () => openNewsForm());
 document.getElementById("cancelNewsBtn").addEventListener("click", () => closeNewsForm());
 
+let currentImageUrl = null;
+const newsImagePreview = document.getElementById("newsImagePreview");
+
+newsForm.image.addEventListener("change", () => {
+  const file = newsForm.image.files[0];
+  if (!file) return;
+  newsImagePreview.src = URL.createObjectURL(file);
+  newsImagePreview.style.display = "block";
+});
+
 function openNewsForm(item) {
   newsForm.reset();
   newsForm.id.value = item ? item.id : "";
   document.getElementById("newsFormTitle").textContent = item ? "Editar notícia" : "Nova notícia";
+
+  currentImageUrl = (item && item.image_url) || null;
+  if (currentImageUrl) {
+    newsImagePreview.src = currentImageUrl;
+    newsImagePreview.style.display = "block";
+  } else {
+    newsImagePreview.style.display = "none";
+    newsImagePreview.src = "";
+  }
+
   if (item) {
     newsForm.tag.value = item.tag;
     newsForm.title.value = item.title;
@@ -136,6 +156,18 @@ function openNewsForm(item) {
 function closeNewsForm() {
   newsFormCard.style.display = "none";
   newsForm.reset();
+  currentImageUrl = null;
+  newsImagePreview.style.display = "none";
+  newsImagePreview.src = "";
+}
+
+async function uploadNewsImage(file, slugHint) {
+  const ext = (file.name.split(".").pop() || "jpg").toLowerCase();
+  const path = `${slugHint}-${Date.now()}.${ext}`;
+  const { error } = await supabaseClient.storage.from("news-images").upload(path, file, { upsert: true });
+  if (error) throw error;
+  const { data } = supabaseClient.storage.from("news-images").getPublicUrl(path);
+  return data.publicUrl;
 }
 
 newsForm.addEventListener("submit", async (e) => {
@@ -143,6 +175,13 @@ newsForm.addEventListener("submit", async (e) => {
   const id = newsForm.id.value;
   try {
     const slug = await uniqueSlug(newsForm.title.value, id || undefined);
+
+    let imageUrl = newsForm.remove_image.checked ? null : currentImageUrl;
+    const file = newsForm.image.files[0];
+    if (file) {
+      imageUrl = await uploadNewsImage(file, slug);
+    }
+
     const payload = {
       tag: newsForm.tag.value,
       title: newsForm.title.value,
@@ -151,6 +190,7 @@ newsForm.addEventListener("submit", async (e) => {
       sort_order: Number(newsForm.sort_order.value) || 0,
       is_active: newsForm.is_active.checked,
       slug,
+      image_url: imageUrl,
       updated_at: new Date().toISOString(),
     };
     let error;

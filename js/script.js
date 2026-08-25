@@ -219,7 +219,7 @@ async function initNewsCarousel() {
   try {
     const { data, error } = await supabaseClient
       .from("news")
-      .select("id, tag, title, summary, slug")
+      .select("id, tag, title, summary, slug, image_url")
       .eq("is_active", true)
       .order("sort_order");
     if (error) throw error;
@@ -240,6 +240,7 @@ async function initNewsCarousel() {
       (item) => `
     <a class="news-slide" href="noticia.html?slug=${encodeURIComponent(item.slug)}">
       <article class="news-card">
+        ${item.image_url ? `<div class="news-card__image-wrap"><img src="${escapeHtml(item.image_url)}" alt="" loading="lazy"></div>` : ""}
         <span class="news-card__tag">${escapeHtml(item.tag)}</span>
         <h3>${escapeHtml(item.title)}</h3>
         <p>${escapeHtml(item.summary)}</p>

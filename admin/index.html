@@ -83,6 +83,19 @@
             <label class="span-2">Título
               <input type="text" name="title" placeholder="Título da notícia" required>
             </label>
+            <div class="span-2">
+              <label>
+                Imagem (opcional)
+                <div class="image-field">
+                  <img id="newsImagePreview" style="display:none;" alt="Pré-visualização da imagem">
+                  <input type="file" name="image" accept="image/*">
+                </div>
+              </label>
+              <div style="display:flex; align-items:center; gap:8px; margin-top:8px; font-size:0.82rem; color:var(--ink-muted);">
+                <input type="checkbox" name="remove_image" id="removeImageCheckbox" style="width:auto;">
+                <label for="removeImageCheckbox" style="margin:0;">Remover imagem atual</label>
+              </div>
+            </div>
             <label class="span-2">Resumo (aparece no card do carrossel)
               <textarea name="summary" rows="2" required></textarea>
             </label>

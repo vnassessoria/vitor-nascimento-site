@@ -163,6 +163,15 @@ td.actions .btn { margin-left: 6px; }
 .form-grid .span-2 { grid-column: 1 / -1; }
 .form-actions { display: flex; gap: 10px; margin-top: 20px; justify-content: flex-end; }
 
+.image-field { display: flex; flex-direction: column; gap: 10px; }
+.image-field img {
+  max-width: 260px;
+  max-height: 160px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  object-fit: cover;
+}
+
 .icon-picker { display: grid; grid-template-columns: repeat(auto-fill, minmax(46px, 1fr)); gap: 8px; }
 .icon-picker label {
   display: flex; align-items: center; justify-content: center;

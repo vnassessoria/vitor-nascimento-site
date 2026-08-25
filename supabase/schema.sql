@@ -16,6 +16,7 @@ create table if not exists news (
   summary text not null,
   slug text not null unique,
   body text not null default '',
+  image_url text,
   is_active boolean not null default true,
   sort_order integer not null default 0,
   created_at timestamptz not null default now(),
@@ -160,3 +161,27 @@ insert into news (tag, title, summary, slug, body, is_active, sort_order) values
   true, 2
 )
 on conflict (slug) do nothing;
+
+-- ============================================================
+-- Imagens das notícias (Storage)
+-- ============================================================
+
+insert into storage.buckets (id, name, public)
+values ('news-images', 'news-images', true)
+on conflict (id) do nothing;
+
+create policy "news_images_public_read"
+on storage.objects for select
+using (bucket_id = 'news-images');
+
+create policy "news_images_admin_insert"
+on storage.objects for insert
+with check (bucket_id = 'news-images' and auth.role() = 'authenticated');
+
+create policy "news_images_admin_update"
+on storage.objects for update
+using (bucket_id = 'news-images' and auth.role() = 'authenticated');
+
+create policy "news_images_admin_delete"
+on storage.objects for delete
+using (bucket_id = 'news-images' and auth.role() = 'authenticated');
