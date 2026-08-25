@@ -26,10 +26,9 @@
 
     <nav class="nav" id="nav">
       <a href="#inicio">Início</a>
+      <a href="#noticias">Notícias</a>
       <a href="#sobre">Sobre</a>
       <a href="#servicos">Serviços</a>
-      <a href="#diferenciais">Diferenciais</a>
-      <a href="#noticias">Notícias</a>
       <a href="#contato">Contato</a>
     </nav>
 
@@ -58,6 +57,34 @@
       <span>Online em todo o Brasil</span>
       <span>Sigilo e segurança</span>
     </div>
+  </div>
+</section>
+
+<!-- ================= NOTÍCIAS =================
+     Carrossel automático (5s por slide, com setas e indicadores).
+     As notícias são gerenciadas pelo painel administrativo (/admin
+     → Notícias) e carregadas dinamicamente aqui. -->
+<section class="section noticias" id="noticias">
+  <div class="container">
+    <p class="eyebrow" data-reveal>Notícias &amp; Atualizações</p>
+    <h2 class="section__title" data-reveal>Fique por dentro de mudanças na legislação</h2>
+    <p class="section__subtitle" data-reveal>Resoluções, prazos e novidades contábeis e tributárias que podem impactar sua empresa ou sua vida financeira.</p>
+
+    <div class="news-carousel" data-reveal>
+      <button class="news-carousel__arrow news-carousel__arrow--prev" id="newsPrev" aria-label="Notícia anterior">
+        <svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg>
+      </button>
+
+      <div class="news-carousel__viewport">
+        <div class="news-track" id="newsTrack"></div>
+      </div>
+
+      <button class="news-carousel__arrow news-carousel__arrow--next" id="newsNext" aria-label="Próxima notícia">
+        <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>
+      </button>
+    </div>
+
+    <div class="news-dots" id="newsDots"></div>
   </div>
 </section>
 
@@ -176,24 +203,8 @@
       <p class="especialidades__tagline">Vitor Nascimento Assessoria Contábil — conhecimento e estratégia para o crescimento do seu negócio.</p>
     </div>
   </div>
-</section>
 
-<!-- ================= SERVIÇOS ================= -->
-<section class="section servicos" id="servicos">
-  <div class="container">
-    <p class="eyebrow" data-reveal>Serviços</p>
-    <h2 class="section__title" data-reveal>Soluções contábeis completas, do início ao avançado</h2>
-    <p class="section__subtitle" data-reveal>Atendimento sob medida para pessoa física e jurídica, com suporte em cada etapa do seu negócio ou da sua vida financeira.</p>
-
-    <!-- Os cards de serviço são carregados dinamicamente a partir do
-         painel administrativo (/admin → Serviços). -->
-    <div class="cards-grid" id="servicesGrid"></div>
-  </div>
-</section>
-
-<!-- ================= DIFERENCIAIS ================= -->
-<section class="section diferenciais section--light" id="diferenciais">
-  <div class="container">
+  <div class="container diferenciais-sub">
     <p class="eyebrow" data-reveal>Diferenciais</p>
     <h2 class="section__title" data-reveal>Excelência que faz a diferença no seu negócio</h2>
 
@@ -230,31 +241,16 @@
   </div>
 </section>
 
-<!-- ================= NOTÍCIAS =================
-     Carrossel automático (5s por slide, com setas e indicadores).
-     As notícias são gerenciadas pelo painel administrativo (/admin
-     → Notícias) e carregadas dinamicamente aqui. -->
-<section class="section noticias" id="noticias">
+<!-- ================= SERVIÇOS ================= -->
+<section class="section servicos" id="servicos">
   <div class="container">
-    <p class="eyebrow" data-reveal>Notícias &amp; Atualizações</p>
-    <h2 class="section__title" data-reveal>Fique por dentro de mudanças na legislação</h2>
-    <p class="section__subtitle" data-reveal>Resoluções, prazos e novidades contábeis e tributárias que podem impactar sua empresa ou sua vida financeira.</p>
+    <p class="eyebrow" data-reveal>Serviços</p>
+    <h2 class="section__title" data-reveal>Soluções contábeis completas, do início ao avançado</h2>
+    <p class="section__subtitle" data-reveal>Atendimento sob medida para pessoa física e jurídica, com suporte em cada etapa do seu negócio ou da sua vida financeira.</p>
 
-    <div class="news-carousel" data-reveal>
-      <button class="news-carousel__arrow news-carousel__arrow--prev" id="newsPrev" aria-label="Notícia anterior">
-        <svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg>
-      </button>
-
-      <div class="news-carousel__viewport">
-        <div class="news-track" id="newsTrack"></div>
-      </div>
-
-      <button class="news-carousel__arrow news-carousel__arrow--next" id="newsNext" aria-label="Próxima notícia">
-        <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>
-      </button>
-    </div>
-
-    <div class="news-dots" id="newsDots"></div>
+    <!-- Os cards de serviço são carregados dinamicamente a partir do
+         painel administrativo (/admin → Serviços). -->
+    <div class="cards-grid" id="servicesGrid"></div>
   </div>
 </section>
 
@@ -330,10 +326,9 @@
 
     <nav class="footer__nav">
       <a href="#inicio">Início</a>
+      <a href="#noticias">Notícias</a>
       <a href="#sobre">Sobre</a>
       <a href="#servicos">Serviços</a>
-      <a href="#diferenciais">Diferenciais</a>
-      <a href="#noticias">Notícias</a>
       <a href="#contato">Contato</a>
     </nav>
 

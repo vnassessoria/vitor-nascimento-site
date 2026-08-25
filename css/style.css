@@ -453,6 +453,14 @@ h1, h2, h3 {
   font-size: 1.05rem;
 }
 
+/* ============ Diferenciais (sub-item de Sobre) ============ */
+.diferenciais-sub {
+  margin-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  border-top: 1px solid rgba(150, 121, 74, 0.14);
+}
+
 /* ============ Serviços ============ */
 .servicos { background: var(--black-soft); }
 
@@ -836,6 +844,7 @@ h1, h2, h3 {
   .cards-grid { grid-template-columns: 1fr; }
   .diff-grid { grid-template-columns: 1fr; }
   .especialidades { margin-top: 60px; padding-top: 50px; }
+  .diferenciais-sub { margin-top: 60px; padding-top: 50px; }
   .specialty-card { padding: 28px 24px; }
   .news-carousel { gap: 10px; }
   .news-carousel__arrow { width: 38px; height: 38px; }
