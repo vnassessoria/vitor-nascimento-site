@@ -701,7 +701,7 @@ h1, h2, h3 {
   padding: 160px 0 60px;
 }
 .article-back {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 8px;
   font-size: 0.85rem;
