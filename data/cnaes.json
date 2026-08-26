@@ -16504,7 +16504,7 @@
     "simples_nota": "Código ambíguo (Anexo VII da Res. CGSN 140/2018): abrange concomitantemente atividade impeditiva e atividade permitida ao Simples Nacional. O enquadramento depende da atividade efetivamente exercida pela empresa, não apenas do código CNAE.",
     "anexo": "III",
     "fator_r": false,
-    "observacoes": "⚠️ Código ambíguo no Anexo VII da Res. CGSN 140/2018 (abrange atividade impeditiva e permitida ao Simples, dependendo do que a empresa efetivamente faz). Classificação baseada em fonte secundária — tabela de referência externa, não é lista oficial. Precisa de confirmação contábil antes de publicar. O enquadramento acima reflete o tratamento-padrão dado pela fonte externa para este código, mas confirme a atividade efetiva antes de aplicar.",
+    "observacoes": "⚠️ Código ambíguo no Anexo VII da Res. CGSN 140/2018 (abrange atividade impeditiva e permitida ao Simples, dependendo do que a empresa efetivamente faz). Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. O enquadramento acima reflete o tratamento-padrão dado pela fonte externa para este código, mas confirme a atividade efetiva antes de aplicar.",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/6619302",
       "https://www.gov.br/empresas-e-negocios/pt-br/drei/arquivos/AnexoVII.pdf",
@@ -18223,7 +18223,7 @@
     "simples_nota": "Código ambíguo (Anexo VII da Res. CGSN 140/2018): abrange concomitantemente atividade impeditiva e atividade permitida ao Simples Nacional. O enquadramento depende da atividade efetivamente exercida pela empresa, não apenas do código CNAE.",
     "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "⚠️ Código ambíguo no Anexo VII da Res. CGSN 140/2018 (abrange atividade impeditiva e permitida ao Simples, dependendo do que a empresa efetivamente faz). Classificação baseada em fonte secundária — tabela de referência externa, não é lista oficial. Precisa de confirmação contábil antes de publicar. O enquadramento acima reflete o tratamento-padrão dado pela fonte externa para este código, mas confirme a atividade efetiva antes de aplicar.",
+    "observacoes": "⚠️ Código ambíguo no Anexo VII da Res. CGSN 140/2018 (abrange atividade impeditiva e permitida ao Simples, dependendo do que a empresa efetivamente faz). Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. O enquadramento acima reflete o tratamento-padrão dado pela fonte externa para este código, mas confirme a atividade efetiva antes de aplicar.",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8299799",
       "https://www8.receita.fazenda.gov.br/simplesnacional/arquivos/manual/anexo_xi.pdf",
