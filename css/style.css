@@ -883,6 +883,49 @@ h1, h2, h3 {
   color: var(--text-muted);
 }
 
+/* ============ Balão flutuante de convite à consultoria ============
+   Usado só nas páginas de Consulta CNAE e Consulta Retenções, ao lado
+   do botão flutuante do WhatsApp. Ver .floating-cta no HTML dessas
+   páginas e initFloatingCta() em js/script.js. */
+.floating-cta {
+  position: fixed;
+  right: 26px;
+  bottom: 100px;
+  max-width: 280px;
+  background: #fff;
+  border: 1px solid rgba(150, 121, 74, 0.28);
+  border-radius: var(--radius);
+  padding: 18px 34px 18px 20px;
+  box-shadow: 0 16px 40px rgba(28, 22, 15, 0.18);
+  z-index: 95;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  opacity: 0;
+  transform: translateY(12px);
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.floating-cta.is-visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+.floating-cta__close {
+  position: absolute;
+  top: 10px; right: 12px;
+  width: 22px; height: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: var(--ink-muted);
+}
+.floating-cta__close:hover { color: var(--ink); }
+.floating-cta p { margin: 0; color: var(--ink); font-size: 0.88rem; line-height: 1.55; }
+.floating-cta .btn { align-self: flex-start; }
+
+@media (max-width: 560px) {
+  .floating-cta { right: 16px; left: 16px; max-width: none; bottom: 96px; }
+}
+
 /* ============ WhatsApp Float ============ */
 .whatsapp-float {
   position: fixed;

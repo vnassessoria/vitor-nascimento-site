@@ -144,6 +144,27 @@ function initNavDropdowns() {
   });
 }
 
+/* ============ Balão flutuante de convite à consultoria ============
+   Presente só nas páginas de Consulta CNAE e Consulta Retenções. */
+function initFloatingCta() {
+  const cta = document.getElementById("floatingCta");
+  if (!cta) return;
+
+  const closeBtn = document.getElementById("floatingCtaClose");
+  const dismissedKey = "vn_floating_cta_dismissed";
+
+  if (sessionStorage.getItem(dismissedKey) === "1") return;
+
+  setTimeout(() => cta.classList.add("is-visible"), 1500);
+
+  if (closeBtn) {
+    closeBtn.addEventListener("click", () => {
+      cta.classList.remove("is-visible");
+      sessionStorage.setItem(dismissedKey, "1");
+    });
+  }
+}
+
 /* ============ Scroll reveal ============ */
 function initReveal() {
   const elements = document.querySelectorAll("[data-reveal]");
@@ -363,6 +384,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initHeaderScroll();
   initMobileNav();
   initNavDropdowns();
+  initFloatingCta();
   initReveal();
   initContactForm();
   initNewsCarousel();
