@@ -1,0 +1,382 @@
+[
+  {
+    "item": "1.01",
+    "descricao": "Análise e desenvolvimento de sistemas.",
+    "irrf": true,
+    "irrf_nota": "A lista do art. 714, § 1º, do RIR/2018 não menciona literalmente \"análise e desenvolvimento de sistemas\", mas contém \"programação\" (inciso XXX), \"análises técnicas\" (inciso IV) e \"elaboração de projetos\" (inciso XVI), sob os quais a atividade é usualmente enquadrada. Retenção de 1,5%.",
+    "csrf": true,
+    "csrf_nota": "Enquadrada como \"serviços profissionais\" para fins do art. 30 da Lei 10.833/2003, pois a IN SRF 459/2004, art. 1º, § 2º, IV, define serviços profissionais por remissão à mesma lista do RIR (art. 647 do RIR/1999, hoje art. 714 do RIR/2018). Alíquota total de 4,65%.",
+    "inss": false,
+    "inss_nota": "Não consta das listas dos arts. 111 e 112 da IN RFB 2.110/2022, que o art. 113 da mesma IN declara expressamente exaustivas. Atenção: se o contrato, na prática, for de \"digitação\" ou \"preparação de dados para processamento\" (art. 111, V e VI) ou de serviços prestados mediante cessão de mão de obra, o enquadramento muda.",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Estabelecimento do prestador (regra geral)",
+    "iss_local_nota": "O item 1 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
+    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o enquadramento no IRRF/CSRF se dá por assimilação (a expressão exata do subitem não aparece na lista do art. 714 do RIR/2018), e a lista de serviços profissionais é taxativa. Recomenda-se confirmar o enquadramento à luz do objeto concreto do contrato e de Soluções de Consulta da RFB aplicáveis ao caso.",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "1.04",
+    "descricao": "Elaboração de programas de computadores, inclusive de jogos eletrônicos, independentemente da arquitetura construtiva da máquina em que o programa será executado, incluindo tablets, smartphones e congêneres. (redação dada pela Lei Complementar nº 157, de 2016)",
+    "irrf": true,
+    "irrf_nota": "A elaboração de programas de computador corresponde a \"programação\", expressamente listada no art. 714, § 1º, XXX, do RIR/2018. Retenção de 1,5% nos pagamentos de PJ a PJ.",
+    "csrf": true,
+    "csrf_nota": "Serviço profissional para fins do art. 30 da Lei 10.833/2003, por força da IN SRF 459/2004, art. 1º, § 2º, IV, que remete à lista de serviços profissionais do RIR. Alíquota total de 4,65%.",
+    "inss": false,
+    "inss_nota": "Não consta das listas dos arts. 111 e 112 da IN RFB 2.110/2022, declaradas exaustivas pelo art. 113 da mesma IN. Não há retenção previdenciária de 11% pela natureza da atividade.",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Estabelecimento do prestador (regra geral)",
+    "iss_local_nota": "O item 1 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
+    "observacoes": "",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "3.05",
+    "descricao": "Cessão de andaimes, palcos, coberturas e outras estruturas de uso temporário.",
+    "irrf": false,
+    "irrf_nota": "A cessão de estruturas de uso temporário não consta da lista taxativa de serviços profissionais do art. 714, § 1º, do RIR/2018, nem se enquadra nas hipóteses do art. 716 (limpeza, conservação, segurança, vigilância e locação de mão de obra).",
+    "csrf": false,
+    "csrf_nota": "A atividade não está entre as arroladas no art. 30 da Lei 10.833/2003 (limpeza, conservação, manutenção, segurança, vigilância, transporte de valores, locação de mão de obra, assessoria creditícia, mercadológica, gestão de crédito, seleção e riscos, administração de contas a pagar e a receber e serviços profissionais).",
+    "inss": false,
+    "inss_nota": "Não consta das listas exaustivas dos arts. 111 e 112 da IN RFB 2.110/2022 (art. 113). Ressalva: se o contrato incluir montagem executada mediante cessão de mão de obra, o serviço de \"montagem\" do art. 112, XV, atrai a retenção de 11%.",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Local da instalação das estruturas (art. 3º, II, LC 116/2003)",
+    "iss_local_nota": "Exceção expressa: o art. 3º, II, da LC 116/2003 determina que o imposto é devido no local \"da instalação dos andaimes, palcos, coberturas e outras estruturas, no caso dos serviços descritos no subitem 3.05 da lista anexa\".",
+    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a Súmula Vinculante 31 do STF fixa que \"é inconstitucional a incidência do Imposto sobre Serviços de Qualquer Natureza - ISS sobre operações de locação de bens móveis\". O subitem 3.05 permanece no texto vigente da lista anexa à LC 116/2003, mas sua exigência pressupõe efetiva prestação de serviço (montagem, instalação, desmontagem), não a mera locação da estrutura. A separação entre a parcela de locação e a de serviço no contrato e na nota fiscal é determinante e deve ser analisada caso a caso.",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687",
+      "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1286"
+    ]
+  },
+  {
+    "item": "4.01",
+    "descricao": "Medicina e biomedicina.",
+    "irrf": true,
+    "irrf_nota": "\"Medicina\" consta do art. 714, § 1º, XXIV, do RIR/2018 e \"biologia e biomedicina\" do inciso X. Retenção de 1,5%. O próprio inciso XXIV excepciona a medicina prestada por ambulatório, banco de sangue, casa de saúde, casa de recuperação ou repouso sob orientação médica, hospital e pronto-socorro.",
+    "csrf": true,
+    "csrf_nota": "Serviço profissional para fins do art. 30 da Lei 10.833/2003 (IN SRF 459/2004, art. 1º, § 2º, IV, que manda aplicar os mesmos critérios de interpretação adotados para o IRRF). Aplicam-se as mesmas exceções do art. 714, § 1º, XXIV, do RIR/2018.",
+    "inss": true,
+    "inss_nota": "O art. 112, XXIII, da IN RFB 2.110/2022 lista os serviços de \"saúde\", prestados por empresas da área da saúde e direcionados ao atendimento de pacientes. A retenção de 11% (art. 110) só incide se contratados mediante CESSÃO DE MÃO DE OBRA - a empreitada não basta neste caso. Há ainda dispensa no art. 115, III, quando o serviço envolver apenas profissão regulamentada por lei federal e for prestado pessoalmente pelos sócios, sem empregados ou outros contribuintes individuais.",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Estabelecimento do prestador (regra geral)",
+    "iss_local_nota": "O subitem 4.01 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 4, apenas os subitens 4.22 e 4.23 são citados, no inciso XXIII), aplicando-se a regra geral do caput.",
+    "observacoes": "",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "4.02",
+    "descricao": "Análises clínicas, patologia, eletricidade médica, radioterapia, quimioterapia, ultra-sonografia, ressonância magnética, radiologia, tomografia e congêneres.",
+    "irrf": true,
+    "irrf_nota": "O art. 714, § 1º, do RIR/2018 lista expressamente \"análise clínica laboratorial\" (inciso III) e \"radiologia e radioterapia\" (inciso XXXIV), que cobrem o núcleo do subitem. Retenção de 1,5%.",
+    "csrf": true,
+    "csrf_nota": "Serviço profissional para fins do art. 30 da Lei 10.833/2003, por remissão da IN SRF 459/2004, art. 1º, § 2º, IV, à lista de serviços profissionais do RIR. Alíquota total de 4,65%.",
+    "inss": true,
+    "inss_nota": "Enquadra-se nos serviços de \"saúde\" do art. 112, XXIII, da IN RFB 2.110/2022. A retenção de 11% (art. 110) só incide se contratados mediante CESSÃO DE MÃO DE OBRA. Observar a dispensa do art. 115, III (profissão regulamentada prestada pessoalmente pelos sócios).",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Estabelecimento do prestador (regra geral)",
+    "iss_local_nota": "O subitem 4.02 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
+    "observacoes": "O subitem é amplo e reúne procedimentos de naturezas distintas. Modalidades como \"eletricidade médica\", \"quimioterapia\" e \"ultra-sonografia\" não aparecem com essa redação na lista do art. 714, § 1º, do RIR/2018 e são normalmente enquadradas como \"medicina\" (inciso XXIV), que traz exceções próprias. Recomenda-se conferir o serviço concretamente prestado na revisão contábil.",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "4.03",
+    "descricao": "Hospitais, clínicas, laboratórios, sanatórios, manicômios, casas de saúde, prontos-socorros, ambulatórios e congêneres.",
+    "irrf": false,
+    "irrf_nota": "O art. 714, § 1º, XXIV, do RIR/2018 sujeita à retenção a \"medicina\", mas EXCETUA expressamente aquela prestada por ambulatório, banco de sangue, casa de saúde, casa de recuperação ou repouso sob orientação médica, hospital e pronto-socorro - exatamente os estabelecimentos do núcleo deste subitem. Logo, não há retenção de 1,5% para essas entidades.",
+    "csrf": false,
+    "csrf_nota": "A IN SRF 459/2004, art. 1º, § 2º, IV, manda aplicar à CSRF os mesmos critérios de interpretação do IRRF. Afastada a caracterização como serviço profissional pela exceção do art. 714, § 1º, XXIV, do RIR/2018, não há retenção de 4,65% por essa via.",
+    "inss": true,
+    "inss_nota": "Os serviços de \"saúde\" constam do art. 112, XXIII, da IN RFB 2.110/2022. A retenção de 11% (art. 110) só incide se contratados mediante CESSÃO DE MÃO DE OBRA.",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Estabelecimento do prestador (regra geral)",
+    "iss_local_nota": "O subitem 4.03 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
+    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a exceção do art. 714, § 1º, XXIV, do RIR/2018 alcança nominalmente ambulatório, banco de sangue, casa de saúde, casa de recuperação ou repouso sob orientação médica, hospital e pronto-socorro. Ela NÃO menciona \"clínicas\" nem \"laboratórios\", que também integram este subitem da LC 116/2003 - e laboratório de análise clínica está positivamente listado no art. 714, § 1º, III. Portanto, dentro do mesmo subitem 4.03 pode haver prestadores sujeitos e prestadores não sujeitos à retenção. A classificação depende da natureza do estabelecimento e exige análise individualizada.",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "7.02",
+    "descricao": "Execução, por administração, empreitada ou subempreitada, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).",
+    "irrf": false,
+    "irrf_nota": "O art. 714, § 1º, XVII, do RIR/2018 lista \"engenharia\", mas EXCETUA expressamente a \"construção de estradas, pontes, prédios e obras assemelhadas\". A execução de obra de construção civil está, portanto, fora da lista de serviços profissionais e não sofre a retenção de 1,5%.",
+    "csrf": false,
+    "csrf_nota": "A execução de obras não está entre as atividades arroladas no art. 30 da Lei 10.833/2003 e, pela exceção do art. 714, § 1º, XVII, do RIR/2018, também não se caracteriza como serviço profissional (IN SRF 459/2004, art. 1º, § 2º, IV).",
+    "inss": true,
+    "inss_nota": "Sujeita à retenção de 11% quando prestada mediante cessão de mão de obra OU empreitada (art. 31 da Lei 8.212/1991 c/c arts. 110 e 111, III, da IN RFB 2.110/2022, que lista expressamente \"construção civil\"). Exceção relevante: o art. 114, II, afasta a retenção na empreitada total, caso em que se aplica o regime de solidariedade; e o art. 114, VI, afasta a retenção na empreitada realizada nas dependências da contratada.",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Local da execução da obra (art. 3º, III, LC 116/2003)",
+    "iss_local_nota": "Exceção expressa à regra geral: para os serviços do subitem 7.02, o ISS é devido no município onde a obra é executada, não no estabelecimento do prestador. O inciso III teve a redação alterada pela Lei Complementar nº 218, de 2025, passando a abranger os subitens 7.02, 7.19 e 14.14.",
+    "observacoes": "",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "7.05",
+    "descricao": "Reparação, conservação e reforma de edifícios, estradas, pontes, portos e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços, fora do local da prestação dos serviços, que fica sujeito ao ICMS).",
+    "irrf": false,
+    "irrf_nota": "Reforma e reparação de edificações e obras equiparam-se a \"obras assemelhadas\", excepcionadas pelo art. 714, § 1º, XVII, do RIR/2018, e não constam da lista de serviços profissionais. Não há retenção de 1,5%.",
+    "csrf": true,
+    "csrf_nota": "Enquadra-se em \"manutenção\" e \"conservação\", expressamente arroladas no art. 30 da Lei 10.833/2003. A IN SRF 459/2004, art. 1º, § 2º, II, define manutenção como \"todo e qualquer serviço de manutenção ou conservação de edificações, instalações, máquinas (...) quando destinadas a mantê-los em condições eficientes de operação, exceto se a manutenção for feita em caráter isolado, como um mero conserto de um bem defeituoso\". Retenção de 4,65% nos contratos de conservação/manutenção predial continuada; afastada no conserto isolado.",
+    "inss": true,
+    "inss_nota": "Sujeita à retenção de 11% quando prestada mediante cessão de mão de obra ou empreitada: o art. 111, III, da IN RFB 2.110/2022 define construção civil como os serviços que envolvam \"a construção, a demolição, a reforma ou o acréscimo de edificações\". Observar as exclusões do art. 114 (empreitada total e empreitada realizada nas dependências da contratada).",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Local das edificações em geral, estradas, pontes, portos e congêneres (art. 3º, V, LC 116/2003)",
+    "iss_local_nota": "Exceção expressa: o art. 3º, V, da LC 116/2003 fixa o imposto como devido no local \"das edificações em geral, estradas, pontes, portos e congêneres, no caso dos serviços descritos no subitem 7.05 da lista anexa\".",
+    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: este subitem abrange desde reforma predial (natureza de obra) até conservação e manutenção continuada (natureza de serviço de manutenção). O enquadramento no CSRF - e, eventualmente, no IRRF de 1% do art. 716 do RIR/2018, que alcança serviços de limpeza e conservação - depende do objeto concreto do contrato. Contratos mistos devem ser analisados individualmente.",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "7.10",
+    "descricao": "Limpeza, manutenção e conservação de vias e logradouros públicos, imóveis, chaminés, piscinas, parques, jardins e congêneres.",
+    "irrf": true,
+    "irrf_nota": "ATENÇÃO À ALÍQUOTA: não se trata da retenção de 1,5% do art. 714 do RIR/2018 (limpeza e conservação não constam da lista de serviços profissionais). Aplica-se o art. 716 do RIR/2018, que sujeita à retenção de 1% os pagamentos de PJ a PJ pela prestação de serviços de limpeza, conservação, segurança, vigilância e pela locação de mão de obra.",
+    "csrf": true,
+    "csrf_nota": "\"Limpeza\", \"conservação\" e \"manutenção\" estão expressamente arroladas no caput do art. 30 da Lei 10.833/2003. A IN SRF 459/2004, art. 1º, § 2º, I, define os serviços de limpeza, conservação ou zeladoria como varrição, lavagem, enceramento, desinfecção, higienização e congêneres destinados a manter a higiene, o asseio ou a conservação de praias, jardins, rodovias, monumentos, edificações, logradouros e áreas de uso comum. Retenção de 4,65%.",
+    "inss": true,
+    "inss_nota": "Sujeita à retenção de 11% quando prestada mediante cessão de mão de obra OU empreitada (art. 31 da Lei 8.212/1991 c/c arts. 110 e 111, I, da IN RFB 2.110/2022, que lista \"limpeza, conservação ou zeladoria\").",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Local da execução da limpeza, manutenção e conservação (art. 3º, VII, LC 116/2003)",
+    "iss_local_nota": "Exceção expressa: o art. 3º, VII, da LC 116/2003 fixa o imposto como devido no local \"da execução da limpeza, manutenção e conservação de vias e logradouros públicos, imóveis, chaminés, piscinas, parques, jardins e congêneres, no caso dos serviços descritos no subitem 7.10 da lista anexa\".",
+    "observacoes": "Este é um dos casos em que as três retenções federais podem incidir cumulativamente sobre a mesma nota fiscal (IRRF de 1%, CSRF de 4,65% e INSS de 11%), observados os limites e dispensas de cada regime.",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "8.01",
+    "descricao": "Ensino regular pré-escolar, fundamental, médio e superior.",
+    "irrf": true,
+    "irrf_nota": "\"Ensino e treinamento\" consta expressamente do art. 714, § 1º, XVIII, do RIR/2018. Pela literalidade da lista, os pagamentos de PJ a PJ por serviços de ensino sofrem a retenção de 1,5%.",
+    "csrf": true,
+    "csrf_nota": "Serviço profissional para fins do art. 30 da Lei 10.833/2003, por remissão da IN SRF 459/2004, art. 1º, § 2º, IV, à lista do RIR. Alíquota total de 4,65%.",
+    "inss": true,
+    "inss_nota": "O art. 112, X, da IN RFB 2.110/2022 lista \"treinamento e ensino\". A retenção de 11% (art. 110) só incide se o serviço for contratado mediante CESSÃO DE MÃO DE OBRA - hipótese atípica na exploração de escola regular, em que o prestador atende alunos em suas próprias dependências. Há ainda dispensa expressa no art. 115, III, para serviços de treinamento e ensino prestados pessoalmente pelos sócios, sem empregados ou outros contribuintes individuais.",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Estabelecimento do prestador (regra geral)",
+    "iss_local_nota": "O item 8 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
+    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a incidência do IRRF/CSRF sobre mensalidades de ensino regular é tema controvertido na prática. A lista do art. 714 do RIR/2018 é taxativa e inclui \"ensino e treinamento\" sem ressalva, mas há entendimentos da RFB, em Soluções de Consulta, que diferenciam serviços de instrução e treinamento de natureza profissional de prestações isoladas de orientação pedagógica ou avaliação de conhecimentos. Não foi possível confirmar, em fonte oficial primária consultada nesta pesquisa, um ato normativo que afaste a retenção para escolas de ensino regular. Recomenda-se validação contábil antes da publicação.",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "8.02",
+    "descricao": "Instrução, treinamento, orientação pedagógica e educacional, avaliação de conhecimentos de qualquer natureza.",
+    "irrf": true,
+    "irrf_nota": "\"Ensino e treinamento\" consta expressamente do art. 714, § 1º, XVIII, do RIR/2018. Retenção de 1,5% nos pagamentos de PJ a PJ.",
+    "csrf": true,
+    "csrf_nota": "Serviço profissional para fins do art. 30 da Lei 10.833/2003, por remissão da IN SRF 459/2004, art. 1º, § 2º, IV, à lista do RIR. Alíquota total de 4,65%.",
+    "inss": true,
+    "inss_nota": "O art. 112, X, da IN RFB 2.110/2022 lista \"treinamento e ensino, assim considerados como o conjunto de serviços envolvidos na transmissão de conhecimentos para a instrução ou para a capacitação de pessoas\". A retenção de 11% (art. 110) só incide se contratado mediante CESSÃO DE MÃO DE OBRA. Observar a dispensa do art. 115, III.",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Estabelecimento do prestador (regra geral)",
+    "iss_local_nota": "O item 8 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
+    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: existem manifestações da RFB, em Soluções de Consulta, no sentido de que a orientação pedagógica e educacional e a avaliação de conhecimentos, quando prestadas isoladamente ou passíveis de destacamento dentro de um contrato mais amplo, podem não configurar serviço de natureza profissional sujeito à retenção. Como o subitem 8.02 reúne quatro prestações distintas, o enquadramento deve ser verificado contra o objeto contratual concreto.",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "9.01",
+    "descricao": "Hospedagem de qualquer natureza em hotéis, apart-service condominiais, flat, apart-hotéis, hotéis residência, residence-service, suite service, hotelaria marítima, motéis, pensões e congêneres; ocupação por temporada com fornecimento de serviço (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços).",
+    "irrf": false,
+    "irrf_nota": "Hospedagem e hotelaria não constam da lista taxativa de serviços profissionais do art. 714, § 1º, do RIR/2018, nem das hipóteses do art. 716. Não há retenção de IRRF pela natureza da atividade.",
+    "csrf": false,
+    "csrf_nota": "A hospedagem não está entre as atividades arroladas no art. 30 da Lei 10.833/2003, nem se caracteriza como serviço profissional na forma da IN SRF 459/2004, art. 1º, § 2º, IV.",
+    "inss": true,
+    "inss_nota": "O art. 112, VII, da IN RFB 2.110/2022 lista os serviços de \"hotelaria, que concorram para o atendimento ao hóspede em hotel, pousada, paciente em hospital, clínica ou em outros estabelecimentos do gênero\". A retenção de 11% (art. 110) só incide se contratados mediante CESSÃO DE MÃO DE OBRA - ou seja, na terceirização de equipes de hotelaria, e não na simples venda de diárias ao hóspede.",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Estabelecimento do prestador (regra geral)",
+    "iss_local_nota": "O item 9 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Na prática, o estabelecimento prestador coincide com o local do hotel.",
+    "observacoes": "",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "11.02",
+    "descricao": "Vigilância, segurança ou monitoramento de bens, pessoas e semoventes. (redação dada pela Lei Complementar nº 157, de 2016)",
+    "irrf": true,
+    "irrf_nota": "ATENÇÃO À ALÍQUOTA: não se trata da retenção de 1,5% do art. 714 do RIR/2018 (segurança e vigilância não constam da lista de serviços profissionais). Aplica-se o art. 716 do RIR/2018, que sujeita à retenção de 1% os pagamentos de PJ a PJ por serviços de limpeza, conservação, segurança, vigilância e locação de mão de obra.",
+    "csrf": true,
+    "csrf_nota": "\"Segurança\" e \"vigilância\" estão expressamente arroladas no caput do art. 30 da Lei 10.833/2003. A IN SRF 459/2004, art. 1º, § 2º, III, define tais serviços como os que tenham por finalidade a garantia da integridade física de pessoas ou a preservação de valores e bens patrimoniais, inclusive escolta. Retenção de 4,65%.",
+    "inss": true,
+    "inss_nota": "Sujeita à retenção de 11% quando prestada mediante cessão de mão de obra OU empreitada (art. 31 da Lei 8.212/1991 c/c arts. 110 e 111, II, da IN RFB 2.110/2022). EXCEÇÃO IMPORTANTE: o parágrafo único do art. 111 dispõe que \"os serviços de vigilância ou segurança prestados por meio de monitoramento eletrônico não estão sujeitos à retenção\".",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Local dos bens, dos semoventes ou do domicílio das pessoas vigiados, segurados ou monitorados (art. 3º, XVI, LC 116/2003)",
+    "iss_local_nota": "Exceção expressa: o art. 3º, XVI, da LC 116/2003, na redação dada pela Lei Complementar nº 157, de 2016, fixa o imposto como devido no local \"dos bens, dos semoventes ou do domicílio das pessoas vigiados, segurados ou monitorados, no caso dos serviços descritos no subitem 11.02 da lista anexa\".",
+    "observacoes": "O subitem reúne vigilância/segurança presencial e monitoramento eletrônico, que recebem tratamento DIFERENTE na retenção previdenciária: o monitoramento eletrônico é expressamente excluído pelo parágrafo único do art. 111 da IN RFB 2.110/2022. Verificar a modalidade efetivamente contratada.",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "16.01",
+    "descricao": "Serviços de transporte coletivo municipal rodoviário, metroviário, ferroviário e aquaviário de passageiros. (redação dada pela Lei Complementar nº 157, de 2016)",
+    "irrf": false,
+    "irrf_nota": "O transporte coletivo de passageiros não consta da lista taxativa de serviços profissionais do art. 714, § 1º, do RIR/2018, nem das hipóteses do art. 716.",
+    "csrf": false,
+    "csrf_nota": "O art. 30 da Lei 10.833/2003 alcança apenas o \"transporte de valores\", e não o transporte de passageiros. A atividade também não se caracteriza como serviço profissional na forma da IN SRF 459/2004, art. 1º, § 2º, IV.",
+    "inss": true,
+    "inss_nota": "O art. 112, XVIII, da IN RFB 2.110/2022 lista a \"operação de transporte de passageiros, inclusive nos casos de concessão ou de subconcessão, que envolvam o deslocamento de pessoas por meio terrestre, aquático ou aéreo\". A retenção de 11% (art. 110) só incide se contratada mediante CESSÃO DE MÃO DE OBRA. Registre-se que o art. 119 da mesma IN prevê base de cálculo mínima específica para o serviço de transporte de passageiros.",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Município onde está sendo executado o transporte (art. 3º, XIX, LC 116/2003)",
+    "iss_local_nota": "Exceção expressa: o art. 3º, XIX, da LC 116/2003, na redação dada pela Lei Complementar nº 157, de 2016, fixa o imposto como devido no local \"do Município onde está sendo executado o transporte, no caso dos serviços descritos pelo item 16 da lista anexa\". A redação original referia-se apenas ao subitem 16.01; a atual alcança todo o item 16.",
+    "observacoes": "",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "16.02",
+    "descricao": "Outros serviços de transporte de natureza municipal. (incluído pela Lei Complementar nº 157, de 2016)",
+    "irrf": false,
+    "irrf_nota": "Serviços de transporte não constam da lista taxativa de serviços profissionais do art. 714, § 1º, do RIR/2018, nem das hipóteses do art. 716.",
+    "csrf": false,
+    "csrf_nota": "Em regra não há retenção, pois o art. 30 da Lei 10.833/2003 alcança apenas o \"transporte de valores\". RESSALVA: se o serviço concretamente prestado for justamente transporte de valores de natureza municipal, a retenção de 4,65% passa a ser devida por enquadramento expresso no caput do art. 30.",
+    "inss": false,
+    "inss_nota": "Como categoria residual, o subitem 16.02 não corresponde a nenhum dos serviços das listas exaustivas dos arts. 111 e 112 da IN RFB 2.110/2022 (art. 113). Além disso, o art. 114, V, afasta expressamente a retenção na contratação de serviços de transporte de cargas. RESSALVA: se o serviço concreto configurar \"operação de transporte de passageiros\" (art. 112, XVIII) contratada mediante cessão de mão de obra, a retenção de 11% é devida.",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Município onde está sendo executado o transporte (art. 3º, XIX, LC 116/2003)",
+    "iss_local_nota": "Exceção expressa: com a redação dada pela Lei Complementar nº 157, de 2016, o art. 3º, XIX, da LC 116/2003 passou a alcançar todo o item 16 da lista anexa - e não apenas o subitem 16.01 -, de modo que o imposto é devido no Município onde o transporte está sendo executado.",
+    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: por ser subitem residual (\"outros serviços de transporte de natureza municipal\"), 16.02 abrange realidades muito distintas - transporte escolar, transporte de cargas intramunicipal, táxi, transporte de valores, entre outros -, cada uma com tratamento próprio nas retenções federais. As classificações acima refletem a regra geral e não substituem a análise do serviço efetivamente prestado.",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "17.14",
+    "descricao": "Advocacia.",
+    "irrf": true,
+    "irrf_nota": "\"Advocacia\" consta expressamente do art. 714, § 1º, II, do RIR/2018. Retenção de 1,5% nos pagamentos de PJ a PJ de direito privado.",
+    "csrf": true,
+    "csrf_nota": "Serviço profissional para fins do art. 30 da Lei 10.833/2003, por remissão da IN SRF 459/2004, art. 1º, § 2º, IV, à lista de serviços profissionais do RIR. Alíquota total de 4,65%, observada a dispensa para pagamentos de até R$ 5.000,00 no mês (art. 31, § 3º, da Lei 10.833/2003, na redação vigente, c/c IN SRF 459/2004, art. 1º, §§ 3º e 4º).",
+    "inss": false,
+    "inss_nota": "A advocacia não consta das listas dos arts. 111 e 112 da IN RFB 2.110/2022, declaradas exaustivas pelo art. 113. Ainda que houvesse dúvida, o art. 115, III, dispensa a retenção quando a contratação envolver somente serviços profissionais relativos a profissão regulamentada por legislação federal prestados pessoalmente pelos sócios, sem empregados ou outros contribuintes individuais.",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Estabelecimento do prestador (regra geral)",
+    "iss_local_nota": "O subitem 17.14 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput.",
+    "observacoes": "",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "17.19",
+    "descricao": "Contabilidade, inclusive serviços técnicos e auxiliares.",
+    "irrf": true,
+    "irrf_nota": "\"Contabilidade\" consta expressamente do art. 714, § 1º, XIII, do RIR/2018. Retenção de 1,5% nos pagamentos de PJ a PJ de direito privado. Nos termos do § 2º do art. 714, a incidência independe da qualificação profissional dos sócios da beneficiária e do fato de ela auferir receitas de outras atividades.",
+    "csrf": true,
+    "csrf_nota": "Serviço profissional para fins do art. 30 da Lei 10.833/2003, por remissão da IN SRF 459/2004, art. 1º, § 2º, IV, à lista de serviços profissionais do RIR. Alíquota total de 4,65%.",
+    "inss": false,
+    "inss_nota": "A contabilidade não consta das listas exaustivas dos arts. 111 e 112 da IN RFB 2.110/2022 (art. 113). Aplica-se também, se for o caso, a dispensa do art. 115, III, para profissão regulamentada por legislação federal prestada pessoalmente pelos sócios.",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Estabelecimento do prestador (regra geral)",
+    "iss_local_nota": "O subitem 17.19 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
+    "observacoes": "",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  },
+  {
+    "item": "17.20",
+    "descricao": "Consultoria e assessoria econômica ou financeira.",
+    "irrf": true,
+    "irrf_nota": "O art. 714, § 1º, do RIR/2018 lista \"consultoria\" (inciso XII), \"assessoria e consultoria técnica\" (inciso VI, excetuada a assistência técnica prestada a terceiros concernente a ramo de indústria ou comércio explorado pelo prestador) e \"economia\" (inciso XV). Retenção de 1,5%.",
+    "csrf": true,
+    "csrf_nota": "Serviço profissional para fins do art. 30 da Lei 10.833/2003 (IN SRF 459/2004, art. 1º, § 2º, IV). Além disso, se o serviço configurar assessoria creditícia, mercadológica, gestão de crédito, seleção e riscos ou administração de contas a pagar e a receber, há enquadramento autônomo e expresso no caput do art. 30 - inclusive quando prestados por empresa de factoring (IN SRF 459/2004, art. 1º, § 9º). Alíquota total de 4,65%.",
+    "inss": false,
+    "inss_nota": "Consultoria e assessoria econômica ou financeira não constam das listas exaustivas dos arts. 111 e 112 da IN RFB 2.110/2022 (art. 113).",
+    "iss_responsavel": "Depende da legislação municipal",
+    "iss_local_devido": "Estabelecimento do prestador (regra geral)",
+    "iss_local_nota": "O subitem 17.20 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
+    "observacoes": "Observar a exceção do art. 714, § 1º, VI, do RIR/2018: não se sujeita à retenção o serviço de assistência técnica prestado a terceiros concernente a ramo de indústria ou comércio explorado pelo próprio prestador do serviço.",
+    "fontes": [
+      "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+      "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
+      "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
+      "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
+    ]
+  }
+]

@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Consulta CNAE | Vitor Nascimento</title>
-<meta name="description" content="Consulte qualquer CNAE e descubra se a atividade permite MEI, Simples Nacional, qual o Anexo e se está sujeita ao Fator R.">
+<title>Consulta Retenções | Vitor Nascimento</title>
+<meta name="description" content="Detalhes de um item da lista de serviços da LC 116/2003: retenção de IRRF, CSRF, INSS e ISS, e local onde o imposto é devido.">
 <link rel="icon" href="../assets/logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../css/cnae.css">
+<link rel="stylesheet" href="../css/retencoes.css">
 </head>
 <body>
 
@@ -48,26 +48,20 @@
   </div>
 </header>
 
-<!-- ================= CONSULTA CNAE ================= -->
+<!-- ================= DETALHE (carregado dinamicamente) ================= -->
 <section class="section article-hero section--light">
   <div class="container">
-    <span class="article-hero__tag">Conteúdo</span>
-    <h1>Consulta CNAE</h1>
-    <p class="article-hero__meta">Pesquise pelo código ou pela atividade e descubra se ela permite MEI, Simples Nacional, qual o Anexo e se está sujeita ao Fator R.</p>
+    <a href="consulta-retencoes.html" class="article-back">
+      <svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg>
+      Voltar para a consulta
+    </a>
+    <span class="article-hero__tag" id="retencaoItem">Item</span>
+    <h1 id="retencaoTitle">Carregando…</h1>
   </div>
 </section>
 
-<section class="section cnae-search section--light" style="padding-top:0;">
-  <div class="container">
-    <div class="cnae-search__box">
-      <svg viewBox="0 0 24 24" class="cnae-search__icon"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-      <input type="search" id="cnaeSearchInput" placeholder="Digite o código (ex: 6201-5/01) ou a atividade (ex: cabeleireiro)" autocomplete="off">
-    </div>
-
-    <p class="cnae-search__status" id="cnaeSearchStatus"></p>
-
-    <div class="cnae-results" id="cnaeResults"></div>
-  </div>
+<section class="section retencao-detail section--light" style="padding-top:0;">
+  <div class="container retencao-detail__inner" id="retencaoDetailContent"></div>
 </section>
 
 <!-- ================= FOOTER ================= -->
@@ -112,47 +106,41 @@
 <script src="../js/supabase-config.js"></script>
 <script src="../js/icons.js"></script>
 <script src="../js/script.js"></script>
-<script src="../js/cnae.js"></script>
+<script src="../js/retencoes.js"></script>
 <script>
   (async function () {
-    const input = document.getElementById("cnaeSearchInput");
-    const statusEl = document.getElementById("cnaeSearchStatus");
-    const resultsEl = document.getElementById("cnaeResults");
+    const itemParam = new URLSearchParams(window.location.search).get("item");
+    const itemEl = document.getElementById("retencaoItem");
+    const titleEl = document.getElementById("retencaoTitle");
+    const contentEl = document.getElementById("retencaoDetailContent");
 
-    let cnaes = [];
-    try {
-      cnaes = await loadCnaes();
-      statusEl.textContent = `${cnaes.length} atividades disponíveis para consulta.`;
-    } catch (err) {
-      statusEl.textContent = "Não foi possível carregar a base de CNAEs agora. Tente novamente em instantes.";
+    if (!itemParam) {
+      titleEl.textContent = "Item não informado";
+      contentEl.innerHTML = '<p>Volte para a <a href="consulta-retencoes.html">consulta</a> e escolha uma atividade.</p>';
       return;
     }
 
-    function render(list) {
-      if (!input.value.trim()) {
-        resultsEl.innerHTML = "";
-        return;
-      }
-      if (list.length === 0) {
-        resultsEl.innerHTML = '<p class="cnae-results__empty">Nenhum CNAE encontrado para essa busca.</p>';
-        return;
-      }
-      resultsEl.innerHTML = list
-        .slice(0, 30)
-        .map(
-          (item) => `
-        <a class="cnae-result" href="cnae-detalhe.html?codigo=${encodeURIComponent(item.codigo)}">
-          <span class="cnae-result__code">${escapeHtml(item.codigo)}</span>
-          <span class="cnae-result__desc">${escapeHtml(item.descricao)}</span>
-        </a>`
-        )
-        .join("");
+    let retencoes = [];
+    try {
+      retencoes = await loadRetencoes();
+    } catch (err) {
+      titleEl.textContent = "Erro ao carregar";
+      contentEl.innerHTML = "<p>Não foi possível carregar a base de Retenções agora. Tente novamente em instantes.</p>";
+      return;
     }
 
-    input.addEventListener("input", () => {
-      const term = input.value.trim();
-      render(term ? searchCnaes(cnaes, term) : []);
-    });
+    const item = retencoes.find((r) => r.item === itemParam);
+    if (!item) {
+      titleEl.textContent = "Item não encontrado";
+      contentEl.innerHTML = '<p>Não encontramos esse item. Volte para a <a href="consulta-retencoes.html">consulta</a> e tente novamente.</p>';
+      return;
+    }
+
+    document.title = `Item ${item.item} — ${item.descricao} | Vitor Nascimento`;
+    itemEl.textContent = `Item ${item.item}`;
+    titleEl.textContent = item.descricao;
+    contentEl.innerHTML = renderRetencaoDetail(item);
+    applyContactData();
   })();
 </script>
 </body>
