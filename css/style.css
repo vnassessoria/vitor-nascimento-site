@@ -289,7 +289,57 @@ h1, h2, h3 {
   background: radial-gradient(closest-side, rgba(150, 121, 74, 0.14), transparent 70%);
   pointer-events: none;
 }
-.hero__inner { position: relative; display: flex; flex-direction: column; align-items: center; }
+.hero__inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(16px);
+  animation: heroInnerReveal 0.8s ease forwards;
+  animation-delay: 1.5s;
+}
+
+/* ============ Intro animado da logo no Hero ============
+   A logo surge, fica um instante em destaque e depois se esvai,
+   revelando o conteúdo do Hero (.hero__inner, acima) em seguida. */
+.hero__intro {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cream-bg);
+  animation: heroIntroOverlayOut 0.6s ease forwards;
+  animation-delay: 1.5s;
+}
+.hero__intro-logo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(203, 180, 141, 0.3);
+  animation: heroIntroLogo 1.5s ease forwards;
+}
+@keyframes heroIntroLogo {
+  0% { opacity: 0; transform: scale(0.82); }
+  30% { opacity: 1; transform: scale(1); }
+  70% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.08); }
+}
+@keyframes heroIntroOverlayOut {
+  from { opacity: 1; }
+  to { opacity: 0; pointer-events: none; }
+}
+@keyframes heroInnerReveal {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero__intro { display: none; }
+  .hero__inner { opacity: 1; transform: none; animation: none; }
+}
 
 .hero__title {
   font-size: clamp(2.1rem, 5vw, 3.4rem);
