@@ -315,15 +315,15 @@ h1, h2, h3 {
   animation-delay: 1.5s;
 }
 .hero__intro-logo {
-  width: 280px;
-  height: 280px;
+  width: 420px;
+  height: 420px;
   object-fit: cover;
-  border-radius: 32px;
+  border-radius: 40px;
   box-shadow: 0 20px 60px rgba(203, 180, 141, 0.3);
   animation: heroIntroLogo 1.5s ease forwards;
 }
 @media (max-width: 560px) {
-  .hero__intro-logo { width: 200px; height: 200px; border-radius: 24px; }
+  .hero__intro-logo { width: 260px; height: 260px; border-radius: 28px; }
 }
 @keyframes heroIntroLogo {
   0% { opacity: 0; transform: scale(0.82); }
