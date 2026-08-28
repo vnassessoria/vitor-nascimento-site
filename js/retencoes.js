@@ -41,10 +41,12 @@ function renderRetencaoDetail(item) {
       <span class="retencao-badge__value">${value}</span>
     </div>`;
 
+  const retencaoValue = (sim, aliquota) => (sim ? `Sim${aliquota ? ` (${aliquota})` : ""}` : "Não");
+
   const badgesHtml = [
-    badge("Retenção de IRRF", item.irrf ? "Sim" : "Não", item.irrf ? "yes" : "no"),
-    badge("Retenção de CSRF (PIS/COFINS/CSLL)", item.csrf ? "Sim" : "Não", item.csrf ? "yes" : "no"),
-    badge("Retenção de INSS", item.inss ? "Sim" : "Não", item.inss ? "yes" : "no"),
+    badge("Retenção de IRRF", retencaoValue(item.irrf, item.irrf_aliquota), item.irrf ? "yes" : "no"),
+    badge("Retenção de CSRF (PIS/COFINS/CSLL)", retencaoValue(item.csrf, item.csrf_aliquota), item.csrf ? "yes" : "no"),
+    badge("Retenção de INSS", retencaoValue(item.inss, item.inss_aliquota), item.inss ? "yes" : "no"),
     badge("Responsável pela retenção do ISS", escapeHtml(item.iss_responsavel || "—"), "neutral"),
     badge("Local onde o ISS é devido", escapeHtml(item.iss_local_devido || "—"), "neutral", true),
   ].join("");

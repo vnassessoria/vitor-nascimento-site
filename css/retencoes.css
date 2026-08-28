@@ -68,8 +68,17 @@
 .retencao-result__desc { color: var(--ink); font-size: 0.92rem; }
 .retencao-results__empty { text-align: center; color: var(--ink-muted); padding: 20px; }
 
-/* ---- Página de detalhe ---- */
+/* ---- Página de detalhe ----
+   As descrições dos itens da lista de serviços da LC 116/2003 são bem
+   mais longas que a descrição de um CNAE, então o título usa uma fonte
+   menor que o padrão de .article-hero h1 para não ficar desproporcional. */
 .retencao-detail__inner { max-width: 760px; }
+
+#retencaoTitle {
+  font-size: clamp(1.2rem, 2.2vw, 1.6rem);
+  line-height: 1.4;
+  max-width: 780px;
+}
 
 .retencao-badges {
   display: grid;

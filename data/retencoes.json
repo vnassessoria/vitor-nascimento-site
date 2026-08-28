@@ -18,7 +18,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "1,5%",
+    "csrf_aliquota": "4,65%",
+    "inss_aliquota": ""
   },
   {
     "item": "1.04",
@@ -39,7 +42,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "1,5%",
+    "csrf_aliquota": "4,65%",
+    "inss_aliquota": ""
   },
   {
     "item": "3.05",
@@ -60,7 +66,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687",
       "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1286"
-    ]
+    ],
+    "irrf_aliquota": "",
+    "csrf_aliquota": "",
+    "inss_aliquota": ""
   },
   {
     "item": "4.01",
@@ -82,7 +91,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "1,5%",
+    "csrf_aliquota": "4,65%",
+    "inss_aliquota": "11%"
   },
   {
     "item": "4.02",
@@ -103,7 +115,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "1,5%",
+    "csrf_aliquota": "4,65%",
+    "inss_aliquota": "11%"
   },
   {
     "item": "4.03",
@@ -124,7 +139,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "",
+    "csrf_aliquota": "",
+    "inss_aliquota": "11%"
   },
   {
     "item": "7.02",
@@ -145,7 +163,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
       "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "",
+    "csrf_aliquota": "",
+    "inss_aliquota": "11%"
   },
   {
     "item": "7.05",
@@ -167,7 +188,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "",
+    "csrf_aliquota": "4,65%",
+    "inss_aliquota": "11%"
   },
   {
     "item": "7.10",
@@ -189,7 +213,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "1%",
+    "csrf_aliquota": "4,65%",
+    "inss_aliquota": "11%"
   },
   {
     "item": "8.01",
@@ -210,7 +237,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "1,5%",
+    "csrf_aliquota": "4,65%",
+    "inss_aliquota": "11%"
   },
   {
     "item": "8.02",
@@ -231,7 +261,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "1,5%",
+    "csrf_aliquota": "4,65%",
+    "inss_aliquota": "11%"
   },
   {
     "item": "9.01",
@@ -251,7 +284,10 @@
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
       "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "",
+    "csrf_aliquota": "",
+    "inss_aliquota": "11%"
   },
   {
     "item": "11.02",
@@ -273,7 +309,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "1%",
+    "csrf_aliquota": "4,65%",
+    "inss_aliquota": "11%"
   },
   {
     "item": "16.01",
@@ -294,7 +333,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
       "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "",
+    "csrf_aliquota": "",
+    "inss_aliquota": "11%"
   },
   {
     "item": "16.02",
@@ -314,7 +356,10 @@
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
       "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "",
+    "csrf_aliquota": "",
+    "inss_aliquota": ""
   },
   {
     "item": "17.14",
@@ -335,7 +380,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "1,5%",
+    "csrf_aliquota": "4,65%",
+    "inss_aliquota": ""
   },
   {
     "item": "17.19",
@@ -356,7 +404,10 @@
       "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "1,5%",
+    "csrf_aliquota": "4,65%",
+    "inss_aliquota": ""
   },
   {
     "item": "17.20",
@@ -377,6 +428,9 @@
       "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365",
       "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687"
-    ]
+    ],
+    "irrf_aliquota": "1,5%",
+    "csrf_aliquota": "4,65%",
+    "inss_aliquota": ""
   }
 ]
