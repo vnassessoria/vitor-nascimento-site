@@ -48,8 +48,8 @@ function renderCnaeDetail(item) {
   const badgesHtml = [
     badge("Permite MEI", item.mei ? "Sim" : "Não", item.mei ? "yes" : "no"),
     badge("Permite Simples Nacional", item.simples ? "Sim" : "Não", item.simples ? "yes" : "no"),
-    badge("Anexo do Simples", escapeHtml(anexoValue), !item.simples ? "no" : anexoIndefinido ? "neutral" : "neutral"),
-    badge("Sujeito ao Fator R", fatorRValue, item.simples && item.fator_r === true && !anexoIndefinido ? "yes" : "no"),
+    badge("Anexo do Simples", escapeHtml(anexoValue), "neutral"),
+    badge("Sujeito ao Fator R", fatorRValue, "neutral"),
   ].join("");
 
   const meiNote = item.mei_nota ? `<p class="cnae-badge__note">${escapeHtml(item.mei_nota)}</p>` : "";
@@ -61,6 +61,8 @@ function renderCnaeDetail(item) {
     ${simplesNote}
 
     ${item.observacoes ? `<div class="cnae-note${precisaRevisao(item.observacoes) ? " cnae-note--warning" : ""}"><h3>Observações</h3><p>${escapeHtml(item.observacoes)}</p></div>` : ""}
+
+    ${renderFontes(item.fontes)}
 
     <div class="cnae-disclaimer">
       <p>Essas informações são uma orientação geral com base na atividade principal do CNAE. A classificação tributária definitiva pode depender de fatores específicos do seu negócio (atividades secundárias, faturamento, folha de pagamento, legislação municipal e estadual). Fale com a gente para uma análise personalizada.</p>

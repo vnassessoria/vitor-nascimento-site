@@ -936,6 +936,34 @@ h1, h2, h3 {
   color: var(--text-muted);
 }
 
+/* ============ Base legal (fontes) — Consulta CNAE e Consulta Retenções ============ */
+.fontes-legais {
+  margin-top: 2.4rem;
+  padding-top: 1.8rem;
+  border-top: 1px solid rgba(150, 121, 74, 0.14);
+}
+.fontes-legais h3 { font-size: 1.05rem; margin-bottom: 0.7em; }
+.fontes-legais ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.fontes-legais a {
+  display: inline-block;
+  font-size: 0.82rem;
+  color: var(--gold-dark);
+  background: var(--paper-card);
+  border: 1px solid rgba(150, 121, 74, 0.25);
+  border-radius: 999px;
+  padding: 6px 14px;
+  text-decoration: none;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.fontes-legais a:hover { border-color: var(--gold-dark); color: var(--gold); text-decoration: underline; }
+
 /* ============ Balão flutuante de convite à consultoria ============
    Usado só nas páginas de Consulta CNAE e Consulta Retenções, ao lado
    do botão flutuante do WhatsApp. Ver .floating-cta no HTML dessas

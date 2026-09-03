@@ -98,7 +98,7 @@
 }
 .retencao-badge--wide { grid-column: 1 / -1; }
 .retencao-badge__label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-muted); }
-.retencao-badge__value { font-family: var(--font-serif); font-size: 1.3rem; }
+.retencao-badge__value { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 700; }
 .retencao-badge--yes .retencao-badge__value { color: #3f7a4f; }
 .retencao-badge--no .retencao-badge__value { color: #b3442f; }
 .retencao-badge--neutral .retencao-badge__value { color: var(--gold-dark); }

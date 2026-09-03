@@ -88,7 +88,7 @@
   gap: 6px;
 }
 .cnae-badge__label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-muted); }
-.cnae-badge__value { font-family: var(--font-serif); font-size: 1.3rem; }
+.cnae-badge__value { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 700; }
 .cnae-badge--yes .cnae-badge__value { color: #3f7a4f; }
 .cnae-badge--no .cnae-badge__value { color: #b3442f; }
 .cnae-badge--neutral .cnae-badge__value { color: var(--gold-dark); }

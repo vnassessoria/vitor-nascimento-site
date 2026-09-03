@@ -44,9 +44,9 @@ function renderRetencaoDetail(item) {
   const retencaoValue = (sim, aliquota) => (sim ? `Sim${aliquota ? ` (${aliquota})` : ""}` : "Não");
 
   const badgesHtml = [
-    badge("Retenção de IRRF", retencaoValue(item.irrf, item.irrf_aliquota), item.irrf ? "yes" : "no"),
-    badge("Retenção de CSRF (PIS/COFINS/CSLL)", retencaoValue(item.csrf, item.csrf_aliquota), item.csrf ? "yes" : "no"),
-    badge("Retenção de INSS", retencaoValue(item.inss, item.inss_aliquota), item.inss ? "yes" : "no"),
+    badge("Retenção de IRRF", retencaoValue(item.irrf, item.irrf_aliquota), "neutral"),
+    badge("Retenção de CSRF (PIS/COFINS/CSLL)", retencaoValue(item.csrf, item.csrf_aliquota), "neutral"),
+    badge("Retenção de INSS", retencaoValue(item.inss, item.inss_aliquota), "neutral"),
     badge("Responsável pela retenção do ISS", escapeHtml(item.iss_responsavel || "—"), "neutral"),
     badge("Local onde o ISS é devido", escapeHtml(item.iss_local_devido || "—"), "neutral", true),
   ].join("");
@@ -64,6 +64,8 @@ function renderRetencaoDetail(item) {
     ${issNote}
 
     ${item.observacoes ? `<div class="retencao-note${precisaRevisao(item.observacoes) ? " retencao-note--warning" : ""}"><h3>Observações</h3><p>${escapeHtml(item.observacoes)}</p></div>` : ""}
+
+    ${renderFontes(item.fontes)}
 
     <div class="retencao-disclaimer">
       <p>Essas informações são uma orientação geral com base no item da lista de serviços da LC 116/2003. A responsabilidade pela retenção do ISS varia conforme a legislação de cada município, e a definição final pode depender de fatores específicos do seu negócio. Fale com a gente para uma análise personalizada.</p>

@@ -54,6 +54,56 @@ function precisaRevisao(observacoes) {
   return /⚠️|PONTO DE ATEN[ÇC]ÃO|ATENÇÃO/i.test(observacoes || "");
 }
 
+/* Tenta transformar uma URL de fonte legal num rótulo curto e
+   reconhecível (ex.: "LC 116/2003", "Decreto 9.580/2018") em vez de
+   mostrar sempre "planalto.gov.br" para leis diferentes. */
+function labelFonte(url) {
+  let host = "";
+  let path = "";
+  try {
+    const u = new URL(url);
+    host = u.hostname.replace(/^www\.?/, "");
+    path = u.pathname + u.hash;
+  } catch (err) {
+    return url;
+  }
+
+  if (host === "planalto.gov.br") {
+    let m = path.match(/lcp(\d+)\.htm/i);
+    if (m) return `LC ${m[1]}`;
+    m = path.match(/decreto\/d(\d+)\.htm/i);
+    if (m) return `Decreto ${m[1]}`;
+    m = path.match(/\/l([\d.]+)(?:cons)?\.htm/i);
+    if (m) return `Lei ${m[1]}`;
+    if (/Mensagem_Veto/i.test(path)) return "Mensagem de veto (Planalto)";
+    return "Planalto";
+  }
+  if (host === "servicodados.ibge.gov.br") return "IBGE — CNAE";
+  if (host === "normasinternet2.receita.fazenda.gov.br") return "Receita Federal (IN)";
+  if (host === "www8.receita.fazenda.gov.br" || host === "receita.fazenda.gov.br") return "Receita Federal";
+  if (host === "gov.br" && /\/drei\//i.test(path)) return "DREI/gov.br";
+  if (host.endsWith("receita.rs.gov.br")) return "Receita Estadual (RS)";
+  if (host === "legismap.com.br") return "LegisMap";
+  if (host === "portal.stf.jus.br") return "STF";
+  return host;
+}
+
+/* Monta a lista de "Base legal" (fontes oficiais) exibida no fim das
+   páginas de detalhe de Consulta CNAE e Consulta Retenções. Recebe um
+   array de URLs e devolve o HTML pronto, ou string vazia se não houver
+   fontes. */
+function renderFontes(fontes) {
+  if (!fontes || !fontes.length) return "";
+  const links = fontes
+    .map((url) => `<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(labelFonte(url))}</a></li>`)
+    .join("");
+  return `
+    <div class="fontes-legais">
+      <h3>Base legal</h3>
+      <ul>${links}</ul>
+    </div>`;
+}
+
 /* Converte o texto simples salvo no painel em HTML:
    parágrafos separados por linha em branco, e linhas
    iniciadas com "## " viram subtítulos. */
