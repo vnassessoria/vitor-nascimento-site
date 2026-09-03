@@ -5,18 +5,36 @@
 
 > **Leia a seção "⚠️ Leia antes de usar", no final deste documento, ANTES de aplicar qualquer regra daqui.** Ela lista o nível de confiança de cada fonte, as normas desatualizadas que circulam em fontes secundárias e as lacunas que não consegui fechar.
 
+## Auditoria de 03/09/2026
+
+**Resultado: nenhum erro de transcrição encontrado.** Toda a base normativa deste documento foi conferida palavra por palavra contra fontes primárias oficiais e passou sem divergências. Resumo:
+
+- **Acesso à fonte oficial da Receita Federal — conseguido desta vez.** Ao contrário da pesquisa original (que registrou erro de conexão em `normas.receita.fazenda.gov.br` e `normasinternet2.receita.fazenda.gov.br`), nesta auditoria foi possível acessar o portal oficial normalmente, via navegação direta (não apenas busca por texto). Os dois pontos antes marcados como "espelho secundário, não confirmado" foram lidos na íntegra diretamente em `normasinternet2.receita.fazenda.gov.br`, na visão "Vigente" (texto consolidado atual) e "Multivigente" (com histórico de redações):
+  - **IN SRF nº 459/2004**, arts. 1º a 5º — <https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365> (idAto 15365). Texto conferido integralmente, inclusive §§ 2º-10 do art. 1º e o histórico de alterações pelas INs RFB 765/2007, 791/2007 e 1.151/2011.
+  - **IN RFB nº 2.110/2022**, arts. 108 a 116 (Capítulo VIII do Título II — "Da Cessão de Mão de Obra e da Empreitada", confirmado esse é o capítulo e título corretos) — <https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687> (idAto 126687). Texto conferido integralmente, incluindo a redação do art. 114 dada pela IN RFB nº 2.289/2025.
+- **Nenhuma divergência encontrada** entre o texto do documento e o texto oficial em nenhuma das duas Instruções Normativas. Os níveis de confiança de "MÉDIA-ALTA" foram elevados para **ALTA** nas seções 3.4, 3.5 e 4.
+- **RIR/2018, art. 714** (Decreto 9.580/2018) — reconferido no Planalto: os 40 incisos do § 1º (I a XL) estão todos presentes, na ordem correta, sem lacunas nem duplicações. Arts. 715, 716 e 717 também conferem exatamente.
+- **Lei nº 10.833/2003, arts. 30 a 32** — reconferidos no Planalto: caput e todos os parágrafos do art. 30 conferem; o art. 31 confere, incluindo a correção já registrada do § 3º (limite de **R$ 10,00**, não R$ 5.000,00 — Lei nº 13.137/2015) e a revogação do § 4º; o art. 32 confere, incluindo as redações originais e vigentes dos incisos I e II.
+- **LC 116/2003, art. 3º** — reconferido no Planalto: todos os incisos I a XXV conferem, com as redações históricas e vigentes exatamente como transcritas. **Nenhuma alteração adicional de 2025/2026 foi encontrada** além da LC 218/2025 (inciso III) já registrada — não há LC posterior alterando o art. 3º até a data desta auditoria.
+- **Achado novo, sem impacto neste documento:** a IN RFB nº 2.110/2022 foi alterada por uma terceira norma não registrada na pesquisa original, a **IN RFB nº 2.321, de 6 de abril de 2026**. Ela foi conferida dispositivo a dispositivo: altera exclusivamente as contribuições da agroindústria/produtor rural sobre a comercialização da produção rural (FUNRURAL/CPRB) e os Anexos III a IX — **não toca em nenhum artigo entre 108 e 116**. Nenhuma correção é necessária na seção 4 por causa dela.
+- **Não foi possível verificar nesta auditoria** (fora do escopo pedido, mas registrado para transparência): a Súmula Vinculante 31 do STF (item 4.6 da seção "Leia antes de usar", abaixo) e a extensão completa da lista de serviços da LC 116/2003 além do art. 3º (a lista anexa em si foi vista de passagem durante a conferência do art. 3º e não apresentou nenhuma inconsistência aparente, mas uma auditoria item a item dos 40 itens/205 subitens está fora do escopo desta rodada).
+- **Nenhuma atualização normativa nova** foi localizada entre a data de compilação do documento (02/09/2026) e a data desta auditoria (03/09/2026) — o intervalo de um dia não produziu mudanças relevantes.
+
+---
+
 **Fontes primárias utilizadas:**
 
 | # | Norma | URL | Data de acesso |
 |---|---|---|---|
 | A | Decreto nº 9.580/2018 (RIR/2018), arts. 714 a 717 | <https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm> | 02/09/2026 |
 | B | Lei nº 10.833/2003, arts. 30 a 32 | <https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm> | 02/09/2026 |
-| C | Instrução Normativa SRF nº 459/2004, arts. 1º a 5º | <https://www.legisweb.com.br/legislacao/?id=75965> (espelho — ver ⚠️) | 02/09/2026 |
-| D | Instrução Normativa RFB nº 2.110/2022, arts. 108 a 116 | <https://www.legisweb.com.br/legislacao/?id=437340> (espelho — ver ⚠️) | 02/09/2026 |
-| E | Instrução Normativa RFB nº 2.289/2025 (altera o art. 114 da IN 2.110) | <https://www.legisweb.com.br/legislacao/?id=486298> | 02/09/2026 |
-| F | Lei Complementar nº 116/2003, arts. 3º e 6º | <https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm> | 02/09/2026 |
+| C | Instrução Normativa SRF nº 459/2004, arts. 1º a 5º | <https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365> (portal oficial RFB, confirmado — ver Auditoria de 03/09/2026) | 03/09/2026 |
+| D | Instrução Normativa RFB nº 2.110/2022, arts. 108 a 116 | <https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687> (portal oficial RFB, confirmado — ver Auditoria de 03/09/2026) | 03/09/2026 |
+| E | Instrução Normativa RFB nº 2.289/2025 (altera o art. 114 da IN 2.110) | Conferida embutida no texto multivigente da fonte D | 03/09/2026 |
+| F | Lei Complementar nº 116/2003, arts. 3º e 6º | <https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm> | 02/09/2026 (reconferida 03/09/2026) |
 | G | Mensagem de veto nº 362/2003 (LC 116/2003) | <https://www.planalto.gov.br/ccivil_03/leis/Mensagem_Veto/2003/Mv362-03.htm> | 02/09/2026 |
 | H | Lei Complementar nº 157/2016 | <https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp157.htm> | 02/09/2026 |
+| I | Instrução Normativa RFB nº 2.321/2026 (altera dispositivos da IN 2.110/2022 não relacionados à retenção de arts. 108-116) | <https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687> (histórico de alterações da fonte D) | 03/09/2026 |
 
 ---
 
@@ -121,7 +139,7 @@ Não existe cumulação: as listas dos arts. 714 e 716 são disjuntas por constr
 
 ## 3. CSRF de 4,65% — PIS/COFINS/CSLL (Lei 10.833/2003, arts. 30 a 32)
 
-Confiança: **ALTA** para a lei (fonte B); **MÉDIA-ALTA** para a IN SRF 459/2004 (fonte C — espelho, ver ⚠️).
+Confiança: **ALTA** para a lei (fonte B) e para a IN SRF 459/2004 (fonte C — confirmada no portal oficial da RFB em 03/09/2026, ver "Auditoria de 03/09/2026").
 
 ### 3.1 Art. 30 — o rol de serviços
 
@@ -186,7 +204,7 @@ A redação **original** do § 3º (dada pela Lei nº 10.925/2004) dispensava a 
 
 ### 3.4 A definição de "serviços profissionais" e demais conceitos — IN SRF 459/2004, art. 1º
 
-Confiança: **MÉDIA-ALTA** (fonte C, espelho LegisWeb; consolidação com as alterações das INs RFB 765/2007, 791/2007 e 1.151/2011 — ver ⚠️).
+Confiança: **ALTA** (fonte C, confirmada palavra por palavra no portal oficial da RFB em 03/09/2026 — visão "Vigente"; consolidação com as alterações das INs RFB 765/2007, 791/2007 e 1.151/2011 igualmente confirmada).
 
 Ementa da IN: *"Dispõe sobre a retenção de tributos e contribuições nos pagamentos efetuados pelas pessoas jurídicas de direito privado a outras pessoas jurídicas pela prestação de serviços."*
 
@@ -258,7 +276,7 @@ Ementa da IN: *"Dispõe sobre a retenção de tributos e contribuições nos pag
 
 ## 4. INSS de 11% — cessão de mão de obra e empreitada (IN RFB nº 2.110/2022)
 
-Confiança: **ALTA** para o conteúdo (fonte D, espelho já atualizado com a IN RFB 2.289/2025) — ver ⚠️ quanto ao espelho.
+Confiança: **ALTA** — fonte D confirmada palavra por palavra no portal oficial da RFB em 03/09/2026 (idAto 126687), incluindo a redação do art. 114 dada pela IN RFB 2.289/2025. Também confirmado que a posterior IN RFB nº 2.321/2026 não altera nenhum destes artigos (108 a 116) — ver "Auditoria de 03/09/2026".
 
 > ⚠️ **Norma revogada que ainda circula amplamente:** quase todo o material contábil disponível na internet cita a **IN RFB nº 971/2009**, arts. 117 a 120 e 149. **Ela está REVOGADA.** A norma vigente é a **Instrução Normativa RFB nº 2.110, de 17 de outubro de 2022**, cujos dispositivos correspondentes são os **arts. 108 a 116**. A numeração mudou; qualquer conteúdo que cite "art. 117 da IN 971" está desatualizado.
 
@@ -595,21 +613,23 @@ Confiança: **ALTA** — transcrito do texto consolidado do Planalto (fonte F).
 | RIR/2018, arts. 714 a 717 (seções 1 e 2) | **ALTA** | Planalto, texto consolidado. Os 40 incisos foram transcritos integralmente. |
 | Lei 10.833/2003, arts. 30 a 32 (seção 3.1 a 3.3) | **ALTA** | Planalto, texto consolidado. |
 | Textos de veto (Mensagem 362/2003) | **ALTA** | Planalto. |
-| IN SRF 459/2004 (seções 3.4 e 3.5) | **MÉDIA-ALTA** | ⚠️ **Não consegui acessar o portal oficial da RFB.** Ver item 2 abaixo. |
-| IN RFB 2.110/2022, arts. 108 a 116 (seção 4) | **MÉDIA-ALTA** | ⚠️ Mesma limitação de acesso. Ver item 2 abaixo. |
+| IN SRF 459/2004 (seções 3.4 e 3.5) | **ALTA** | ✅ Confirmada no portal oficial da RFB em 03/09/2026. Ver item 2 abaixo. |
+| IN RFB 2.110/2022, arts. 108 a 116 (seção 4) | **ALTA** | ✅ Confirmada no portal oficial da RFB em 03/09/2026. Ver item 2 abaixo. |
 
-### 2. Limitação de acesso às fontes da Receita Federal — LEIA COM ATENÇÃO
+### 2. Acesso às fontes da Receita Federal — atualizado em 03/09/2026
 
-**Não foi possível acessar o portal oficial de normas da RFB** durante esta pesquisa. Tanto `normas.receita.fazenda.gov.br` quanto `normasinternet2.receita.fazenda.gov.br` retornaram erro de conexão / HTTP 403 em todas as tentativas, por todos os métodos disponíveis.
+**Histórico:** na pesquisa original (02/09/2026), não foi possível acessar o portal oficial de normas da RFB. Tanto `normas.receita.fazenda.gov.br` quanto `normasinternet2.receita.fazenda.gov.br` retornaram erro de conexão / HTTP 403 em todas as tentativas, por todos os métodos disponíveis, e os textos das duas Instruções Normativas (IN SRF 459/2004 e IN RFB 2.110/2022) foram transcritos de um espelho secundário (LegisWeb), não da fonte primária.
 
-Em consequência, os textos das **duas Instruções Normativas** (IN SRF 459/2004 e IN RFB 2.110/2022) foram transcritos de um **espelho secundário (LegisWeb)**, não da fonte primária.
+**Situação atual (auditoria de 03/09/2026): o portal oficial foi acessado com sucesso**, por navegação direta (não apenas por requisição HTTP simples — o site é uma SPA que exige execução de JavaScript). Os dois textos foram lidos na íntegra diretamente em `normasinternet2.receita.fazenda.gov.br`:
+- IN SRF nº 459/2004: <https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/15365> (visão "Vigente", texto consolidado atual, e visão "Multivigente", com histórico completo de redações).
+- IN RFB nº 2.110/2022, arts. 108 a 116: <https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/126687> (Capítulo VIII do Título II — "Da Cessão de Mão de Obra e da Empreitada" — confirmado que essa é a localização exata dentro da estrutura da norma).
 
-**O que fiz para mitigar o risco:**
-- Conferi que o espelho da IN 2.110/2022 já incorpora a alteração da **IN RFB nº 2.289, de 30/10/2025** (art. 114, caput e § 2º), o que indica que a compilação está atualizada até, no mínimo, novembro de 2025. Essa alteração foi confirmada de forma independente por notícia oficial da RFB: <https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/novembro/receita-federal-consolida-hipoteses-de-dispensa-da-retencao-previdenciaria-em-contratos-de-servicos-e-obras>
-- Conferi que o espelho da IN 459/2004 traz as alterações das INs RFB 765/2007 e 1.151/2011, marcadas em cada dispositivo.
-- Todos os conceitos-chave da IN 459/2004 (limpeza, manutenção, segurança/vigilância, serviços profissionais) e da IN 2.110/2022 (arts. 111 a 115) são consistentes com o texto da lei matriz transcrito do Planalto.
+**Resultado da conferência: os textos das seções 3.4, 3.5 e 4 deste documento conferem, palavra por palavra, com o texto oficial.** Nenhuma divergência foi encontrada. Os níveis de confiança foram elevados para ALTA. Foi também confirmado que a IN RFB nº 2.110/2022 recebeu uma alteração adicional não capturada na pesquisa original — a **IN RFB nº 2.321, de 6 de abril de 2026** —, mas essa norma altera apenas dispositivos sobre contribuição previdenciária da agroindústria/produtor rural (FUNRURAL/CPRB) e os Anexos III a IX, sem tocar em nenhum artigo entre 108 e 116; portanto não exige nenhuma correção na seção 4.
 
-**O que você deve fazer antes de publicar:** conferir os textos das seções 3.4, 3.5 e 4 contra o portal oficial da RFB (`normas.receita.fazenda.gov.br`, ou o app novo em `normasinternet2.receita.fazenda.gov.br`), a partir de uma rede sem a restrição que encontrei. Enquanto essa conferência não for feita, **não trate esses trechos como texto oficial verificado**.
+Este texto legado permanece abaixo por transparência sobre a limitação original — o que fiz para mitigar o risco naquele momento, antes de conseguir o acesso oficial:
+- Conferi que o espelho da IN 2.110/2022 já incorporava a alteração da **IN RFB nº 2.289, de 30/10/2025** (art. 114, caput e § 2º), o que indicava que a compilação estava atualizada até, no mínimo, novembro de 2025. Essa alteração foi confirmada de forma independente por notícia oficial da RFB: <https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/novembro/receita-federal-consolida-hipoteses-de-dispensa-da-retencao-previdenciaria-em-contratos-de-servicos-e-obras>
+- Conferi que o espelho da IN 459/2004 trazia as alterações das INs RFB 765/2007 e 1.151/2011, marcadas em cada dispositivo.
+- Todos os conceitos-chave da IN 459/2004 (limpeza, manutenção, segurança/vigilância, serviços profissionais) e da IN 2.110/2022 (arts. 111 a 115) já eram consistentes com o texto da lei matriz transcrito do Planalto — e a conferência oficial de 03/09/2026 confirmou que essa consistência correspondia, de fato, ao texto oficial exato, sem nenhuma variação.
 
 ### 3. Normas revogadas/desatualizadas que ainda circulam — sinalizadas nesta pesquisa
 
@@ -625,7 +645,7 @@ Em consequência, os textos das **duas Instruções Normativas** (IN SRF 459/200
 
 ### 4. Lacunas e incertezas que NÃO consegui resolver
 
-1. **Vigência formal da IN SRF 459/2004.** Não localizei nenhum ato que a tenha revogado, e ela continua sendo a norma citada em toda a prática contábil para a CSRF entre pessoas jurídicas de direito privado. Mas, **por não ter conseguido abrir o portal oficial da RFB, não pude verificar o campo "situação" do ato** (vigente / revogado / consolidado). Tratei-a como vigente. **Confirme.**
+1. ~~**Vigência formal da IN SRF 459/2004.**~~ **RESOLVIDO na auditoria de 03/09/2026.** O portal oficial da RFB (`normasinternet2.receita.fazenda.gov.br`, idAto 15365) foi acessado diretamente e confirma o ato como **vigente** — a interface do próprio portal oferece uma aba "Vigente" com o texto consolidado atual, o que só existe para atos em vigor. Nenhuma revogação foi localizada.
    - Registro: a IN RFB nº 1.234/2012 e sua sucessora (IN RFB nº 2.145/2023) tratam de retenção por **órgãos e entidades da administração pública federal** — assunto **distinto** do da IN 459/2004, que rege pagamentos **entre pessoas jurídicas de direito privado**. Uma não substitui a outra.
 
 2. **Subitem 14.14 da lista anexa à LC 116/2003.** O Planalto exibe uma única linha — *"14.14 - Guincho intramunicipal, guindaste e içamento. (Redação dada pela Lei Complementar nº 157, de 2016)"* — **sem mostrar redação anterior**, ao contrário do que faz com todos os outros subitens alterados. A LC 157/2016 realmente o traz no bloco de alteração de redação do anexo, mas nesse mesmo bloco também aparecem subitens que o Planalto marca como "Incluído" (6.06, 16.02, 17.25). **Não consegui determinar com segurança se o subitem 14.14 existia na redação original da LC 116/2003 ou se foi criado pela LC 157/2016.** Isso não afeta a classificação — o texto vigente é inequívoco —, mas afeta qualquer afirmação histórica sobre o subitem. Registrado na `nota` do item no JSON.

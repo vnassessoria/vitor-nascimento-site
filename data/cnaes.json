@@ -8099,9 +8099,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "II",
-    "fator_r": false,
-    "observacoes": "Tributação pelo Anexo II por se tratar de venda de mercadorias industrializadas pelo contribuinte (art. 18, §4º, II, LC 123/2006). Classificação mecânica por seção de indústria (confiança MÉDIA) — não conferida individualmente.",
+    "anexo": "III ou V, conforme o Fator R",
+    "fator_r": true,
+    "observacoes": "CORRIGIDO em auditoria de 03/09/2026: por se tratar de fabricação SOB ENCOMENDA de aparelhos e utensílios ortopédicos, a atividade se aproxima da prestação de serviço de prótese em geral (art. 18, §5º-D, XIV, LC 123/2006), sujeita ao Anexo III (fator R ≥28%) ou Anexo V (fator R <28%). ⚠️ Classificação por assimilação/interpretação (confiança MÉDIA) — a distinção entre fabricação sob encomenda (serviço) e fabricação em série (mercadoria industrializada) é uma questão de fato que precisa ser confirmada com o contador antes de aplicar.",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/3250703",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -8116,7 +8116,7 @@
     "simples_nota": "",
     "anexo": "II",
     "fator_r": false,
-    "observacoes": "Tributação pelo Anexo II por se tratar de venda de mercadorias industrializadas pelo contribuinte (art. 18, §4º, II, LC 123/2006). Classificação mecânica por seção de indústria (confiança MÉDIA) — não conferida individualmente.",
+    "observacoes": "Tributação pelo Anexo II por se tratar de venda de mercadorias industrializadas pelo contribuinte (art. 18, §4º, II, LC 123/2006). ⚠️ PONTO DE ATENÇÃO identificado em auditoria de 03/09/2026: como o subitem irmão 3250-7/03 (mesma fabricação, mas SOB ENCOMENDA) foi reclassificado para o Anexo III/V como prestação de serviço de prótese (art. 18, §5º-D, XIV), existe uma leitura alternativa defensável de que esta atividade (\"exceto sob encomenda\", produção em série) também poderia se enquadrar ali, dependendo de como o negócio efetivamente opera. Mantido no Anexo II pela leitura mais literal (produção em série = mercadoria industrializada), mas recomenda-se confirmação com o contador antes de aplicar.",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/3250704",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -8160,9 +8160,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "III ou V, conforme o Fator R",
-    "fator_r": true,
-    "observacoes": "Base legal: art. 18, §5º-D, XIV, LC 123/2006 (prótese em geral). ⚠️ Mapeamento CNAE↔dispositivo legal derivado por correspondência textual (confiança MÉDIA) — ainda não conferido individualmente por profissional contábil.",
+    "anexo": "II",
+    "fator_r": false,
+    "observacoes": "Tributação pelo Anexo II por se tratar de venda de mercadorias industrializadas pelo contribuinte (art. 18, §4º, II, LC 123/2006). CORRIGIDO em auditoria de 03/09/2026: este código havia sido classificado por engano no art. 18, §5º-D, XIV (prótese em geral) — \"artigos ópticos\" não é prótese; é fabricação industrial comum, sem relação com a atividade de prótese do §5º-D, XIV.",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/3250707",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
@@ -16581,9 +16581,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Base legal: art. 18, §5º-I, VIII, LC 123/2006 (perícia, leilão e avaliação), migra para o Anexo III quando o Fator R ≥28% (art. 18, §5º-J). CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true.",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/6621501",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -16782,9 +16782,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/6911703",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -16937,9 +16937,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/7119704",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -17129,9 +17129,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/7320300",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -17351,9 +17351,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/7490199",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -17682,9 +17682,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/7740300",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -17873,9 +17873,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8030700",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -18445,9 +18445,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8531700",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -18460,9 +18460,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8532500",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -18475,9 +18475,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8533300",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -18538,9 +18538,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8550302",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -18783,9 +18783,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "III",
+    "anexo": "III ou V, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"III\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8621601",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -18798,9 +18798,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "III",
+    "anexo": "III ou V, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"III\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8621602",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -18813,9 +18813,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8622400",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -18907,9 +18907,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "III",
+    "anexo": "III ou V, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"III\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8630507",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -18970,9 +18970,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "III",
+    "anexo": "III ou V, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"III\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8640203",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -19081,9 +19081,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "III",
+    "anexo": "III ou V, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"III\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8640210",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -19096,9 +19096,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "III",
+    "anexo": "III ou V, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"III\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8640211",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -19111,9 +19111,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "III",
+    "anexo": "III ou V, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"III\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8640212",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -19126,9 +19126,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "III",
+    "anexo": "III ou V, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"III\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8640213",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -19141,9 +19141,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "III",
+    "anexo": "III ou V, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"III\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8640214",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -19156,9 +19156,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "III",
+    "anexo": "III ou V, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"III\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8640299",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -19283,9 +19283,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8650099",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -19298,9 +19298,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8660700",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -19313,9 +19313,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8690901",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -19328,9 +19328,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "III",
+    "anexo": "III ou V, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Base legal: art. 18, §5º-B, XXI, LC 123/2006 (\"bancos de leite\" é citado expressamente no texto legal), sujeita ao Fator R pelo §5º-M. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"III\", inconsistente com fator_r=true; alinhado ao mesmo enquadramento dos subitens irmãos 8690-9/03 e 8690-9/04.",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8690902",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -19375,9 +19375,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8690999",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
@@ -19390,9 +19390,9 @@
     "mei_nota": "Não consta no Anexo XI da Resolução CGSN 140/2018 (lista oficial de ocupações permitidas ao MEI).",
     "simples": true,
     "simples_nota": "",
-    "anexo": "V",
+    "anexo": "V ou III, conforme o Fator R",
     "fator_r": true,
-    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas.",
+    "observacoes": "Classificação baseada em tabela de referência. Antes de formalizar o enquadramento e constituir a empresa, recomenda-se consultar o contador responsável para validar as informações, confirmar a classificação adequada e esclarecer eventuais dúvidas. CORRIGIDO em auditoria de 03/09/2026: o campo Anexo estava com o texto fixo \"V\", inconsistente com fator_r=true (a atividade está sujeita ao Fator R, então o Anexo varia entre III e V conforme a razão folha/receita, não é um valor único fixo).",
     "fontes": [
       "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses/8711501",
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
