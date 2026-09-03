@@ -143,7 +143,7 @@
         resultsEl.innerHTML = '<p class="cnae-results__empty">Nenhum CNAE encontrado para essa busca.</p>';
         return;
       }
-      resultsEl.innerHTML = list
+      const cards = list
         .slice(0, 30)
         .map(
           (item) => `
@@ -153,6 +153,11 @@
         </a>`
         )
         .join("");
+      const aviso =
+        list.length > 30
+          ? `<p class="cnae-results__more">Mostrando 30 de ${list.length} resultados. Refine sua busca para ver outros CNAEs.</p>`
+          : "";
+      resultsEl.innerHTML = cards + aviso;
     }
 
     input.addEventListener("input", () => {

@@ -60,7 +60,7 @@ function renderCnaeDetail(item) {
     ${meiNote}
     ${simplesNote}
 
-    ${item.observacoes ? `<div class="cnae-note"><h3>Observações</h3><p>${escapeHtml(item.observacoes)}</p></div>` : ""}
+    ${item.observacoes ? `<div class="cnae-note${precisaRevisao(item.observacoes) ? " cnae-note--warning" : ""}"><h3>Observações</h3><p>${escapeHtml(item.observacoes)}</p></div>` : ""}
 
     <div class="cnae-disclaimer">
       <p>Essas informações são uma orientação geral com base na atividade principal do CNAE. A classificação tributária definitiva pode depender de fatores específicos do seu negócio (atividades secundárias, faturamento, folha de pagamento, legislação municipal e estadual). Fale com a gente para uma análise personalizada.</p>

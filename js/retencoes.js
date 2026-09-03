@@ -63,7 +63,7 @@ function renderRetencaoDetail(item) {
     ${inssNote}
     ${issNote}
 
-    ${item.observacoes ? `<div class="retencao-note"><h3>Observações</h3><p>${escapeHtml(item.observacoes)}</p></div>` : ""}
+    ${item.observacoes ? `<div class="retencao-note${precisaRevisao(item.observacoes) ? " retencao-note--warning" : ""}"><h3>Observações</h3><p>${escapeHtml(item.observacoes)}</p></div>` : ""}
 
     <div class="retencao-disclaimer">
       <p>Essas informações são uma orientação geral com base no item da lista de serviços da LC 116/2003. A responsabilidade pela retenção do ISS varia conforme a legislação de cada município, e a definição final pode depender de fatores específicos do seu negócio. Fale com a gente para uma análise personalizada.</p>

@@ -67,6 +67,7 @@
 }
 .retencao-result__desc { color: var(--ink); font-size: 0.92rem; }
 .retencao-results__empty { text-align: center; color: var(--ink-muted); padding: 20px; }
+.retencao-results__more { text-align: center; color: var(--ink-muted); font-size: 0.85rem; padding: 12px 0 4px; }
 
 /* ---- Página de detalhe ----
    As descrições dos itens da lista de serviços da LC 116/2003 são bem
@@ -110,6 +111,20 @@
 }
 .retencao-note h3 { font-size: 1.05rem; margin-bottom: 0.5em; }
 .retencao-note p { color: var(--ink-muted); font-size: 0.98rem; line-height: 1.7; }
+
+/* Observações que pedem confirmação com o contador antes de aplicar
+   ganham destaque visual em vez de se misturar com notas informativas. */
+.retencao-note--warning {
+  margin-top: 2.4rem;
+  padding: 20px 24px;
+  border-top: none;
+  border-radius: var(--radius);
+  background: #fbf3e6;
+  border: 1px solid rgba(196, 138, 26, 0.35);
+}
+.retencao-note--warning h3 { display: flex; align-items: center; gap: 8px; color: #8a5a12; }
+.retencao-note--warning h3::before { content: "⚠️"; font-size: 1rem; }
+.retencao-note--warning p { color: #6b4a15; }
 
 .retencao-disclaimer {
   margin-top: 2.4rem;

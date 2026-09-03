@@ -47,6 +47,13 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
+/* Usado nas páginas de Consulta CNAE e Consulta Retenções para destacar
+   visualmente observações que pedem confirmação com o contador antes
+   de aplicar, em vez de se misturarem com notas puramente informativas. */
+function precisaRevisao(observacoes) {
+  return /⚠️|PONTO DE ATEN[ÇC]ÃO|ATENÇÃO/i.test(observacoes || "");
+}
+
 /* Converte o texto simples salvo no painel em HTML:
    parágrafos separados por linha em branco, e linhas
    iniciadas com "## " viram subtítulos. */
