@@ -8,10 +8,21 @@ let _cnaesCache = null;
 
 async function loadCnaes() {
   if (_cnaesCache) return _cnaesCache;
-  const res = await fetch("../data/cnaes.json");
+  const res = await fetch("/data/cnaes.json");
   if (!res.ok) throw new Error("Falha ao carregar a base de CNAEs.");
   _cnaesCache = await res.json();
   return _cnaesCache;
+}
+
+/* Padrão de URL da página de detalhe de um CNAE: /conteudo/cnae/<slug>/
+   O slug é o código com a barra trocada por hífen (ex: 6201-5/01 -> 6201-5-01),
+   já que "/" não pode aparecer num segmento de path. */
+function cnaeSlug(codigo) {
+  return codigo.replace(/\//g, "-");
+}
+
+function cnaeDetailUrl(codigo) {
+  return `/conteudo/cnae/${cnaeSlug(codigo)}/`;
 }
 
 function normalizeCnaeText(str) {

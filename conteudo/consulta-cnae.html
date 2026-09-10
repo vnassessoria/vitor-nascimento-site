@@ -147,7 +147,7 @@
         .slice(0, 30)
         .map(
           (item) => `
-        <a class="cnae-result" href="cnae-detalhe.html?codigo=${encodeURIComponent(item.codigo)}">
+        <a class="cnae-result" href="${cnaeDetailUrl(item.codigo)}">
           <span class="cnae-result__code">${escapeHtml(item.codigo)}</span>
           <span class="cnae-result__desc">${escapeHtml(item.descricao)}</span>
         </a>`

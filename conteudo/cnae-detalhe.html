@@ -142,11 +142,8 @@
       return;
     }
 
-    document.title = `${item.codigo} — ${item.descricao} | Vitor Nascimento`;
-    codeEl.textContent = `CNAE ${item.codigo}`;
-    titleEl.textContent = item.descricao;
-    contentEl.innerHTML = renderCnaeDetail(item);
-    applyContactData();
+    // Link antigo (?codigo=...): redireciona para o link padrão /conteudo/cnae/<slug>/
+    window.location.replace(cnaeDetailUrl(item.codigo));
   })();
 </script>
 </body>
