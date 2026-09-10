@@ -147,7 +147,7 @@
         .slice(0, 30)
         .map(
           (item) => `
-        <a class="retencao-result" href="retencao-detalhe.html?item=${encodeURIComponent(item.item)}">
+        <a class="retencao-result" href="${retencaoDetailUrl(item.item)}">
           <span class="retencao-result__item">${escapeHtml(item.item)}</span>
           <span class="retencao-result__desc">${escapeHtml(item.descricao)}</span>
         </a>`

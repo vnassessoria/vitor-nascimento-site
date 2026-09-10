@@ -9,10 +9,16 @@ let _retencoesCache = null;
 
 async function loadRetencoes() {
   if (_retencoesCache) return _retencoesCache;
-  const res = await fetch("../data/retencoes.json");
+  const res = await fetch("/data/retencoes.json");
   if (!res.ok) throw new Error("Falha ao carregar a base de Retenções.");
   _retencoesCache = await res.json();
   return _retencoesCache;
+}
+
+/* Padrão de URL da página de detalhe de um item de Retenções: /conteudo/retencao/<item>/
+   O número do item (ex: "5.05") já é um segmento de path válido. */
+function retencaoDetailUrl(item) {
+  return `/conteudo/retencao/${encodeURIComponent(item)}/`;
 }
 
 function normalizeRetencaoText(str) {

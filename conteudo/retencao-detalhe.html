@@ -142,11 +142,8 @@
       return;
     }
 
-    document.title = `Item ${item.item} — ${item.descricao} | Vitor Nascimento`;
-    itemEl.textContent = `Item ${item.item}`;
-    titleEl.textContent = item.descricao;
-    contentEl.innerHTML = renderRetencaoDetail(item);
-    applyContactData();
+    // Link antigo (?item=...): redireciona para o link padrão /conteudo/retencao/<item>/
+    window.location.replace(retencaoDetailUrl(item.item));
   })();
 </script>
 </body>
