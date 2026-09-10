@@ -60,8 +60,6 @@ function renderCnaeDetail(item) {
     ${meiNote}
     ${simplesNote}
 
-    ${item.observacoes ? `<div class="cnae-note${precisaRevisao(item.observacoes) ? " cnae-note--warning" : ""}"><h3>Observações</h3><p>${escapeHtml(item.observacoes)}</p></div>` : ""}
-
     ${renderFontes(item.fontes)}
 
     <div class="cnae-disclaimer">
