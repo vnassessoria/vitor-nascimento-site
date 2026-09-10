@@ -47,13 +47,6 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
-/* Usado nas páginas de Consulta CNAE e Consulta Retenções para destacar
-   visualmente observações que pedem confirmação com o contador antes
-   de aplicar, em vez de se misturarem com notas puramente informativas. */
-function precisaRevisao(observacoes) {
-  return /⚠️|PONTO DE ATEN[ÇC]ÃO|ATENÇÃO/i.test(observacoes || "");
-}
-
 /* Tenta transformar uma URL de fonte legal num rótulo curto e
    reconhecível (ex.: "LC 116/2003", "Decreto 9.580/2018") em vez de
    mostrar sempre "planalto.gov.br" para leis diferentes. */

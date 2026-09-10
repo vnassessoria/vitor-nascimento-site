@@ -63,8 +63,6 @@ function renderRetencaoDetail(item) {
     ${inssNote}
     ${issNote}
 
-    ${item.observacoes ? `<div class="retencao-note${precisaRevisao(item.observacoes) ? " retencao-note--warning" : ""}"><h3>Observações</h3><p>${escapeHtml(item.observacoes)}</p></div>` : ""}
-
     ${renderFontes(item.fontes)}
 
     <div class="retencao-disclaimer">

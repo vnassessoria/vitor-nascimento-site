@@ -11,7 +11,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 1 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o enquadramento no IRRF/CSRF se dá por assimilação (a expressão exata do subitem não aparece na lista do art. 714 do RIR/2018), e a lista de serviços profissionais é taxativa. Recomenda-se confirmar o enquadramento à luz do objeto concreto do contrato e de Soluções de Consulta da RFB aplicáveis ao caso.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -38,7 +37,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 1 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -62,7 +60,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 1 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o subitem reúne prestações de naturezas diferentes (data center, cloud, hospedagem, processamento sob demanda) e contratos de TI frequentemente agregam, no mesmo documento fiscal, atividades que são serviços profissionais (programação, consultoria, elaboração de projetos) e atividades que não são. Quando as parcelas forem destacáveis, o enquadramento deve seguir cada uma delas. Verificar também se o contrato não configura, na prática, digitação ou preparação de dados para processamento (art. 111, V e VI, da IN RFB 2.110/2022).",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -83,7 +80,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 1 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -110,7 +106,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 1 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: é muito comum que o contrato de licenciamento venha acompanhado de customização, implantação, parametrização, suporte ou manutenção. Essas prestações têm enquadramento próprio - customização e desenvolvimento como \"programação\" (art. 714, § 1º, XXX, do RIR/2018, com IRRF de 1,5% e CSRF de 4,65%) e manutenção continuada como hipótese expressa do caput do art. 30 da Lei 10.833/2003. Quando o preço não estiver segregado no contrato e na nota fiscal, a análise deve ser individualizada.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -134,7 +129,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 1 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "Observar a exceção literal do art. 714, § 1º, VI, do RIR/2018: não se sujeita à retenção o serviço de assistência técnica prestado a terceiros e concernente a ramo de indústria ou comércio explorado pelo próprio prestador do serviço. A distinção entre consultoria (sujeita) e assistência técnica ao próprio produto comercializado (excepcionada) depende do objeto concreto do contrato.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -158,7 +152,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 1 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: este subitem tem enquadramento assimétrico e é dos mais controvertidos do item 1. O IRRF foi classificado como NÃO devido por interpretação da exceção do art. 714, § 1º, VI, do RIR/2018 (assistência técnica), e a CSRF como devida por assimilação do suporte continuado ao conceito de \"manutenção ... de qualquer bem\" da IN SRF 459/2004, art. 1º, § 2º, II. Nenhuma das duas conclusões decorre de menção literal ao subitem, e há entendimentos divergentes na prática contábil. Além disso, contratos de suporte frequentemente embutem consultoria (sujeita a IRRF de 1,5%) e desenvolvimento sob demanda (programação, também sujeita). Confirmar com o contador à luz do objeto contratual e de Soluções de Consulta da RFB antes de publicar.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -182,7 +175,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 1 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o enquadramento no IRRF se dá por assimilação - a expressão \"páginas eletrônicas\" não aparece na lista taxativa do art. 714, § 1º, do RIR/2018, sendo a atividade reconduzida a \"planejamento\" (XXIX) e \"programação\" (XXX). O subitem também reúne prestações de naturezas distintas (criação e desenvolvimento, de um lado; manutenção e atualização, de outro), o que pode levar a bases legais diferentes dentro do mesmo contrato. Recomenda-se confirmar o enquadramento à luz do objeto concreto.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -206,7 +198,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 1 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "O próprio texto do subitem, incluído pela Lei Complementar nº 157, de 2016, traz duas ressalvas de incidência do ISS que não dizem respeito às retenções federais: a imunidade de livros, jornais e periódicos e a exclusão da distribuição de conteúdos pelas prestadoras de Serviço de Acesso Condicionado (Lei nº 12.485/2011), sujeita ao ICMS.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -229,7 +220,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 2 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "A parcela de \"pesquisas\" tem correspondência praticamente literal com o inciso XXVIII (\"pesquisa em geral\"); já a parcela de \"desenvolvimento de qualquer natureza\" é enquadrada por assimilação. Por ser subitem de redação muito ampla, recomenda-se conferir o objeto concreto do contrato - pesquisa científica, pesquisa de mercado, desenvolvimento de produto ou de software recebem, na prática, enquadramentos distintos, ainda que todos convirjam para a retenção de 1,5%.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -253,7 +243,6 @@
     "iss_responsavel": "Não se aplica",
     "iss_local_devido": "Não se aplica (subitem vetado, sem vigência)",
     "iss_local_nota": "Este subitem não existe na lista de serviços vigente — foi vetado pelo Presidente da República na sanção da LC 116/2003 (Mensagem de veto nº 362, de 31/07/2003) e nunca produziu efeitos.",
-    "observacoes": "⚠️ Subitem vetado, mantido aqui apenas para referência (o número 3.01 não corresponde a nenhuma atividade tributável). Subitem VETADO na sanção da LC 116/2003 (Mensagem de veto nº 362, de 31/07/2003). Nunca teve texto vigente. Texto vetado: \"3.01 – Locação de bens móveis.\" Razão do veto: jurisprudência do STF sobre não incidência do ISS na locação de bens móveis (hoje Súmula Vinculante 31).",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/leis/Mensagem_Veto/2003/Mv362-03.htm"
@@ -274,7 +263,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 3.02 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003. Do item 3, apenas o subitem 3.04 (art. 3º, § 1º) e o subitem 3.05 (art. 3º, II) têm regra especial de local. Aplica-se, portanto, a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a remuneração pela cessão de direito de uso de marca tem natureza de royalty, e não de contraprestação por serviço. Os pagamentos a esse título seguem regras próprias na legislação do imposto de renda, estranhas aos arts. 714 e 716 do RIR/2018, que são as únicas normas cobertas por esta classificação. A qualificação do rendimento como royalty ou como preço de serviço deve ser confirmada contra o contrato antes de qualquer decisão de retenção.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -297,7 +285,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 3.03 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Na prática, o estabelecimento prestador tende a coincidir com o local do espaço explorado.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a classificação acima pressupõe a exploração pura do espaço. Contratos de eventos costumam agregar prestações com enquadramento próprio: organização do evento atrai o art. 714, § 1º, XXVII, do RIR/2018 (IRRF de 1,5% e CSRF de 4,65% como serviço profissional); limpeza, conservação e segurança do local atraem o art. 716 do RIR/2018 (IRRF de 1%) e o caput do art. 30 da Lei 10.833/2003 (CSRF de 4,65%); e equipes de promoção de eventos, recepção ou portaria cedidas à contratante atraem o art. 112, XIX e XXI, da IN RFB 2.110/2022 (INSS de 11% na cessão de mão de obra). Analisar caso a caso.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -320,7 +307,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Cada Município em cujo território haja extensão de ferrovia, rodovia, postes, cabos, dutos e condutos (art. 3º, § 1º, LC 116/2003)",
     "iss_local_nota": "Regra especial: o subitem 3.04 não é excepcionado por um dos incisos I a XXV, mas pelo § 1º do art. 3º da LC 116/2003, segundo o qual \"considera-se ocorrido o fato gerador e devido o imposto em cada Município em cujo território haja extensão de ferrovia, rodovia, postes, cabos, dutos e condutos de qualquer natureza, objetos de locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não\". O imposto é, portanto, repartido entre os municípios atravessados, e não devido em um único local.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: (a) o § 1º do art. 3º da LC 116/2003 é objeto da ADIN 3142, cuja anotação consta do próprio texto consolidado do Planalto - conferir o desfecho antes de publicar; (b) a Súmula Vinculante 31 do STF fixa que \"é inconstitucional a incidência do Imposto sobre Serviços de Qualquer Natureza - ISS sobre operações de locação de bens móveis\", o que é diretamente relevante para este subitem, já que ele descreve locação, sublocação e arrendamento. A exigência do ISS pressupõe efetiva prestação de serviço, não a mera cessão do bem. Confirmar a súmula na fonte primária do STF.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -341,7 +327,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da instalação das estruturas (art. 3º, II, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, II, da LC 116/2003 determina que o imposto é devido no local \"da instalação dos andaimes, palcos, coberturas e outras estruturas, no caso dos serviços descritos no subitem 3.05 da lista anexa\".",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a Súmula Vinculante 31 do STF fixa que \"é inconstitucional a incidência do Imposto sobre Serviços de Qualquer Natureza - ISS sobre operações de locação de bens móveis\". O subitem 3.05 permanece no texto vigente da lista anexa à LC 116/2003, mas sua exigência pressupõe efetiva prestação de serviço (montagem, instalação, desmontagem), não a mera locação da estrutura. A separação entre a parcela de locação e a de serviço no contrato e na nota fiscal é determinante e deve ser analisada caso a caso.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -365,7 +350,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.01 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 4, apenas os subitens 4.22 e 4.23 são citados, no inciso XXIII), aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -390,7 +374,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.02 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "O subitem é amplo e reúne procedimentos de naturezas distintas. Modalidades como \"eletricidade médica\", \"quimioterapia\" e \"ultra-sonografia\" não aparecem com essa redação na lista do art. 714, § 1º, do RIR/2018 e são normalmente enquadradas como \"medicina\" (inciso XXIV), que traz exceções próprias. Recomenda-se conferir o serviço concretamente prestado na revisão contábil.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -414,7 +397,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.03 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a exceção do art. 714, § 1º, XXIV, do RIR/2018 alcança nominalmente ambulatório, banco de sangue, casa de saúde, casa de recuperação ou repouso sob orientação médica, hospital e pronto-socorro. Ela NÃO menciona \"clínicas\" nem \"laboratórios\", que também integram este subitem da LC 116/2003 - e laboratório de análise clínica está positivamente listado no art. 714, § 1º, III. Portanto, dentro do mesmo subitem 4.03 pode haver prestadores sujeitos e prestadores não sujeitos à retenção. A classificação depende da natureza do estabelecimento e exige análise individualizada.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -441,7 +423,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.04 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 - do item 4, apenas os subitens 4.22 e 4.23 são citados, no inciso XXIII -, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o afastamento do IRRF e da CSRF decorre da ausência da atividade na lista taxativa do art. 714, § 1º, do RIR/2018, e não de exceção expressa. Há material contábil que reconduz a instrumentação cirúrgica a \"medicina\" (inciso XXIV), o que levaria à retenção de 1,5% e de 4,65%. Recomenda-se validação contábil, à luz da qualificação profissional de quem presta o serviço e do objeto do contrato, antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -465,7 +446,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.05 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a acupuntura é exercida no Brasil por profissionais de formações diversas (medicina, fisioterapia, odontologia, entre outras), e o enquadramento no IRRF e na CSRF muda conforme a formação de quem presta o serviço - \"medicina\" (art. 714, § 1º, XXIV), \"fisioterapia\" (XX) e \"odontologia\" (XXVI) estão todos na lista, ao passo que a acupuntura em si não está. A classificação acima adota a leitura literal e conservadora da lista taxativa. Confirmar caso a caso.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -489,7 +469,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.06 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: parte do material contábil disponível reconduz a enfermagem a \"medicina\" (art. 714, § 1º, XXIV, do RIR/2018) para atrair as retenções de 1,5% e 4,65%. A classificação acima segue a literalidade da lista taxativa, que não menciona a enfermagem. Como a enfermagem é profissão regulamentada por lei federal - e o próprio art. 115, § 3º, da IN RFB 2.110/2022 a reconhece como tal -, a divergência é real e merece confirmação contábil.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -513,7 +492,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.07 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o enquadramento no INSS se dá por assimilação dos serviços farmacêuticos ao conceito de \"saúde\" do art. 112, XXIII, da IN RFB 2.110/2022 - a expressão \"serviços farmacêuticos\" não aparece literalmente nas listas dos arts. 111 e 112. Além disso, o subitem é amplo e abrange desde manipulação e dispensação em drogaria (atividade predominantemente comercial) até assistência farmacêutica clínica em ambiente hospitalar. Analisar o objeto do contrato.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -537,7 +515,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.08 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -562,7 +539,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.09 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: este é um subitem residual e de redação muito ampla, que abrange realidades com tratamento tributário distinto. A resposta \"sem retenção de IRRF e CSRF\" reflete a leitura literal da lista taxativa do art. 714, § 1º, do RIR/2018, mas depende inteiramente da terapia efetivamente contratada: as que correspondem a profissões nominadas na lista (fisioterapia, terapêutica ocupacional, psicologia, psicanálise, medicina) atraem as retenções de 1,5% e 4,65%. Recomenda-se que a ferramenta exiba essa ressalva em destaque para este subitem.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -586,7 +562,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.10 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "Não confundir com os serviços de \"copa\" do art. 112, VI, da IN RFB 2.110/2022 (preparação, manuseio e distribuição de produtos alimentícios), que é hipótese distinta: contratos de nutrição e alimentação coletiva frequentemente reúnem as duas prestações no mesmo instrumento.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -611,7 +586,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.11 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o enquadramento se dá por assimilação - a palavra \"obstetrícia\" não aparece na lista do art. 714, § 1º, do RIR/2018, sendo a atividade reconduzida a \"medicina\" (inciso XXIV). Consequência prática relevante: a obstetrícia prestada por hospital, casa de saúde ou pronto-socorro cai na exceção expressa do inciso XXIV e NÃO sofre retenção de IRRF nem de CSRF. Além disso, a atividade também é exercida por enfermeiros obstetras, e a enfermagem não integra a lista taxativa. Verificar quem presta e onde se presta o serviço.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -636,7 +610,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.12 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -661,7 +634,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.13 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o afastamento do IRRF e da CSRF decorre da ausência da palavra \"ortóptica\" na lista taxativa do art. 714, § 1º, do RIR/2018, e não de exceção expressa. Como a atividade é frequentemente exercida por médicos oftalmologistas - hipótese que a reconduziria a \"medicina\" (inciso XXIV) -, e também por ortoptistas e tecnólogos, o enquadramento depende de quem presta o serviço e exige validação contábil antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -685,7 +657,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.14 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o subitem descreve uma prestação de resultado com forte componente de industrialização por encomenda, e a expressão \"prótese\" do art. 714, § 1º, XXXI, do RIR/2018 designa, na origem, o exercício profissional do protesista. A distinção entre serviço protético (sujeito às retenções) e fornecimento de produto sob encomenda (fora do alcance dos arts. 714 e 716) deve ser verificada contra o contrato e a nota fiscal. A conclusão sobre o INSS também é sensível à forma de contratação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -709,7 +680,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.15 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -734,7 +704,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.16 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -759,7 +728,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.17 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o subitem reúne estabelecimentos de naturezas distintas. A exceção do art. 714, § 1º, XXIV, do RIR/2018 nomeia apenas \"casa de recuperação ou repouso sob orientação médica\" - ela não menciona creches nem asilos. Para estes, existe a leitura alternativa de enquadramento em \"assistência social\" (art. 714, § 1º, VII), que está positivamente na lista e levaria à retenção de 1,5% e de 4,65%. Como a atividade de creche e asilo é, no mais das vezes, exploração de estabelecimento, e não prestação de serviço profissional de assistência social, adotou-se a classificação negativa - mas a divergência é real e deve ser confirmada por contador antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -783,7 +751,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.18 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o enquadramento se dá por assimilação - as expressões \"inseminação artificial\" e \"fertilização in vitro\" não aparecem na lista do art. 714, § 1º, do RIR/2018, sendo os procedimentos reconduzidos a \"medicina\" (XXIV), \"biologia e biomedicina\" (X) e \"análise clínica laboratorial\" (III). Consequência prática: se prestados por hospital ou casa de saúde, incide a exceção do inciso XXIV e as retenções de IRRF e CSRF ficam afastadas. Não confundir com o subitem 5.04, de idêntica redação, mas relativo à área veterinária, cujo enquadramento é diverso.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -808,7 +775,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.19 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a exceção do art. 714, § 1º, XXIV, do RIR/2018 nomeia apenas o \"banco de sangue\"; a extensão aos bancos de leite, pele, olhos, óvulos e sêmen é feita por congeneridade, não por menção literal. Existe ainda a leitura de que a atividade laboratorial desses bancos configura \"biologia e biomedicina\" (inciso X) ou \"análise clínica laboratorial\" (inciso III), positivamente listadas, o que levaria à retenção de 1,5% e de 4,65%. Recomenda-se validação contábil antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -832,7 +798,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.20 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a classificação negativa no IRRF e na CSRF pressupõe a coleta contratada isoladamente. Na prática, ela quase sempre integra um serviço de análise clínica laboratorial - inciso III do art. 714, § 1º, do RIR/2018 -, caso em que as retenções de 1,5% e de 4,65% são devidas sobre o valor total da nota. Verificar o objeto contratual antes de decidir.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -856,7 +821,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 4.21 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o afastamento do IRRF e da CSRF se dá por assimilação da unidade móvel aos estabelecimentos nomeados na exceção do art. 714, § 1º, XXIV, do RIR/2018 (ambulatório e pronto-socorro) - a exceção não menciona literalmente a unidade móvel. Se o serviço contratado for, na substância, o ato médico prestado por sociedade de profissionais e não a exploração do estabelecimento móvel, o enquadramento em \"medicina\" e as retenções de 1,5% e 4,65% voltam a ser devidos. Recomenda-se validação contábil antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -880,7 +844,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Domicílio do tomador (art. 3º, XXIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XXIII, da LC 116/2003, incluído pela Lei Complementar nº 157, de 2016, fixa o imposto como devido no local \"do domicílio do tomador dos serviços dos subitens 4.22, 4.23 e 5.09\". O § 6º do mesmo artigo, incluído pela Lei Complementar nº 175, de 2020, esclarece que, nos planos de saúde e de medicina, o tomador é \"a pessoa física beneficiária vinculada à operadora por meio de convênio ou contrato de plano de saúde individual, familiar, coletivo empresarial ou coletivo por adesão\"; e o § 7º determina que, havendo dependentes, considera-se apenas o domicílio do titular.",
-    "observacoes": "PONTO DE ATENÇÃO: este é um dos subitens com regime de local do ISS mais complexo da lista. O imposto é devido no domicílio de cada beneficiário pessoa física - e não no do contratante corporativo, ainda que o plano seja coletivo empresarial -, o que obriga a operadora a apurar e recolher o ISS de forma distribuída entre municípios, na sistemática de declaração e pagamento padronizada instituída pela Lei Complementar nº 175, de 2020. A classificação acima trata das retenções federais sobre o pagamento à operadora; a remuneração paga pela operadora aos prestadores credenciados (médicos, hospitais, clínicas) tem enquadramento próprio, conforme os subitens 4.01 a 4.21.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -903,7 +866,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Domicílio do tomador (art. 3º, XXIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XXIII, da LC 116/2003, incluído pela Lei Complementar nº 157, de 2016, fixa o imposto como devido no local \"do domicílio do tomador dos serviços dos subitens 4.22, 4.23 e 5.09\". Pelo § 6º, incluído pela Lei Complementar nº 175, de 2020, o tomador é a pessoa física beneficiária vinculada à operadora; pelo § 7º, havendo dependentes, considera-se apenas o domicílio do titular.",
-    "observacoes": "PONTO DE ATENÇÃO: como no subitem 4.22, o ISS é devido no domicílio de cada beneficiário pessoa física, o que impõe apuração distribuída entre municípios na sistemática da Lei Complementar nº 175, de 2020. Note-se ainda que o subitem alcança inclusive os planos em que a operadora \"apenas paga\" o serviço mediante indicação do beneficiário - hipótese em que a base de cálculo do ISS e o enquadramento das retenções sobre os repasses aos prestadores credenciados devem ser analisados separadamente do pagamento feito à operadora.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -926,7 +888,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 5.01 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 - do item 5, apenas o subitem 5.09 é citado, no inciso XXIII -, aplicando-se a regra geral do caput.",
-    "observacoes": "A zootecnia não aparece literalmente na lista do art. 714, § 1º, do RIR/2018, sendo enquadrada por assimilação à veterinária (inciso XL) e a \"análises técnicas\" (inciso IV). Registre-se ainda um ponto favorável ao contribuinte que costuma passar despercebido: as quatro exceções literais do § 1º do art. 714 (incisos I, VI, XVII e XXIV) não alcançam a veterinária, de modo que o serviço veterinário prestado por hospital ou clínica NÃO tem o mesmo tratamento excludente que a medicina humana recebe no inciso XXIV.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -950,7 +911,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 5.02 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a classificação positiva no IRRF e na CSRF apoia-se em uma assimetria literal do art. 714, § 1º, do RIR/2018 que merece confirmação - a exceção relativa a hospitais, ambulatórios e prontos-socorros consta apenas do inciso XXIV (medicina) e não foi reproduzida no inciso XL (veterinária). Por isso, o mesmo tipo de estabelecimento recebe tratamento oposto conforme atenda pessoas (subitem 4.03, sem retenção) ou animais (subitem 5.02, com retenção). É um resultado correto pela literalidade da norma, mas contraintuitivo, e convém validá-lo com o contador antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -974,7 +934,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 5.03 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "O enquadramento é feito por assimilação a três incisos convergentes do art. 714, § 1º, do RIR/2018 - análise clínica laboratorial (III), análises técnicas (IV) e veterinária (XL) -, e não por menção literal a \"laboratório de análise veterinária\". A convergência dos três reforça a conclusão, mas o objeto do contrato deve ser conferido.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -998,7 +957,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 5.04 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o subitem 5.04 tem redação idêntica à do 4.18, mas pertence ao item 5 (área veterinária) e recebe tratamento diferente nas três retenções - em especial no INSS, onde o enquadramento é no art. 111, IV (natureza rural, \"inseminação\"), e não no art. 112, XXIII (saúde). A consequência prática é relevante: no art. 111 a retenção alcança também a empreitada, e não apenas a cessão de mão de obra. O enquadramento no IRRF e na CSRF, por sua vez, é feito por assimilação à \"veterinária\" e deve ser confirmado quando o serviço for prestado por empresa de inseminação sem participação de médico veterinário.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1023,7 +981,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 5.05 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: como no subitem 5.02, a classificação positiva no IRRF e na CSRF decorre de uma assimetria literal do art. 714, § 1º, do RIR/2018 - a exceção do \"banco de sangue\" está apenas no inciso XXIV (medicina), não no inciso XL (veterinária). O resultado é que bancos de sangue humanos (subitem 4.19) ficam fora da retenção e bancos veterinários (subitem 5.05) ficam sujeitos a ela. O enquadramento também é feito por assimilação, já que a lista do RIR não menciona bancos de material biológico veterinário. Validar com o contador antes da publicação. CORRIGIDO em auditoria de 03/09/2026: O item descreve 'Bancos de sangue e de órgãos e congêneres'. O inciso XXIV do art. 714, §1º, RIR/2018, que sujeita a medicina ao IRRF de 1,5%, EXCLUI expressamente 'banco de sangue' de seu alcance ('medicina, exceto aquela prestada por ambulatório, banco de sangue, casa de saúde, casa de recuperação ou repouso sob orientação médica, hospital e pronto-socorro'). Logo, este item não se enquadra em nenhum dos 40 incisos do art. 714, §1º (não é limpeza/conservação/segurança/vigilância/locação de mão de obra para justificar o art. 716 tampouco), e irrf deveria ser false, não true. Como a hipótese de CSRF 'serviços profissionais' (item 13 do art. 30) segue a mesma lista e as mesmas exceções do art. 714, §1º (IN SRF 459/2004, art. 1º, §2º, IV, por remissão ao dispositivo equivalente do RIR/2018), e bancos de sangue/órgãos também não se enquadram em nenhuma das outras 12 hipóteses do art. 30 (limpeza, conservação, manutenção, segurança, vigilância, transporte de valores, locação de mão de obra, assessoria creditícia, assessoria mercadológica, gestão de crédito, seleção e riscos, administração de contas a pagar e a receber), csrf também deveria ser false.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1047,7 +1004,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 5.06 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o subitem 5.06 repete a redação do 4.20, mas está no item 5 (área veterinária), e por isso o enquadramento no INSS é diferente - art. 111, IV (natureza rural: ordenhamento e extração de produtos de origem animal), e não art. 112, XXIII (saúde). A diferença é prática: no art. 111 a retenção alcança também a empreitada. A classificação negativa no IRRF e na CSRF, por sua vez, pressupõe coleta contratada isoladamente; se integrada a serviço veterinário ou de laboratório, o enquadramento muda. Analisar o objeto do contrato.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1071,7 +1027,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 5.07 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 5, apenas o subitem 5.09 é citado, no inciso XXIII), aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: (a) o enquadramento no IRRF/CSRF é por assimilação - a expressão \"unidade de atendimento móvel\" não aparece na lista do art. 714, § 1º, do RIR/2018; a base é o inciso XL (\"veterinária\"), pressupondo que o serviço prestado seja efetivamente de natureza veterinária; (b) há dúvida real sobre o alcance do art. 112, XXIII, da IN RFB 2.110/2022 (\"saúde\") em relação à medicina veterinária. Confirmar antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1095,7 +1050,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 5.08 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 5, apenas o subitem 5.09 é citado, no inciso XXIII), aplicando-se a regra geral do caput.",
-    "observacoes": "O subitem reúne prestações de naturezas distintas. A expressão \"tratamento\", quando corresponder a tratamento clínico veterinário, atrai o art. 714, § 1º, XL, do RIR/2018 (\"veterinária\") e, por consequência, o IRRF de 1,5% e a CSRF de 4,65% sobre essa parcela. A classificação acima considera o núcleo do subitem (hotelaria, adestramento e estética animal). Verificar o objeto concreto do contrato.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1119,7 +1073,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Domicílio do tomador do serviço (art. 3º, XXIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XXIII, da LC 116/2003, incluído pela Lei Complementar nº 157, de 2016, fixa o imposto como devido no local \"do domicílio do tomador dos serviços dos subitens 4.22, 4.23 e 5.09\". Nos termos do § 5º do mesmo artigo, considera-se tomador o contratante do serviço e, havendo estipulação em favor de unidade da pessoa jurídica contratante, a unidade em favor da qual o serviço foi estipulado. As regras específicas dos §§ 6º e 7º (beneficiário pessoa física) são dirigidas apenas aos subitens 4.22 e 4.23, não ao 5.09.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: se a operadora do plano prestar diretamente os serviços veterinários (rede própria), a parcela correspondente pode ser enquadrada como \"veterinária\" (art. 714, § 1º, XL, do RIR/2018), atraindo IRRF de 1,5% e CSRF de 4,65%. A classificação acima considera a operação do plano em si.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1143,7 +1096,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 6 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1167,7 +1119,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 6 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "Há zona cinzenta entre a estética não médica (classificada acima, sem retenção) e o procedimento dermatológico prestado por empresa da área da saúde, que pode atrair o art. 714, § 1º, XXIV, do RIR/2018 (medicina) e o art. 112, XXIII, da IN RFB 2.110/2022 (saúde). Verificar o objeto concreto do contrato.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1191,7 +1142,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 6 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1215,7 +1165,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 6 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a classificação depende de como o contrato é estruturado. A prestação a consumidor final (mensalidade de academia) foi classificada acima como fora das hipóteses de retenção; já a contratação, por pessoa jurídica, de aulas ou treinamento de atividade física para seus colaboradores tende a configurar \"ensino e treinamento\" (art. 714, § 1º, XVIII, do RIR/2018 e art. 112, X, da IN RFB 2.110/2022), invertendo as respostas de IRRF e CSRF. Item que precisa de revisão contábil antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1239,7 +1188,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 6 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o subitem reúne prestações heterogêneas (hospedagem, estética, atividade física, nutrição e, por vezes, acompanhamento médico), com tratamentos diferentes nas três retenções federais. A resposta acima reflete o núcleo comercial da atividade e não substitui a análise do contrato concreto.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1263,7 +1211,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 6 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1287,7 +1234,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 7.01 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 - do item 7 são citados apenas os subitens 7.02, 7.04, 7.05, 7.09, 7.10, 7.11, 7.12, 7.16, 7.17, 7.18 e 7.19. Aplica-se, portanto, a regra geral do caput.",
-    "observacoes": "Atenção à exceção literal do art. 714, § 1º, XVII, do RIR/2018: a \"engenharia\" está sujeita à retenção de 1,5%, MENOS a construção de estradas, pontes, prédios e obras assemelhadas. Serviços de projeto, consultoria e laudo seguem retidos; a execução da obra em si desloca-se para o subitem 7.02 e fica fora da retenção de IRRF. Agronomia, agrimensura e paisagismo entram por assimilação, e não por menção literal.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1308,7 +1254,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução da obra (art. 3º, III, LC 116/2003)",
     "iss_local_nota": "Exceção expressa à regra geral: para os serviços do subitem 7.02, o ISS é devido no município onde a obra é executada, não no estabelecimento do prestador. O inciso III teve a redação alterada pela Lei Complementar nº 218, de 2025, passando a abranger os subitens 7.02, 7.19 e 14.14.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1335,7 +1280,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 7.03 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Note-se o contraste com o subitem 7.19 (acompanhamento e fiscalização de obra), que o inciso III desloca para o local da obra.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1359,7 +1303,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da demolição (art. 3º, IV, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, IV, da LC 116/2003 determina que o imposto é devido no local \"da demolição, no caso dos serviços descritos no subitem 7.04 da lista anexa\".",
-    "observacoes": "O subitem 7.04 integra a lista do art. 6º, § 2º, II, da LC 116/2003: a pessoa jurídica tomadora ou intermediária do serviço, ainda que imune ou isenta, é responsável pelo ISS por norma nacional de eficácia direta - independentemente da existência de lei municipal específica. As demais condições da retenção (alíquota, forma de recolhimento, cadastro) continuam definidas pelo município.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1381,7 +1324,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local das edificações em geral, estradas, pontes, portos e congêneres (art. 3º, V, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, V, da LC 116/2003 fixa o imposto como devido no local \"das edificações em geral, estradas, pontes, portos e congêneres, no caso dos serviços descritos no subitem 7.05 da lista anexa\".",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: este subitem abrange desde reforma predial (natureza de obra) até conservação e manutenção continuada (natureza de serviço de manutenção). O enquadramento no CSRF - e, eventualmente, no IRRF de 1% do art. 716 do RIR/2018, que alcança serviços de limpeza e conservação - depende do objeto concreto do contrato. Contratos mistos devem ser analisados individualmente.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1409,7 +1351,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 7.06 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput - ainda que a execução ocorra fisicamente no imóvel do tomador.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o enquadramento no INSS é por assimilação - a expressão \"colocação e instalação de revestimentos\" não aparece literalmente nos arts. 111 e 112 da IN RFB 2.110/2022; a base é o conceito de construção civil do art. 111, III. Instalações avulsas e desvinculadas de obra (por exemplo, a mera colocação de cortinas) podem não configurar construção civil. Recomenda-se conferir o objeto do contrato.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1434,7 +1375,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 7.07 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Note-se que a limpeza e conservação de imóveis do subitem 7.10, muito próxima materialmente, é excepcionada pelo inciso VII - o que torna a distinção entre os dois subitens relevante para definir o município credor.",
-    "observacoes": "O enquadramento se dá por assimilação: \"polimento\" e \"lustração\" de pisos não aparecem com essas palavras nas normas de retenção; a base textual é o \"enceramento\", literalmente arrolado na IN SRF 459/2004, art. 1º, § 2º, I, e no art. 111, I, da IN RFB 2.110/2022. Já \"recuperação\" e \"raspagem\" têm natureza de reforma, mais próxima da construção civil. Contratos que reúnam as duas naturezas devem ser analisados individualmente.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1459,7 +1399,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 7.08 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: os enquadramentos de CSRF e INSS são por assimilação - a palavra \"calafetação\" não aparece em nenhuma das normas de retenção. A CSRF apoia-se no conceito de manutenção da IN SRF 459/2004, art. 1º, § 2º, II, que exclui expressamente o conserto isolado; o INSS apoia-se no conceito de construção civil do art. 111, III, da IN RFB 2.110/2022. Serviço avulso e pontual pode ficar fora de ambas as retenções. Confirmar o objeto do contrato.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1484,7 +1423,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução da varrição, coleta, remoção, incineração, tratamento, reciclagem, separação e destinação final de lixo, rejeitos e outros resíduos (art. 3º, VI, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, VI, da LC 116/2003 fixa o imposto como devido no local \"da execução da varrição, coleta, remoção, incineração, tratamento, reciclagem, separação e destinação final de lixo, rejeitos e outros resíduos quaisquer, no caso dos serviços descritos no subitem 7.09 da lista anexa\".",
-    "observacoes": "Duas notas de aplicação. (1) O subitem 7.09 integra a lista do art. 6º, § 2º, II, da LC 116/2003: a pessoa jurídica tomadora ou intermediária, ainda que imune ou isenta, é responsável pelo ISS por norma nacional de eficácia direta, independentemente de lei municipal específica. (2) Na retenção previdenciária, a coleta realizada com contêineres ou caçambas estacionárias é expressamente excluída pelo art. 112, V, da IN RFB 2.110/2022 - mas a parcela de varrição continua alcançada pelo art. 111, I.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1506,7 +1444,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução da limpeza, manutenção e conservação (art. 3º, VII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, VII, da LC 116/2003 fixa o imposto como devido no local \"da execução da limpeza, manutenção e conservação de vias e logradouros públicos, imóveis, chaminés, piscinas, parques, jardins e congêneres, no caso dos serviços descritos no subitem 7.10 da lista anexa\".",
-    "observacoes": "Este é um dos casos em que as três retenções federais podem incidir cumulativamente sobre a mesma nota fiscal (IRRF de 1%, CSRF de 4,65% e INSS de 11%), observados os limites e dispensas de cada regime.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1534,7 +1471,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução da decoração e jardinagem, do corte e poda de árvores (art. 3º, VIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, VIII, da LC 116/2003 fixa o imposto como devido no local \"da execução da decoração e jardinagem, do corte e poda de árvores, no caso dos serviços descritos no subitem 7.11 da lista anexa\".",
-    "observacoes": "O subitem reúne duas prestações de naturezas distintas. A jardinagem, o corte e a poda são serviços de conservação, e sustentam as três retenções indicadas acima. Já a DECORAÇÃO (ambientação de interiores) não consta da lista do art. 714, § 1º, do RIR/2018, nem do art. 716, nem do caput do art. 30 da Lei 10.833/2003, nem dos arts. 111 e 112 da IN RFB 2.110/2022 - salvo se contratada como projeto de arquitetura ou de design de interiores, hipótese em que passa a atrair o IRRF de 1,5% (art. 714, § 1º, V e XVI) e a CSRF. Contratos mistos exigem separação das parcelas.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1559,7 +1495,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local do controle e tratamento do efluente (art. 3º, IX, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, IX, da LC 116/2003 fixa o imposto como devido no local \"do controle e tratamento do efluente de qualquer natureza e de agentes físicos, químicos e biológicos, no caso dos serviços descritos no subitem 7.12 da lista anexa\".",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: este subitem abriga desde a análise laboratorial e a consultoria ambiental (que atraem o IRRF de 1,5% pelos incisos IV, XXXIII e VI do art. 714, § 1º, do RIR/2018, e a CSRF correspondente) até a operação industrial de tratamento (classificada acima, sem retenção). A resposta depende do objeto concreto do contrato e merece conferência antes da publicação. Registre-se ainda que o subitem 7.12 integra a lista do art. 6º, § 2º, II, da LC 116/2003: o tomador pessoa jurídica é responsável pelo ISS por norma nacional de eficácia direta.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1583,7 +1518,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 7.13 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput - ainda que o serviço seja necessariamente executado no imóvel do tomador. Ao contrário dos subitens 7.09, 7.10 e 7.11, o legislador complementar não deslocou o subitem 7.13 para o local da execução.",
-    "observacoes": "Este é um dos casos em que as três retenções federais podem incidir cumulativamente sobre a mesma nota fiscal (IRRF de 1%, CSRF de 4,65% e INSS de 11%), observados os limites e dispensas de cada regime - em especial o valor mínimo de R$ 10,00 da CSRF (art. 31, § 3º, da Lei 10.833/2003, na redação da Lei 13.137/2015) e as dispensas do art. 115 da IN RFB 2.110/2022.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1608,7 +1542,6 @@
     "iss_responsavel": "Não se aplica",
     "iss_local_devido": "Não se aplica (subitem vetado, sem vigência)",
     "iss_local_nota": "Este subitem não existe na lista de serviços vigente — foi vetado pelo Presidente da República na sanção da LC 116/2003 (Mensagem de veto nº 362, de 31/07/2003) e nunca produziu efeitos.",
-    "observacoes": "⚠️ Subitem vetado, mantido aqui apenas para referência (o número 7.14 não corresponde a nenhuma atividade tributável). Subitem VETADO na sanção da LC 116/2003 (Mensagem de veto nº 362, de 31/07/2003). Texto vetado: \"7.14 – Saneamento ambiental, inclusive purificação, tratamento, esgotamento sanitário e congêneres.\" Ainda assim aparece citado na redação ORIGINAL do art. 6º, § 2º, II — citação suprimida pela redação dada pela LC 183/2021.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/leis/Mensagem_Veto/2003/Mv362-03.htm"
@@ -1629,7 +1562,6 @@
     "iss_responsavel": "Não se aplica",
     "iss_local_devido": "Não se aplica (subitem vetado, sem vigência)",
     "iss_local_nota": "Este subitem não existe na lista de serviços vigente — foi vetado pelo Presidente da República na sanção da LC 116/2003 (Mensagem de veto nº 362, de 31/07/2003) e nunca produziu efeitos.",
-    "observacoes": "⚠️ Subitem vetado, mantido aqui apenas para referência (o número 7.15 não corresponde a nenhuma atividade tributável). Subitem VETADO na sanção da LC 116/2003 (Mensagem de veto nº 362, de 31/07/2003). Texto vetado: \"7.15 – Tratamento e purificação de água.\" Ainda assim aparece citado na redação ORIGINAL do art. 6º, § 2º, II — citação suprimida pela redação dada pela LC 183/2021.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/leis/Mensagem_Veto/2003/Mv362-03.htm"
@@ -1650,7 +1582,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local do florestamento, reflorestamento, semeadura, adubação, reparação de solo, plantio, silagem, colheita, corte e descascamento de árvores, silvicultura e exploração florestal (art. 3º, XII, LC 116/2003)",
     "iss_local_nota": "O art. 3º, XII, da LC 116/2003, na redação dada pela Lei Complementar nº 157, de 2016, fixa o imposto como devido no local \"do florestamento, reflorestamento, semeadura, adubação, reparação de solo, plantio, silagem, colheita, corte, descascamento de árvores, silvicultura, exploração florestal e serviços congêneres indissociáveis da formação, manutenção e colheita de florestas para quaisquer fins e por quaisquer meios\". Peculiaridade: essa redação DEIXOU DE CITAR o número do subitem - a correspondência com o 7.16 é textual (as atividades descritas no inciso são exatamente as do subitem, ambas na redação da LC 157/2016), e não por remissão expressa.",
-    "observacoes": "Duas notas de aplicação. (1) Diferentemente de todos os demais incisos do art. 3º, o inciso XII não menciona o número do subitem: a correspondência com o 7.16 é feita pela identidade do texto. (2) O subitem 7.16 integra a lista do art. 6º, § 2º, II, da LC 116/2003 - o tomador pessoa jurídica, ainda que imune ou isento, é responsável pelo ISS por norma nacional de eficácia direta, independentemente de lei municipal específica.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1675,7 +1606,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de escoramento e contenção de encostas (art. 3º, XIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XIII, da LC 116/2003 fixa o imposto como devido no local \"da execução dos serviços de escoramento, contenção de encostas e congêneres, no caso dos serviços descritos no subitem 7.17 da lista anexa\".",
-    "observacoes": "O enquadramento no INSS é por assimilação: as palavras \"escoramento\" e \"contenção de encostas\" não aparecem no art. 111, III, da IN RFB 2.110/2022, cuja fórmula (\"benfeitoria agregada ao solo ou ao subsolo ou obras complementares que se integrem a esse conjunto\") é, porém, suficientemente ampla - e o art. 113, parágrafo único, esclarece que a pormenorização das tarefas em cada inciso é exemplificativa. Registre-se ainda que o subitem 7.17 integra a lista do art. 6º, § 2º, II, da LC 116/2003: o tomador pessoa jurídica é responsável pelo ISS por norma nacional de eficácia direta.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1700,7 +1630,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da limpeza e dragagem (art. 3º, XIV, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XIV, da LC 116/2003 fixa o imposto como devido no local \"da limpeza e dragagem, no caso dos serviços descritos no subitem 7.18 da lista anexa\".",
-    "observacoes": "O subitem reúne duas prestações de naturezas distintas: a limpeza (serviço de conservação, base literal das três retenções indicadas) e a dragagem (obra de engenharia, que sustenta o INSS pelo art. 111, III, mas não o IRRF de 1% nem, isoladamente, a CSRF). Os corpos d'água citados no subitem não aparecem na enumeração de locais da IN SRF 459/2004, art. 1º, § 2º, I, nem do art. 111, I, da IN RFB 2.110/2022 - o enquadramento apoia-se na cláusula aberta desses dispositivos. Contratos que reúnam limpeza e dragagem devem discriminar as parcelas.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1725,7 +1654,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução da obra (art. 3º, III, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, III, da LC 116/2003 fixa o imposto como devido no local \"da execução da obra\", alcançando os subitens 7.02, 7.19 e 14.14 na redação dada pela Lei Complementar nº 218, de 2025 (a redação anterior citava apenas os subitens 7.02 e 7.19).",
-    "observacoes": "Note-se a assimetria útil na prática: o ISS do subitem 7.19 é devido no município da OBRA, mas as retenções federais seguem a lógica do serviço profissional (IRRF de 1,5% e CSRF de 4,65%), sem retenção previdenciária. O subitem 7.19 também integra a lista do art. 6º, § 2º, II, da LC 116/2003: o tomador pessoa jurídica, ainda que imune ou isento, é responsável pelo ISS por norma nacional de eficácia direta.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1749,7 +1677,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 7.20 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput - ainda que o levantamento seja executado em município diverso do estabelecimento do prestador.",
-    "observacoes": "Apenas \"geologia\" aparece literalmente na lista do art. 714, § 1º, do RIR/2018. As demais prestações do subitem entram por assimilação a \"análises técnicas\", \"desenho técnico\" e \"elaboração de projetos\", e devem ser confrontadas com o objeto concreto do contrato na revisão contábil.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1773,7 +1700,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 7.21 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Reforça essa conclusão o § 3º do art. 3º, segundo o qual \"considera-se ocorrido o fato gerador do imposto no local do estabelecimento prestador nos serviços executados em águas marítimas, excetuados os serviços descritos no subitem 20.01\" - regra decisiva para as operações offshore típicas deste subitem.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: subitem heterogêneo, que reúne serviços intelectuais (pesquisa, perfilagem, testemunhagem) e serviços operacionais pesados (perfuração, cimentação, concretação). A classificação acima reflete o núcleo operacional; a parcela de pesquisa e análise geológica muda as respostas de IRRF e CSRF. Item que precisa de revisão contábil e de análise contratual antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1797,7 +1723,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 7.22 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "Registre-se que \"meteorologistas\" constam da lista de profissões regulamentadas do art. 115, § 3º, da IN RFB 2.110/2022 - dispositivo que trata da DISPENSA da retenção previdenciária e não cria, por si, hipótese de incidência de IRRF ou de CSRF.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1818,7 +1743,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 8 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a incidência do IRRF/CSRF sobre mensalidades de ensino regular é tema controvertido na prática. A lista do art. 714 do RIR/2018 é taxativa e inclui \"ensino e treinamento\" sem ressalva, mas há entendimentos da RFB, em Soluções de Consulta, que diferenciam serviços de instrução e treinamento de natureza profissional de prestações isoladas de orientação pedagógica ou avaliação de conhecimentos. Não foi possível confirmar, em fonte oficial primária consultada nesta pesquisa, um ato normativo que afaste a retenção para escolas de ensino regular. Recomenda-se validação contábil antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1842,7 +1766,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 8 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: existem manifestações da RFB, em Soluções de Consulta, no sentido de que a orientação pedagógica e educacional e a avaliação de conhecimentos, quando prestadas isoladamente ou passíveis de destacamento dentro de um contrato mais amplo, podem não configurar serviço de natureza profissional sujeito à retenção. Como o subitem 8.02 reúne quatro prestações distintas, o enquadramento deve ser verificado contra o objeto contratual concreto.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1866,7 +1789,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 9 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Na prática, o estabelecimento prestador coincide com o local do hotel.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1892,7 +1814,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 9 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a remuneração de agenciamento e intermediação tem regime PRÓPRIO de IRRF de 1,5%, aplicável a comissões, corretagens e à mediação na realização de negócios civis e comerciais (Lei nº 7.450/1985, art. 53, hoje consolidado no RIR/2018, art. 718 e seguintes). Esse dispositivo NÃO integra o conjunto de normas compilado para esta classificação, que se limita aos arts. 714 a 717 do RIR/2018. A resposta \"não\" acima vale apenas em relação às hipóteses efetivamente analisadas. Confirmar com o contador antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1916,7 +1837,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O item 9 da lista anexa não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1940,7 +1860,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 10.01 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: existe regime PRÓPRIO de IRRF de 1,5% sobre comissões, corretagens e qualquer outra remuneração pela representação comercial ou pela mediação na realização de negócios civis e comerciais (Lei nº 7.450/1985, art. 53, consolidado no RIR/2018, art. 718 e seguintes). Esse dispositivo NÃO integra o conjunto de normas compilado para esta classificação, que abrange apenas os arts. 714 a 717 do RIR/2018 - por isso a resposta \"não\" acima é limitada às hipóteses efetivamente analisadas. Todo o item 10 da lista anexa (subitens 10.01 a 10.10) precisa de conferência contábil sob esse regime antes da publicação. ATUALIZADO em 04/09/2026 (pesquisa de pontos em aberto): Existe regime próprio de IRRF para comissões, corretagens e representação comercial/mediação de negócios entre PJs: art. 718 do Decreto 9.580/2018 (RIR/2018), que reproduz o art. 53 da Lei 7.450/1985, tributa esses pagamentos a 1,5%. Esse regime é diferente da lista de \"serviços profissionais\" do art. 714 e não havia sido considerado na classificação original. CSRF permanece não devida (corretagem/agenciamento de câmbio, seguros, cartões de crédito e planos não constam do rol taxativo do art. 30 da Lei 10.833/2003).",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1964,7 +1883,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 10.02 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: existe regime PRÓPRIO de IRRF de 1,5% sobre comissões, corretagens e qualquer outra remuneração pela mediação na realização de negócios civis e comerciais (Lei nº 7.450/1985, art. 53, consolidado no RIR/2018, art. 718 e seguintes), que NÃO integra o conjunto de normas compilado para esta classificação (arts. 714 a 717 do RIR/2018). Confirmar com o contador antes da publicação. ATUALIZADO em 04/09/2026 (pesquisa de pontos em aberto): Existe regime próprio de IRRF para comissões, corretagens e representação comercial/mediação de negócios entre PJs: art. 718 do Decreto 9.580/2018 (RIR/2018), que reproduz o art. 53 da Lei 7.450/1985, tributa esses pagamentos a 1,5%. Esse regime é diferente da lista de \"serviços profissionais\" do art. 714 e não havia sido considerado na classificação original. CSRF permanece não devida.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -1988,7 +1906,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 10.03 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: existe regime PRÓPRIO de IRRF de 1,5% sobre comissões, corretagens e qualquer outra remuneração pela mediação na realização de negócios civis e comerciais (Lei nº 7.450/1985, art. 53, consolidado no RIR/2018, art. 718 e seguintes), que NÃO integra o conjunto de normas compilado para esta classificação (arts. 714 a 717 do RIR/2018). Distinga-se ainda a INTERMEDIAÇÃO do direito (classificada aqui) do serviço de agente da propriedade industrial, que pode envolver advocacia (art. 714, § 1º, II) e atrair a retenção de 1,5% e a CSRF. ATUALIZADO em 04/09/2026 (pesquisa de pontos em aberto): Existe regime próprio de IRRF para comissões, corretagens e representação comercial/mediação de negócios entre PJs: art. 718 do Decreto 9.580/2018 (RIR/2018), que reproduz o art. 53 da Lei 7.450/1985, tributa esses pagamentos a 1,5%. Esse regime é diferente da lista de \"serviços profissionais\" do art. 714 e não havia sido considerado na classificação original. CSRF permanece não devida.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2012,7 +1929,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "ATENÇÃO A ERRO FREQUENTE: o subitem 10.04 JÁ NÃO figura entre as exceções do art. 3º da LC 116/2003. A redação original do inciso XXV, dada pela LC 157/2016, mandava recolher no domicílio do tomador \"os serviços dos subitens 10.04 e 15.09\"; a Lei Complementar nº 175, de 2020, deu nova redação ao inciso, que passou a alcançar somente o subitem 15.09. Desde então, o subitem 10.04 voltou à regra geral do caput - estabelecimento do prestador. Muitos materiais em circulação ainda reproduzem a redação superada.",
-    "observacoes": "PONTO DE ATENÇÃO: (a) o local devido do ISS deste subitem mudou com a LC 175/2020 - conferir a data de qualquer fonte secundária consultada; (b) existe regime PRÓPRIO de IRRF de 1,5% sobre comissões, corretagens e mediação na realização de negócios civis e comerciais (Lei nº 7.450/1985, art. 53, consolidado no RIR/2018, art. 718 e seguintes), que NÃO integra o conjunto de normas compilado para esta classificação; (c) a fronteira entre a mera intermediação e os serviços de assessoria creditícia/gestão de crédito, que a IN SRF 459/2004, art. 1º, § 9º, sujeita à CSRF inclusive quando prestados por empresa de factoring, é decisiva e deve ser verificada no contrato. Item que precisa de revisão contábil antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2036,7 +1952,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 10.05 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput - inclusive na corretagem de imóvel situado em outro município.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: (a) existe regime PRÓPRIO de IRRF de 1,5% sobre comissões, corretagens e mediação na realização de negócios civis e comerciais (Lei nº 7.450/1985, art. 53, consolidado no RIR/2018, art. 718 e seguintes), que NÃO integra o conjunto de normas compilado para esta classificação (arts. 714 a 717); (b) a distinção entre CORRETAGEM (classificada aqui) e ADMINISTRAÇÃO de bens - esta sim listada no art. 714, § 1º, I, e sujeita a IRRF de 1,5% e CSRF de 4,65% - é o ponto crítico deste subitem. ATUALIZADO em 04/09/2026 (pesquisa de pontos em aberto): Existe regime próprio de IRRF para comissões, corretagens e representação comercial/mediação de negócios entre PJs: art. 718 do Decreto 9.580/2018 (RIR/2018), que reproduz o art. 53 da Lei 7.450/1985, tributa esses pagamentos a 1,5%. Esse regime é diferente da lista de \"serviços profissionais\" do art. 714 e não havia sido considerado na classificação original. CSRF permanece não devida.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2060,7 +1975,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 10.06 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Não se confunda com o item 20 da lista anexa (serviços portuários e aeroportuários), esse sim deslocado para o porto ou terminal pelo inciso XXII.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: (a) o agenciamento marítimo é atividade complexa, que reúne representação, despacho documental e contratação de serviços portuários em nome do armador - o serviço de DESPACHANTE está expressamente listado no art. 714, § 1º, XXXVI, do RIR/2018 e pode inverter as respostas de IRRF e CSRF conforme o objeto contratado; (b) existe ainda o regime próprio de IRRF sobre comissões e agenciamento (Lei nº 7.450/1985, art. 53, consolidado no RIR/2018, art. 718 e seguintes), fora do escopo das normas compiladas para esta classificação. Item que precisa de revisão contábil antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2084,7 +1998,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 10.07 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: existe regime PRÓPRIO de IRRF de 1,5% sobre comissões e agenciamento (Lei nº 7.450/1985, art. 53, consolidado no RIR/2018, art. 718 e seguintes), que NÃO integra o conjunto de normas compilado para esta classificação (arts. 714 a 717 do RIR/2018). Registre-se ainda que \"jornalistas profissionais\" constam da lista de profissões regulamentadas do art. 115, § 3º, da IN RFB 2.110/2022 - dispositivo de DISPENSA da retenção previdenciária, que não cria hipótese de IRRF.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2108,7 +2021,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 10.08 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL - ITEM DE ALTO RISCO: (a) existe regime PRÓPRIO de IRRF de 1,5% que alcança expressamente os SERVIÇOS DE PROPAGANDA E PUBLICIDADE, além de comissões e corretagens (Lei nº 7.450/1985, art. 53, consolidado no RIR/2018, art. 718 e seguintes) - dispositivo que NÃO integra o conjunto de normas compilado para esta classificação, restrito aos arts. 714 a 717; (b) a fronteira entre agenciamento de veiculação e \"assessoria mercadológica\" (hipótese expressa do art. 30 da Lei 10.833/2003) define a incidência da CSRF; (c) há ainda regra específica de base de cálculo nas agências de publicidade, quanto aos valores repassados a veículos e fornecedores. Este subitem NÃO deve ser publicado sem conferência contábil. ATUALIZADO em 04/09/2026 (pesquisa de pontos em aberto): Existe regime próprio de IRRF para comissões, corretagens e representação comercial/mediação de negócios entre PJs: art. 718 do Decreto 9.580/2018 (RIR/2018), que reproduz o art. 53 da Lei 7.450/1985, tributa esses pagamentos a 1,5%. Esse regime é diferente da lista de \"serviços profissionais\" do art. 714 e não havia sido considerado na classificação original. Alcança agenciamento de publicidade e propaganda. CSRF e INSS permanecem não devidos.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2132,7 +2044,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 10.09 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL - ITEM DE ALTO RISCO: a REPRESENTAÇÃO COMERCIAL é hipótese expressa do regime próprio de IRRF de 1,5% sobre comissões, corretagens e qualquer outra remuneração pela representação comercial ou pela mediação na realização de negócios civis e comerciais (Lei nº 7.450/1985, art. 53, consolidado no RIR/2018, art. 718 e seguintes). Esse dispositivo NÃO integra o conjunto de normas compilado para esta classificação, limitado aos arts. 714 a 717 do RIR/2018 - por isso o campo IRRF foi marcado como \"não\" apenas em relação às hipóteses efetivamente analisadas. Este subitem NÃO deve ser publicado sem conferência contábil. ATUALIZADO em 04/09/2026 (pesquisa de pontos em aberto): Existe regime próprio de IRRF para comissões, corretagens e representação comercial/mediação de negócios entre PJs: art. 718 do Decreto 9.580/2018 (RIR/2018), que reproduz o art. 53 da Lei 7.450/1985, tributa esses pagamentos a 1,5%. Esse regime é diferente da lista de \"serviços profissionais\" do art. 714 e não havia sido considerado na classificação original. Alcança representação comercial (art. 718, II, cita expressamente \"representação comercial\"). CSRF e INSS permanecem não devidos.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2156,7 +2067,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "Nenhum subitem do item 10 figura hoje nos incisos I a XXV do art. 3º da LC 116/2003. O único que figurava — o subitem 10.04 — foi retirado do inciso XXV pela Lei Complementar nº 175, de 2020, e voltou à regra geral do caput. Aplica-se, portanto, o estabelecimento do prestador.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o enquadramento no INSS é por assimilação. O subitem 10.10 está no item 10 da LC 116/2003 (\"serviços de intermediação e congêneres\") e pode designar tanto a entrega física de produtos de terceiros — que é o que o art. 112, IX, da IN RFB 2.110/2022 descreve — quanto a distribuição em sentido comercial/mercantil (representação, canal de vendas), que não corresponde àquele inciso. Verificar o objeto concreto do contrato.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2181,7 +2091,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local onde o bem estiver guardado ou estacionado (art. 3º, XV, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XV, da LC 116/2003 fixa o imposto como devido no local \"onde o bem estiver guardado ou estacionado, no caso dos serviços descritos no subitem 11.01 da lista anexa\".",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2202,7 +2111,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local dos bens, dos semoventes ou do domicílio das pessoas vigiados, segurados ou monitorados (art. 3º, XVI, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVI, da LC 116/2003, na redação dada pela Lei Complementar nº 157, de 2016, fixa o imposto como devido no local \"dos bens, dos semoventes ou do domicílio das pessoas vigiados, segurados ou monitorados, no caso dos serviços descritos no subitem 11.02 da lista anexa\".",
-    "observacoes": "O subitem reúne vigilância/segurança presencial e monitoramento eletrônico, que recebem tratamento DIFERENTE na retenção previdenciária: o monitoramento eletrônico é expressamente excluído pelo parágrafo único do art. 111 da IN RFB 2.110/2022. Verificar a modalidade efetivamente contratada.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2230,7 +2138,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 11.03 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 11, apenas os subitens 11.01, 11.02 e 11.04 são citados, nos incisos XV, XVI e XVII), aplicando-se a regra geral do caput.",
-    "observacoes": "O enquadramento no IRRF e no INSS se dá por assimilação: nem o art. 716 do RIR/2018 nem o art. 111, II, da IN RFB 2.110/2022 usam a palavra \"escolta\". A base textual é a definição de segurança/vigilância da IN SRF 459/2004, art. 1º, § 2º, III, que menciona a escolta expressamente, somada ao art. 113, parágrafo único, da IN RFB 2.110/2022, segundo o qual a pormenorização das tarefas de cada serviço listado é exemplificativa. Recomenda-se confirmação contábil.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2255,7 +2162,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local do armazenamento, depósito, carga, descarga, arrumação e guarda do bem (art. 3º, XVII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVII, da LC 116/2003 fixa o imposto como devido no local \"do armazenamento, depósito, carga, descarga, arrumação e guarda do bem, no caso dos serviços descritos no subitem 11.04 da lista anexa\".",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o enquadramento previdenciário é por assimilação — a IN RFB 2.110/2022 não usa as palavras \"armazenamento\", \"depósito\" ou \"guarda\", e alcança as operações de carga, descarga e arrumação por meio dos conceitos de acondicionamento (art. 112, III) e de movimentação de materiais (art. 112, XX). A simples locação de espaço de armazenagem, sem colocação de trabalhadores à disposição da contratante, não configura cessão de mão de obra e não atrai a retenção.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2280,7 +2186,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 11.05 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 — o inciso XVI, que fixa o local dos bens, semoventes ou domicílio das pessoas vigiadas, cita apenas o subitem 11.02. Aplica-se, portanto, a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: os enquadramentos de IRRF e CSRF são por assimilação — nem o art. 716 do RIR/2018 nem o art. 30 da Lei 10.833/2003 mencionam \"monitoramento\" ou \"rastreamento\", e a legislação da retenção previdenciária, no ponto em que trata do tema (art. 111, parágrafo único, da IN RFB 2.110/2022), afasta expressamente o monitoramento eletrônico. Como a LC 183/2021 desmembrou esta atividade do subitem 11.02 (vigilância, segurança ou monitoramento), há argumento consistente em ambos os sentidos, e recomenda-se validação contábil antes da publicação. Registre-se ainda que a mesma LC 183/2021 excluiu o subitem 11.05 da responsabilidade nacional do tomador prevista no art. 6º, § 2º, II, da LC 116/2003.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2304,7 +2209,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 fixa o imposto como devido no local \"da execução dos serviços de diversão, lazer, entretenimento e congêneres, no caso dos serviços descritos nos subitens do item 12, exceto o 12.13, da lista anexa\".",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2328,7 +2232,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13, fixando o imposto como devido no local da execução dos serviços de diversão, lazer, entretenimento e congêneres.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2352,7 +2255,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13, fixando o imposto como devido no local da execução dos serviços de diversão, lazer, entretenimento e congêneres.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2376,7 +2278,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13, fixando o imposto como devido no local da execução dos serviços de diversão, lazer, entretenimento e congêneres.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2400,7 +2301,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13, fixando o imposto como devido no local da execução dos serviços de diversão, lazer, entretenimento e congêneres.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2424,7 +2324,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13, fixando o imposto como devido no local da execução dos serviços de diversão, lazer, entretenimento e congêneres.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2448,7 +2347,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13, fixando o imposto como devido no local da execução dos serviços de diversão, lazer, entretenimento e congêneres.",
-    "observacoes": "AMBIGUIDADE A VERIFICAR: a fronteira entre a apresentação artística (subitem 12.07, sem retenção previdenciária) e a promoção/realização do evento por terceiro mediante cessão de mão de obra (art. 112, XXI, da IN RFB 2.110/2022, com retenção de 11%) é tênue e depende do objeto contratado. Contratos que reúnem as duas prestações devem ser analisados individualmente.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2472,7 +2370,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13. Registre-se que o serviço de planejamento, organização e administração de feiras, exposições e congressos tem subitem próprio — o 17.10 — cujo local é o da feira, por força do art. 3º, XXI.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: este subitem é fronteiriço com o 17.10 da mesma lista. A LC 116/2003 separa a realização do evento como diversão (12.08) da sua organização profissional (17.10), mas o art. 714, § 1º, XXVII, do RIR/2018 alcança a \"organização de feiras de amostras, congressos, seminários, simpósios e congêneres\", de modo que o IRRF e a CSRF podem ser devidos conforme o objeto do contrato. O enquadramento previdenciário, por sua vez, é por assimilação ao art. 112, XXI, e pressupõe cessão de mão de obra.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2497,7 +2394,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13, fixando o imposto como devido no local da execução dos serviços de diversão, lazer, entretenimento e congêneres.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2521,7 +2417,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13, fixando o imposto como devido no local da execução dos serviços de diversão, lazer, entretenimento e congêneres.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2545,7 +2440,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13, fixando o imposto como devido no local da execução dos serviços de diversão, lazer, entretenimento e congêneres.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2569,7 +2463,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13, fixando o imposto como devido no local da execução dos serviços de diversão, lazer, entretenimento e congêneres.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2593,7 +2486,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 12.13 é a ÚNICA exceção dentro do item 12: o art. 3º, XVIII, da LC 116/2003 fixa o imposto no local da execução \"no caso dos serviços descritos nos subitens do item 12, EXCETO O 12.13, da lista anexa\". Para a produção de eventos, portanto, aplica-se a regra geral do caput — estabelecimento do prestador.",
-    "observacoes": "O enquadramento previdenciário se dá por assimilação entre a \"produção\" de eventos e espetáculos do subitem 12.13 e a \"promoção de eventos\" do art. 112, XXI, da IN RFB 2.110/2022, e pressupõe cessão de mão de obra. Atenção também para a regra de local: este é o único subitem do item 12 que segue a regra geral do estabelecimento do prestador, o que costuma gerar erro de recolhimento na prática.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2618,7 +2510,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13, fixando o imposto como devido no local da execução dos serviços de diversão, lazer, entretenimento e congêneres.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2642,7 +2533,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13, fixando o imposto como devido no local da execução dos serviços de diversão, lazer, entretenimento e congêneres.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2666,7 +2556,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13, fixando o imposto como devido no local da execução dos serviços de diversão, lazer, entretenimento e congêneres.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2690,7 +2579,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução dos serviços de diversão, lazer e entretenimento (art. 3º, XVIII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XVIII, da LC 116/2003 abrange todos os subitens do item 12, exceto o 12.13, fixando o imposto como devido no local da execução dos serviços de diversão, lazer, entretenimento e congêneres.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o enquadramento previdenciário é por assimilação — a IN RFB 2.110/2022 não usa as palavras \"recreação\" ou \"animação\", e a aproximação com o art. 112, XXI, decorre da realização de festas e eventos ali mencionada, somada ao art. 113, parágrafo único, segundo o qual a pormenorização das tarefas de cada serviço listado é exemplificativa. Como este serviço é frequentemente contratado com colocação de equipes à disposição do tomador, verificar se a contratação configura cessão de mão de obra (art. 108) ou locação de mão de obra — hipótese em que também IRRF de 1% e CSRF de 4,65% passam a incidir.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2715,7 +2603,6 @@
     "iss_responsavel": "Não se aplica",
     "iss_local_devido": "Não se aplica (subitem vetado, sem vigência)",
     "iss_local_nota": "Este subitem não existe na lista de serviços vigente — foi vetado pelo Presidente da República na sanção da LC 116/2003 (Mensagem de veto nº 362, de 31/07/2003) e nunca produziu efeitos.",
-    "observacoes": "⚠️ Subitem vetado, mantido aqui apenas para referência (o número 13.01 não corresponde a nenhuma atividade tributável). Subitem VETADO na sanção da LC 116/2003 (Mensagem de veto nº 362, de 31/07/2003). Nunca teve texto vigente. Texto vetado: \"13.01 – Produção, gravação, edição, legendagem e distribuição de filmes, video-tapes, discos, fitas cassete, compact disc, digital video disc e congêneres.\"",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/leis/Mensagem_Veto/2003/Mv362-03.htm"
@@ -2736,7 +2623,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "Nenhum subitem do item 13 figura nos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2760,7 +2646,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "Nenhum subitem do item 13 figura nos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2784,7 +2669,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "Nenhum subitem do item 13 figura nos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "O enquadramento previdenciário alcança com segurança a parcela de DIGITALIZAÇÃO, que corresponde ao \"escaneamento manual\" mencionado no art. 111, VI, da IN RFB 2.110/2022. A reprografia (mera reprodução de cópias) e a microfilmagem, isoladamente consideradas, não estão descritas naquele inciso. Contratos que reúnam as três prestações devem discriminar os valores, pois a base de cálculo da retenção se limita aos serviços efetivamente enquadrados.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2809,7 +2693,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "Nenhum subitem do item 13 figura nos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "O próprio subitem exclui do ISS os impressos destinados a posterior comercialização ou industrialização (bulas, rótulos, etiquetas, caixas, cartuchos, embalagens e manuais), que ficam sujeitos ao ICMS. A definição da natureza da operação — serviço ou circulação de mercadoria — precede a análise das retenções federais.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2833,7 +2716,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 14.01 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 — do item 14, apenas o subitem 14.14 é citado, no inciso III, na redação dada pela Lei Complementar nº 218, de 2025. Aplica-se, portanto, a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: este subitem reúne prestações com tratamento diferente. O CONSERTO ISOLADO de bem defeituoso é expressamente excluído do conceito de manutenção pela IN SRF 459/2004, art. 1º, § 2º, II, e afasta a CSRF. O IRRF de 1% alcança a parcela de limpeza e conservação, mas a manutenção pura não consta do art. 716 do RIR/2018. E o INSS exige, além da cessão de mão de obra, equipe mantida à disposição da contratante (art. 112, XIV, da IN RFB 2.110/2022). Contratos mistos devem discriminar as parcelas.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2858,7 +2740,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 14.02 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: \"assistência técnica\" é expressão genérica e os enquadramentos aqui são por assimilação à \"manutenção\". Três cenários mudam a resposta: (1) assistência técnica prestada a terceiros e concernente a ramo de indústria ou comércio explorado pelo próprio prestador — excluída do IRRF pela exceção literal do art. 714, § 1º, VI, do RIR/2018; (2) assistência técnica que na prática seja assessoria ou consultoria técnica — sujeita ao IRRF de 1,5% e à CSRF como serviço profissional; (3) atendimento isolado, mero conserto de bem defeituoso — excluído do conceito de manutenção pela IN SRF 459/2004, art. 1º, § 2º, II, afastando a CSRF. Recomenda-se validação contábil à luz do objeto do contrato. CORRIGIDO em auditoria de 03/09/2026: Item 'Assistência técnica'. O art. 714, §1º, VI, do RIR/2018 exclui expressamente o 'serviço de assistência técnica prestado a terceiros e concernente a ramo de indústria ou comércio explorado pelo prestador do serviço' da lista de serviços profissionais sujeitos a IRRF de 1,5% — por isso irrf=false já estava correto. Ocorre que a hipótese 13 do art. 30 da Lei 10.833/2003 ('remuneração de serviços profissionais') remete exatamente à mesma lista do RIR (art. 714, §1º), conforme a própria definição de 'profissionais' da IN SRF 459/2004, art. 1º, §2º, IV. Logo, a mesma exclusão de assistência técnica que afasta o IRRF também afasta a CSRF pela via da hipótese 13. Assistência técnica também não se enquadra em nenhuma das outras 12 hipóteses do art. 30 (limpeza, conservação, manutenção, segurança, vigilância, transporte de valores, locação de mão de obra, assessoria creditícia/mercadológica, gestão de crédito, seleção e riscos, administração de contas a pagar/receber). O registro atual (csrf=true, 4,65%) está incorreto; deveria ser csrf=false.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2883,7 +2764,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 14.03 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2907,7 +2787,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 14.04 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2931,7 +2810,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 14.05 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o subitem reúne dezesseis operações distintas, e a retenção previdenciária alcança apenas duas delas — ACONDICIONAMENTO e ACABAMENTO —, e ainda assim somente quando contratadas mediante cessão de mão de obra (art. 112, I e III, da IN RFB 2.110/2022). As demais operações (galvanoplastia, anodização, tingimento, pintura, plastificação e congêneres) não constam das listas exaustivas dos arts. 111 e 112. Verificar o serviço efetivamente contratado e discriminar valores na nota fiscal.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2956,7 +2834,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 14.06 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Atenção para não confundir com o subitem 7.02, que abrange a instalação e montagem de produtos, peças e equipamentos executada como parte de obra de construção civil e cujo ISS é devido no local da obra (art. 3º, III).",
-    "observacoes": "Se a instalação ou montagem integrar obra de construção civil, o enquadramento correto é o subitem 7.02, e não o 14.06 — o que muda tanto o local devido do ISS (local da obra) quanto o regime do INSS, que passa a alcançar também a EMPREITADA por força do art. 111, III, da IN RFB 2.110/2022.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -2981,7 +2858,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 14.07 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3005,7 +2881,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 14.08 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "AMBIGUIDADE A VERIFICAR: a encadernação pode ser lida como operação de \"acabamento\" na acepção do art. 112, I, da IN RFB 2.110/2022 (\"conclusão, preparo final ou incorporação das últimas partes ou dos componentes de produtos, para o fim de colocá-los em condição de uso\"). Como a IN não usa a palavra \"encadernação\" e o art. 113 declara exaustivas as listas dos arts. 111 e 112, a classificação adotada foi a de ausência de retenção. Se o contrato for de cessão de mão de obra para acabamento gráfico, a resposta muda — recomenda-se revisão contábil.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3029,7 +2904,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 14.09 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3053,7 +2927,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 14.10 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: existe entendimento corrente na prática contábil de que a lavanderia contratada de forma continuada — sobretudo a lavanderia hospitalar e a hoteleira — configura serviço de limpeza/higienização sujeito ao IRRF de 1% (art. 716 do RIR/2018) e à CSRF de 4,65% (art. 30 da Lei 10.833/2003). A classificação adotada acima segue a literalidade das definições da IN SRF 459/2004, art. 1º, § 2º, I, que se refere a áreas e edificações. Não foi possível confirmar, nas fontes primárias consultadas, ato normativo ou solução de consulta que resolva a questão. RECOMENDA-SE REVISÃO CONTÁBIL ANTES DA PUBLICAÇÃO. Verificar também se o contrato envolve cessão de mão de obra para higienização de dependências, hipótese em que as três retenções passam a incidir.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3077,7 +2950,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 14.11 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3101,7 +2973,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 14.12 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 14, apenas o subitem 14.14 é citado, no inciso III, na redação dada pela Lei Complementar nº 218, de 2025), aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a resposta \"não\" para a CSRF pressupõe o conserto isolado, que é a hipótese típica do subitem. Se a funilaria e a lanternagem forem contratadas dentro de um contrato continuado de manutenção de frota - mantendo o veículo em condições eficientes de operação -, incide a retenção de 4,65% por enquadramento em \"manutenção\" (art. 30 da Lei 10.833/2003 c/c IN SRF 459/2004, art. 1º, § 2º, II). O enquadramento depende do objeto concreto do contrato.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3125,7 +2996,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 14.13 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 14, apenas o subitem 14.14 é citado, no inciso III, na redação dada pela Lei Complementar nº 218, de 2025), aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o subitem 14.13 pertence ao item 14 (\"serviços relativos a bens de terceiros\"), isto é, pressupõe trabalho sobre bem do contratante, tipicamente em oficina do prestador. Quando a mesma carpintaria ou serralheria integrar obra de construção civil (esquadrias, estruturas, grades instaladas na edificação), o serviço migra para o subitem 7.02 e para o regime do art. 111, III, da IN RFB 2.110/2022, com retenção de 11% e ISS devido no local da obra. A distinção deve ser feita caso a caso.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3149,7 +3019,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da execução da obra (art. 3º, III, LC 116/2003)",
     "iss_local_nota": "A Lei Complementar nº 218, de 2025, alterou o art. 3º, III, da LC 116/2003, que passou a fixar o imposto como devido no local \"da execução da obra, no caso dos serviços descritos nos subitens 7.02, 7.19 e 14.14 da lista anexa\". Antes dessa alteração, o subitem 14.14 seguia a regra geral do estabelecimento do prestador.",
-    "observacoes": "PONTO DE ATENÇÃO: a inclusão do subitem 14.14 no art. 3º, III, é recente (Lei Complementar nº 218, de 2025) e ainda não foi absorvida por boa parte do material contábil em circulação, que continua indicando o estabelecimento do prestador para guincho, guindaste e içamento. Note-se também que o inciso III fala em \"local da execução da obra\", redação pensada para os subitens 7.02 e 7.19; nos serviços do 14.14 prestados fora de canteiro de obra (por exemplo, reboque de veículo), a aplicação do critério exige interpretação e recomenda-se acompanhar a legislação municipal e a jurisprudência.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3173,7 +3042,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Domicílio do tomador do serviço (art. 3º, XXIV, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XXIV, da LC 116/2003, incluído pela Lei Complementar nº 157, de 2016, fixa o imposto como devido no local \"do domicílio do tomador do serviço no caso dos serviços prestados pelas administradoras de cartão de crédito ou débito e demais descritos no subitem 15.01\". Quem é o tomador está definido nos §§ 8º a 11 do mesmo artigo: o primeiro titular do cartão; o estabelecimento credenciado, nas transferências por cartão prestadas por bandeiras, credenciadoras e emissoras; o cotista, na administração de carteira de valores mobiliários e de fundos e clubes de investimento; e o consorciado, na administração de consórcios.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o subitem reúne prestações com tratamento DIFERENTE no IRRF e na CSRF. A administração de consórcios e de fundos mútuos para aquisição de bens é excepcionada pela parte final do art. 714, § 1º, I, do RIR/2018, enquanto a administração de cartões, de carteira de clientes e de cheques pré-datados permanece alcançada. Uma única resposta \"sim/não\" para o subitem é simplificação: verificar a modalidade efetivamente contratada. Registre-se ainda que o art. 6º, § 2º, IV, da LC 116/2003 atribui responsabilidade tributária a credenciadoras e emissoras de cartões pelo ISS devido nas operações do subitem 15.01.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3197,7 +3065,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.02 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3221,7 +3088,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.03 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o subitem reúne duas prestações de naturezas distintas. (1) LOCAÇÃO: a Súmula Vinculante 31 do STF fixa que \"é inconstitucional a incidência do Imposto sobre Serviços de Qualquer Natureza - ISS sobre operações de locação de bens móveis\", o que compromete a exigência do imposto sobre a parcela de locação de cofres, terminais e equipamentos; essa parcela também não sofre CSRF nem INSS. (2) MANUTENÇÃO: sujeita a CSRF de 4,65% e, se contratada mediante cessão de mão de obra com equipe à disposição, a INSS de 11%. A separação dos valores no contrato e na nota fiscal é determinante.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3247,7 +3113,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.04 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3271,7 +3136,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.05 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o caput do art. 30 da Lei 10.833/2003 arrola expressamente \"assessoria creditícia\", \"gestão de crédito\" e \"seleção e riscos\", e a IN SRF 459/2004, art. 1º, § 9º, estende essas hipóteses inclusive às empresas de factoring. Serviços cadastrais contratados como instrumento de análise e seleção de risco de crédito (consulta e inclusão no CCF, bureaus de crédito) podem ser enquadrados nessas hipóteses e atrair a retenção de 4,65%. A classificação acima adota a leitura literal do subitem (serviço cadastral autônomo); o enquadramento concreto deve ser confirmado à luz do objeto contratual antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3295,7 +3159,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.06 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: este é um dos subitens mais heterogêneos da lista, e as respostas acima refletem seu núcleo (serviços documentais bancários). Duas prestações nele reunidas podem receber tratamento distinto se forem o objeto efetivo do contrato: (a) \"licenciamento eletrônico de veículos\" e \"transferência de veículos\" correspondem materialmente ao \"serviço de despachante\", arrolado no art. 714, § 1º, XXXVI, do RIR/2018, o que atrairia IRRF de 1,5% e, por consequência, CSRF de 4,65%; (b) \"coleta e entrega de (...) valores\", se prestada como transporte de valores, é hipótese expressa do caput do art. 30 da Lei 10.833/2003, com CSRF de 4,65%. Nenhum dos dois enquadramentos é literal em relação ao texto do subitem; ambos exigem análise do contrato e revisão contábil.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3319,7 +3182,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.07 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3343,7 +3205,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.08 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o enquadramento na CSRF alcança com segurança apenas a parcela de \"estudo, análise e avaliação de operações de crédito\", assimilada a \"assessoria creditícia\"/\"gestão de crédito\" do art. 30 da Lei 10.833/2003 - correspondência de conteúdo, não de redação idêntica. As demais prestações reunidas no subitem (emissão e registro de contrato, aval, fiança, anuência) são atos da própria operação de crédito e não figuram nas hipóteses do art. 30. Contratos que misturem essas parcelas devem ser analisados individualmente.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3367,7 +3228,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Domicílio do tomador do serviço (art. 3º, XXV, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XXV, da LC 116/2003, na redação dada pela Lei Complementar nº 175, de 2020, fixa o imposto como devido no local \"do domicílio do tomador do serviço do subitem 15.09\". O § 12 do mesmo artigo define que, no arrendamento mercantil, o tomador é o arrendatário - pessoa física ou unidade beneficiária da pessoa jurídica, domiciliado no País; se o arrendatário não for domiciliado no País, o tomador é o beneficiário do serviço no País.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3391,7 +3251,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.10 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO: as retenções indicadas pressupõem a contratação do serviço de cobrança/administração de contas a receber por uma pessoa jurídica que figura como credora dos valores. Na cobrança bancária ordinária, em que o banco apenas processa títulos por conta do cedente, a caracterização da \"administração de contas a pagar e a receber\" do art. 30 da Lei 10.833/2003 deve ser verificada caso a caso, assim como a existência de cessão de mão de obra para fins do art. 112, IV, da IN RFB 2.110/2022.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3416,7 +3275,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.11 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: os atos deste subitem são acessórios ao processo de cobrança. Quando prestados como parte de um contrato de cobrança ou de administração de contas a receber - e não como tarifas avulsas -, atrai-se a hipótese de \"administração de contas a pagar e a receber\" do caput do art. 30 da Lei 10.833/2003, com CSRF de 4,65%, na mesma linha adotada para o subitem 15.10. A distinção depende do objeto contratado.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3440,7 +3298,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.12 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput. Registre-se que o inciso XVII, que remete ao local do armazenamento e guarda do bem, aplica-se ao subitem 11.04, e não à custódia do subitem 15.12.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3464,7 +3321,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.13 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3488,7 +3344,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.14 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003. Atenção: o inciso XXIV, que fixa o imposto no domicílio do tomador para os serviços das administradoras de cartão, refere-se expressamente ao subitem 15.01, e não ao 15.14, que segue a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO: é frequente a confusão entre este subitem e o 15.01. O fornecimento, a emissão e a manutenção do cartão (15.14) seguem a regra geral do estabelecimento do prestador; já a ADMINISTRAÇÃO de cartão de crédito ou débito (15.01) tem ISS devido no domicílio do tomador (art. 3º, XXIV, da LC 116/2003) e sofre IRRF e CSRF por enquadramento em \"administração de bens ou negócios em geral\". Verificar qual é a prestação efetivamente faturada.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3512,7 +3367,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.15 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3536,7 +3390,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.16 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3560,7 +3413,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.17 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3584,7 +3436,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 15.18 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 15, apenas os subitens 15.01 e 15.09 são citados, nos incisos XXIV e XXV), aplicando-se a regra geral do caput - inclusive quanto à vistoria de imóvel ou obra, que não é alcançada pelas regras de local de execução dos subitens do item 7.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o subitem reúne prestações de naturezas distintas. As parcelas de avaliação, vistoria e análise técnica e jurídica são serviços profissionais sujeitos a IRRF de 1,5% e CSRF de 4,65%; já a emissão, transferência, renegociação de contrato e emissão do termo de quitação são atos operacionais do crédito imobiliário, que não constam da lista do art. 714, § 1º, do RIR/2018. Contratos e notas fiscais que misturem as duas naturezas exigem discriminação de valores e análise individualizada.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3605,7 +3456,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Município onde está sendo executado o transporte (art. 3º, XIX, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XIX, da LC 116/2003, na redação dada pela Lei Complementar nº 157, de 2016, fixa o imposto como devido no local \"do Município onde está sendo executado o transporte, no caso dos serviços descritos pelo item 16 da lista anexa\". A redação original referia-se apenas ao subitem 16.01; a atual alcança todo o item 16.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3629,7 +3479,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Município onde está sendo executado o transporte (art. 3º, XIX, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: com a redação dada pela Lei Complementar nº 157, de 2016, o art. 3º, XIX, da LC 116/2003 passou a alcançar todo o item 16 da lista anexa - e não apenas o subitem 16.01 -, de modo que o imposto é devido no Município onde o transporte está sendo executado.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: por ser subitem residual (\"outros serviços de transporte de natureza municipal\"), 16.02 abrange realidades muito distintas - transporte escolar, transporte de cargas intramunicipal, táxi, transporte de valores, entre outros -, cada uma com tratamento próprio nas retenções federais. As classificações acima refletem a regra geral e não substituem a análise do serviço efetivamente prestado.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3655,7 +3504,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.01 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput.",
-    "observacoes": "Observar a exceção literal do art. 714, § 1º, VI, do RIR/2018: não se sujeita à retenção o serviço de assistência técnica prestado a terceiros e concernente a ramo de indústria ou comércio explorado pelo próprio prestador do serviço. Note-se ainda que o subitem 17.01 é expressamente residual (\"não contida em outros itens desta lista\"): se a assessoria ou consultoria tiver subitem próprio na lista anexa, prevalece o enquadramento específico.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3679,7 +3527,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.02 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: este subitem agrega prestações com tratamentos federais DIFERENTES. A tradução e a interpretação comercial atraem IRRF de 1,5% e CSRF de 4,65% como serviços profissionais, mas não INSS. A digitação, a secretaria, o expediente e a resposta audível não constam do art. 714, § 1º, do RIR/2018 (sem IRRF de 1,5%), mas figuram nas listas da IN RFB 2.110/2022 e atraem INSS de 11% quando há cessão de mão de obra. Já o \"apoio e infra-estrutura administrativa\" pode configurar locação de mão de obra, com IRRF de 1% (art. 716 do RIR/2018) em vez de 1,5%. Uma única resposta por subitem é necessariamente simplificação: verificar a prestação efetivamente contratada.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3704,7 +3551,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.03 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3728,7 +3574,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.04 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003. ATENÇÃO: o inciso XX, que fixa o imposto no estabelecimento do tomador da mão de obra, refere-se expressamente ao subitem 17.05 (fornecimento de mão de obra), e NÃO ao 17.04 (recrutamento e seleção), que segue a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO: a distinção entre os subitens 17.04 e 17.05 é decisiva e altera as três respostas. O 17.04 (recrutamento, agenciamento, seleção e colocação) é intermediação e, pelas listas taxativas aplicáveis, não sofre IRRF, CSRF nem INSS pela natureza da atividade, com ISS no estabelecimento do prestador. O 17.05 (fornecimento de mão de obra) é locação de mão de obra e sofre IRRF de 1%, CSRF de 4,65% e, conforme o serviço cedido, INSS de 11%, com ISS devido no estabelecimento do tomador. Conferir o objeto do contrato, e não apenas o código informado na nota fiscal.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3752,7 +3597,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do tomador da mão de obra ou, na falta de estabelecimento, onde ele estiver domiciliado (art. 3º, XX, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XX, da LC 116/2003 fixa o imposto como devido no local \"do estabelecimento do tomador da mão-de-obra ou, na falta de estabelecimento, onde ele estiver domiciliado, no caso dos serviços descritos pelo subitem 17.05 da lista anexa\".",
-    "observacoes": "Este é um dos casos em que as três retenções federais podem incidir cumulativamente sobre a mesma nota fiscal (IRRF de 1%, CSRF de 4,65% e INSS de 11%), observadas as dispensas de cada regime. Duas ressalvas: (a) para o INSS, a lista de serviços dos arts. 111 e 112 da IN RFB 2.110/2022 é exaustiva - a cessão de trabalhadores para atividade não arrolada não gera a retenção de 11%; (b) quanto ao ISS, o subitem 17.05 é um dos treze arrolados no art. 6º, § 2º, II, da LC 116/2003, em que o tomador pessoa jurídica, ainda que imune ou isento, é responsável pelo imposto por força de norma nacional - o modo de cumprimento dessa responsabilidade, porém, continua sendo definido pela legislação de cada Município.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3777,7 +3621,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.06 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL - DOIS ALERTAS. (1) O enquadramento no IRRF é por assimilação: a expressão \"propaganda e publicidade\" não aparece na lista taxativa do art. 714, § 1º, do RIR/2018; a base textual utilizada foi \"planejamento\" (inciso XXIX), literalmente presente na descrição do subitem. (2) MAIS IMPORTANTE: a legislação do imposto de renda contém regime específico de retenção sobre importâncias pagas a agências de propaganda por conta de anunciantes, com regras próprias de base de cálculo e de responsabilidade, que NÃO integra a base normativa utilizada nesta classificação (restrita aos arts. 714 e 716 do RIR/2018). Antes da publicação, este item deve ser conferido por contador contra o dispositivo específico aplicável às agências de propaganda. ATUALIZADO em 04/09/2026 (pesquisa de pontos em aberto): A Solução de Consulta SRRF/9ª RF nº 225/2004 confirma que publicidade e propaganda não sofrem retenção de PIS/COFINS/CSLL — o fundamento anterior (assimilação a \"assessoria mercadológica\") estava equivocado: esse termo é jargão específico de operações de factoring (Lei 9.249/95, art. 15, §1º, III, \"d\"), não de marketing/publicidade. IRRF permanece devido (1,5%), agora com base correta no art. 718, II do RIR/2018 (comissão por intermediação/agenciamento de veiculação), em vez da assimilação a \"planejamento\" (inciso XXIX do art. 714).",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3802,7 +3645,6 @@
     "iss_responsavel": "Não se aplica",
     "iss_local_devido": "Não se aplica (subitem vetado, sem vigência)",
     "iss_local_nota": "Este subitem não existe na lista de serviços vigente — foi vetado pelo Presidente da República na sanção da LC 116/2003 (Mensagem de veto nº 362, de 31/07/2003) e nunca produziu efeitos.",
-    "observacoes": "⚠️ Subitem vetado, mantido aqui apenas para referência (o número 17.07 não corresponde a nenhuma atividade tributável). Subitem VETADO na sanção da LC 116/2003 (Mensagem de veto nº 362, de 31/07/2003). Nunca teve texto vigente. Texto vetado: \"17.07 – Veiculação e divulgação de textos, desenhos e outros materiais de propaganda e publicidade, por qualquer meio.\" ATENÇÃO: a veiculação de publicidade passou a constar do subitem 17.25, incluído pela LC 157/2016.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/leis/Mensagem_Veto/2003/Mv362-03.htm"
@@ -3823,7 +3665,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.08 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO: o contrato de franquia costuma reunir, além da cessão de uso da marca e do modelo de negócio, prestações acessórias com natureza própria - notadamente consultoria, treinamento de pessoal e supervisão. Se essas prestações forem contratadas e faturadas de forma destacada, atraem o tratamento dos serviços profissionais do art. 714, § 1º, do RIR/2018 (\"consultoria\", inciso XII; \"ensino e treinamento\", inciso XVIII), com IRRF de 1,5% e CSRF de 4,65%, e, no caso de treinamento e ensino prestado mediante cessão de mão de obra, INSS de 11% (art. 112, X, da IN RFB 2.110/2022). Análise caso a caso.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3847,7 +3688,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.09 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput - ainda que a perícia seja realizada fisicamente em outro Município.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3871,7 +3711,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Local da feira, exposição, congresso ou congênere (art. 3º, XXI, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XXI, da LC 116/2003 fixa o imposto como devido no local \"da feira, exposição, congresso ou congênere a que se referir o planejamento, organização e administração, no caso dos serviços descritos pelo subitem 17.10 da lista anexa\".",
-    "observacoes": "Quanto ao ISS, o subitem 17.10 é um dos treze arrolados no art. 6º, § 2º, II, da LC 116/2003, em que o tomador pessoa jurídica, ainda que imune ou isento, é responsável pelo imposto por força de norma nacional. A forma de cumprimento dessa responsabilidade - alíquota, cadastro, prazo e obrigações acessórias - continua sendo definida pela legislação do Município onde ocorre o evento.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3896,7 +3735,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.11 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003. Note-se que o inciso XXI, relativo ao local do evento, refere-se expressamente ao subitem 17.10 (feiras, exposições e congressos), e não ao 17.11, que segue a regra geral do caput ainda que a festa ocorra em outro Município.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a exclusão do IRRF e da CSRF apoia-se na leitura de que \"festas e recepções\" não são congêneres das \"feiras de amostras, congressos, seminários e simpósios\" do art. 714, § 1º, XXVII, do RIR/2018. Como a lista é taxativa mas usa a cláusula \"e congêneres\", há espaço para entendimento diverso, sobretudo em eventos corporativos organizados pela mesma empresa que também organiza congressos (subitem 17.10, este sim sujeito a IRRF de 1,5% e CSRF de 4,65%). Recomenda-se validação contábil e atenção ao objeto descrito no contrato.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3921,7 +3759,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.12 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput.",
-    "observacoes": "Observar a exceção literal do art. 714, § 1º, I, do RIR/2018: a administração de consórcios ou de fundos mútuos para aquisição de bens está fora da retenção - e essa administração tem, na lista anexa à LC 116/2003, subitem próprio (15.01). Atenção também à administração de imóveis de terceiros, que na prática costuma vir acompanhada de serviços de conservação, limpeza e portaria com regimes de retenção distintos.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3945,7 +3782,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.13 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3966,7 +3802,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.14 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -3993,7 +3828,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.15 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a classificação negativa decorre da ausência literal da arbitragem na lista taxativa do art. 714, § 1º, do RIR/2018, mas o tema é sensível. Se a câmara arbitral ou o escritório faturar, dentro do mesmo contrato, serviços de advocacia (inciso II), de avaliação e perícia (inciso IX) ou de análises técnicas (inciso IV) - o que é frequente na arbitragem, com pareceres e perícias -, essas parcelas passam a sofrer IRRF de 1,5% e CSRF de 4,65%. Recomenda-se validação contábil antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4017,7 +3851,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.16 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput - ainda que os trabalhos de campo sejam realizados na sede do cliente, em outro Município.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4041,7 +3874,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.17 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput.",
-    "observacoes": "O enquadramento no IRRF e na CSRF é por assimilação: a lista do art. 714, § 1º, do RIR/2018 é taxativa e não menciona literalmente \"organização e métodos\"; o enquadramento se apoia em \"análises técnicas\" e \"consultoria\". Como a atividade é, por definição, consultoria organizacional, a assimilação é consistente, mas recomenda-se conferir o objeto descrito no contrato - se a empresa apenas executar rotinas administrativas em vez de analisá-las, o enquadramento correto passa a ser o do subitem 17.02.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4065,7 +3897,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.18 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput.",
-    "observacoes": "A palavra \"atuária\" não aparece literalmente na lista do art. 714, § 1º, do RIR/2018; o enquadramento se dá por \"cálculo em geral\" (inciso XI) e \"estatística\" (inciso XIX), que são o conteúdo da atividade atuarial. Já os \"cálculos técnicos de qualquer natureza\" correspondem de forma direta ao inciso XI.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4086,7 +3917,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.19 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4110,7 +3940,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.20 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "Observar a exceção do art. 714, § 1º, VI, do RIR/2018: não se sujeita à retenção o serviço de assistência técnica prestado a terceiros concernente a ramo de indústria ou comércio explorado pelo próprio prestador do serviço.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4137,7 +3966,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.21 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4161,7 +3989,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.22 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o enquadramento na CSRF se dá por assimilação - o caput do art. 30 da Lei 10.833/2003 não usa a palavra \"cobrança\", mas sim \"gestão de crédito\" e \"administração de contas a pagar e a receber\". Contratos de simples cobrança amigável ou judicial de créditos próprios do contratante devem ser confrontados com essas expressões antes da retenção. Note ainda a assimetria: há retenção previdenciária expressa (art. 112, IV, da IN RFB 2.110/2022, na cessão de mão de obra), mas não há retenção de IRRF, porque a cobrança não integra a lista taxativa do art. 714 do RIR/2018.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4186,7 +4013,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.23 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Registre-se que o subitem 10.04 (agenciamento de factoring), que constava do inciso XXV, foi dele retirado pela Lei Complementar nº 175, de 2020, e também voltou à regra geral.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o enquadramento na CSRF é literal e seguro, mas o do IRRF se dá por assimilação - o art. 714, § 1º, do RIR/2018 não menciona \"faturização\" nem \"factoring\", e a lista é taxativa. O subitem reúne prestações de naturezas distintas (assessoria, cadastro, seleção, gerenciamento de informações, administração de contas), que devem ser confrontadas com o objeto concreto do contrato.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4210,7 +4036,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.24 não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003 (do item 17, apenas os subitens 17.05 e 17.10 são citados, nos incisos XX e XXI), aplicando-se a regra geral do caput. Atenção para não confundir com o subitem 17.10 (planejamento, organização e administração de congressos e feiras), esse sim devido no local do evento pelo art. 3º, XXI.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o enquadramento se dá por assimilação - \"palestra\" e \"conferência\" não aparecem com essas palavras no art. 714, § 1º, do RIR/2018 nem no art. 112 da IN RFB 2.110/2022; a base é a expressão \"ensino e treinamento\". Na prática, a palestra isolada contratada de PJ costuma ser tratada como serviço profissional sujeito ao IRRF/CSRF, mas o enquadramento previdenciário é remoto, porque exige cessão de mão de obra.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4235,7 +4060,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 17.25, incluído pela Lei Complementar nº 157, de 2016, não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a legislação do imposto de renda trata a publicidade e a propaganda em dispositivos próprios, fora dos arts. 714 e 716 do RIR/2018 (que são a base desta ferramenta), com regra específica para as importâncias pagas a agências de propaganda e para a veiculação. A resposta \"não\" acima diz apenas que a atividade não está nas listas dos arts. 714 e 716; o regime aplicável às agências de propaganda e à veiculação deve ser verificado à parte antes de qualquer pagamento.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4259,7 +4083,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 18.01 - único do item 18 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "O enquadramento no IRRF se dá por assimilação: a expressão \"regulação de sinistros\" não aparece no art. 714, § 1º, do RIR/2018, cuja lista é taxativa; a base utilizada é \"avaliação e perícia\" (inciso IX). Recomenda-se confirmar o objeto concreto do contrato, sobretudo para distinguir a atividade do regulador/perito da mera intermediação ou corretagem de seguros, que tem enquadramento distinto.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4283,7 +4106,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 19.01 - único do item 19 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4307,7 +4129,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Porto, aeroporto, ferroporto, terminal rodoviário, ferroviário ou metroviário (art. 3º, XXII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XXII, da LC 116/2003 fixa o imposto como devido no local \"do porto, aeroporto, ferroporto, terminal rodoviário, ferroviário ou metroviário, no caso dos serviços descritos pelo item 20 da lista anexa\" - o inciso alcança todo o item 20. Registre-se ainda o art. 3º, § 3º: nos serviços executados em águas marítimas o imposto é devido no local do estabelecimento prestador, EXCETO justamente quanto aos serviços do subitem 20.01, que permanecem sob a regra do inciso XXII.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o subitem 20.01 é um dos mais amplos da lista anexa e reúne prestações de naturezas muito distintas (praticagem, reboque, atracação, capatazia, estiva, armazenagem, conferência, logística, apoio marítimo). As respostas acima refletem o núcleo da atividade portuária; contratos que isolem parcelas de limpeza, conservação, segurança, vigilância ou manutenção mudam o enquadramento no IRRF (1%, art. 716) e na CSRF (4,65%, art. 30). O enquadramento previdenciário também se dá por assimilação, já que a IN RFB 2.110/2022 não usa as palavras \"capatazia\" ou \"estiva\".",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4332,7 +4153,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Porto, aeroporto, ferroporto, terminal rodoviário, ferroviário ou metroviário (art. 3º, XXII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XXII, da LC 116/2003 fixa o imposto como devido no local \"do porto, aeroporto, ferroporto, terminal rodoviário, ferroviário ou metroviário, no caso dos serviços descritos pelo item 20 da lista anexa\", o que alcança todo o item 20, inclusive este subitem.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o subitem agrega prestações heterogêneas (utilização de aeroporto, movimentação de aeronaves e de passageiros, capatazia, armazenagem, logística), com tratamento tributário potencialmente diferente dentro do mesmo código. O enquadramento previdenciário é por assimilação, pois a IN RFB 2.110/2022 não nomeia \"serviços aeroportuários\"; a base é a operação de terminal de transporte aéreo (art. 112, XVII).",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4357,7 +4177,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Porto, aeroporto, ferroporto, terminal rodoviário, ferroviário ou metroviário (art. 3º, XXII, LC 116/2003)",
     "iss_local_nota": "Exceção expressa: o art. 3º, XXII, da LC 116/2003 determina que o imposto é devido no local \"do porto, aeroporto, ferroporto, terminal rodoviário, ferroviário ou metroviário, no caso dos serviços descritos pelo item 20 da lista anexa\" - regra que alcança todo o item 20.",
-    "observacoes": "O enquadramento previdenciário se dá por correspondência com a \"operação de terminal de transporte\" do art. 112, XVII, da IN RFB 2.110/2022, e depende de os serviços serem prestados diretamente aos usuários e mediante cessão de mão de obra. Contratos de mera concessão de uso de área no terminal não se confundem com a prestação de serviços aqui descrita.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4382,7 +4201,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 21.01 - único do item 21 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Na prática, o estabelecimento prestador coincide com a sede da serventia.",
-    "observacoes": "Registre-se que os emolumentos são fixados por lei estadual e que o titular da serventia é pessoa natural delegada - o que, por si só, afasta o regime de retenção entre pessoas jurídicas dos arts. 714 e 716 do RIR/2018 e do art. 30 da Lei 10.833/2003. A incidência do ISS sobre a atividade notarial e de registro foi objeto de discussão judicial específica, que não integra o escopo desta ferramenta.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4406,7 +4224,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Cada Município em cujo território haja extensão de rodovia explorada (art. 3º, § 2º, LC 116/2003)",
     "iss_local_nota": "Regra especial: o subitem 22.01 não é citado nos incisos I a XXV do art. 3º, mas sim no § 2º do mesmo artigo, segundo o qual \"considera-se ocorrido o fato gerador e devido o imposto em cada Município em cujo território haja extensão de rodovia explorada\". O imposto é, portanto, repartido proporcionalmente entre os municípios atravessados pelo trecho explorado, e não devido integralmente no estabelecimento do prestador.",
-    "observacoes": "PONTO DE ATENÇÃO: (1) o local devido do ISS deste subitem não decorre de um dos incisos I a XXV do art. 3º da LC 116/2003, e sim do § 2º do mesmo artigo, que institui rateio entre os municípios com extensão de rodovia explorada - a apuração da proporção é matéria da legislação municipal e do contrato de concessão; (2) as respostas \"não\" no IRRF e na CSRF valem para a tarifa de pedágio cobrada do usuário. Como a própria redação do subitem menciona conservação, manutenção e segurança, contratos entre pessoas jurídicas que tenham essas atividades por objeto mudam completamente o enquadramento (IRRF de 1% pelo art. 716 e CSRF de 4,65% pelo art. 30). Recomenda-se revisão contábil.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4431,7 +4248,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 23.01 - único do item 23 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "ATENÇÃO À LEITURA DO TERMO \"PROGRAMAÇÃO\": neste subitem a palavra designa programação visual (design gráfico), e não a programação de computadores do inciso XXX do art. 714, § 1º, do RIR/2018 - que é o objeto dos subitens 1.01 e 1.04. O enquadramento no IRRF/CSRF apoia-se, portanto, sobretudo em \"desenho técnico\" e \"elaboração de projetos\", por assimilação, e merece confirmação à luz do objeto concreto do contrato.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4455,7 +4271,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 24.01 - único do item 24 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4479,7 +4294,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "Nenhum subitem do item 25 figura nos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "O subitem reúne fornecimento de bens (caixão, flores, adornos), locação (capela), transporte e serviços propriamente ditos. Nenhuma dessas parcelas atrai as retenções federais aqui analisadas, mas a composição do preço é relevante para a base de cálculo do próprio ISS, matéria de legislação municipal.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4503,7 +4317,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "Nenhum subitem do item 25 figura nos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Note-se que o inciso XIX, que desloca o imposto para o Município da execução do transporte, refere-se exclusivamente ao item 16 da lista anexa.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4527,7 +4340,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "Nenhum subitem do item 25 figura nos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. A regra do domicílio do tomador prevista no inciso XXIII alcança apenas os planos de saúde e de medicina dos subitens 4.22 e 4.23, e não os planos funerários.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4551,7 +4363,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "Nenhum subitem do item 25 figura nos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Note-se a assimetria: a limpeza, manutenção e conservação de imóveis do subitem 7.10 é devida no local da execução (art. 3º, VII), mas a manutenção e conservação de jazigos e cemitérios, por ter subitem próprio (25.04) não referido em nenhum inciso, segue a regra geral do estabelecimento do prestador.",
-    "observacoes": "O enquadramento se dá por assimilação quanto ao objeto: as normas de IRRF, CSRF e INSS falam em conservação de \"edificações\", \"monumentos\" e \"áreas de uso comum\", sem mencionar jazigos ou cemitérios. A correspondência é material e consistente, mas convém confirmá-la em revisão contábil, especialmente para distinguir o contrato continuado de conservação (com retenção) do reparo isolado (sem retenção da CSRF, na forma da IN SRF 459/2004, art. 1º, § 2º, II).",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4576,7 +4387,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "Nenhum subitem do item 25 figura nos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Na prática, o estabelecimento prestador coincide com o cemitério.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4600,7 +4410,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 26.01 - único do item 26 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: este subitem reúne prestações com tratamento federal distinto dentro do mesmo código. A resposta \"sim\" na CSRF decorre exclusivamente da menção a \"valores\" na redação do subitem, que corresponde ao \"transporte de valores\" do art. 30 da Lei 10.833/2003 - em um contrato de courrier ou de entrega de correspondências e documentos, sem transporte de valores, não há enquadramento e a retenção é indevida. Da mesma forma, a retenção previdenciária pressupõe cessão de mão de obra, e não a simples contratação de entregas. Verificar o objeto concreto do contrato e a discriminação na nota fiscal.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4625,7 +4434,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 27.01 - único do item 27 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "Se o prestador for entidade beneficente de assistência social imune, além do afastamento previdenciário do art. 114, III, da IN RFB 2.110/2022, devem ser observadas as imunidades e isenções próprias aplicáveis ao IRRF e às contribuições, verificação que depende do enquadramento formal da entidade.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4649,7 +4457,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 28.01 - único do item 28 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4673,7 +4480,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 29.01 - único do item 29 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a biblioteconomia é profissão regulamentada por legislação federal e aparece nominalmente na lista exemplificativa do art. 115, § 3º, da IN RFB 2.110/2022 (bibliotecários e técnicos em biblioteconomia), mas essa lista serve apenas à DISPENSA da retenção previdenciária e não amplia a lista taxativa de serviços profissionais do art. 714, § 1º, do RIR/2018 - onde a atividade realmente não está. A classificação \"não\" no IRRF e na CSRF decorre dessa taxatividade e merece confirmação contábil, sobretudo se o contrato concreto envolver organização de acervos por assessoria/consultoria técnica ou pesquisa, hipóteses que constam da lista do RIR.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4697,7 +4503,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 30.01 - único do item 30 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "\"Biotecnologia\" não aparece com essa palavra na lista taxativa do art. 714, § 1º, do RIR/2018; seu enquadramento é feito por assimilação à biologia (inciso X) e à química (inciso XXXIII). Se o contrato tiver por objeto análise clínica laboratorial, o enquadramento é direto pelo inciso III.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4721,7 +4526,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 31.01 - único do item 31 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. RESSALVA: se o serviço técnico em edificações configurar, na prática, execução de obra (subitem 7.02) ou reforma e conservação de edificações (subitem 7.05), o enquadramento correto passa a ser o desses subitens, com ISS devido no local da obra (art. 3º, III e V).",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: este é um subitem-guarda-chuva (\"serviços técnicos (...) e congêneres\") e todos os enquadramentos acima se dão por assimilação, não por menção literal. As três retenções podem ou não incidir conforme o serviço concretamente contratado: consultoria e projetos puxam o IRRF de 1,5%; manutenção continuada puxa a CSRF de 4,65% e, na cessão de mão de obra, o INSS de 11%; conserto isolado de bem defeituoso afasta a CSRF pela ressalva expressa da IN SRF 459/2004, art. 1º, § 2º, II. Recomenda-se análise individualizada do contrato.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4746,7 +4550,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 32.01 - único do item 32 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4770,7 +4573,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 33.01 - único do item 33 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "As retenções incidem sobre a remuneração do serviço (honorários da comissária ou do despachante), e não sobre os valores meramente reembolsados pelo tomador a título de tributos, taxas e despesas pagos em seu nome - parcelas que devem estar destacadas no documento fiscal. A correta segregação dessas verbas deve ser conferida na revisão contábil.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4794,7 +4596,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 34.01 - único do item 34 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Note-se que o inciso XVI, relativo ao local dos bens ou do domicílio das pessoas vigiadas, refere-se exclusivamente ao subitem 11.02.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: há ambiguidade real neste subitem. Parte da prática contábil aproxima a investigação particular ora dos serviços de segurança e vigilância (IRRF de 1% e CSRF de 4,65%), ora de \"pesquisa em geral\" (art. 714, § 1º, XXVIII, do RIR/2018, com IRRF de 1,5%). Como nenhuma dessas expressões descreve literalmente a atividade de detetive e as listas são taxativas, a classificação adotada aqui é a de ausência de retenção - conclusão que deve ser confirmada contra o objeto concreto do contrato antes de qualquer pagamento.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4818,7 +4619,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 35.01 - único do item 35 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: o subitem reúne quatro prestações e apenas \"relações públicas\" aparece literalmente na lista taxativa do art. 714, § 1º, do RIR/2018. A reportagem e o jornalismo puros (produção de conteúdo editorial) não estão nomeados na lista, e seu enquadramento se dá por assimilação à assessoria/relações públicas. Contratos que tenham por objeto exclusivamente produção jornalística devem ser analisados individualmente.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4842,7 +4642,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 36.01 - único do item 36 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a meteorologia é profissão regulamentada por legislação federal e os meteorologistas figuram na lista exemplificativa do art. 115, § 3º, da IN RFB 2.110/2022 - lista que, porém, serve apenas à dispensa da retenção previdenciária e não amplia a lista taxativa do art. 714, § 1º, do RIR/2018. Existe interpretação que assimila a meteorologia a \"análises técnicas\" (inciso IV) ou a \"pesquisa em geral\" (inciso XXVIII), o que levaria à retenção de 1,5% e à CSRF de 4,65%. Como não há menção literal e a lista é taxativa, adotou-se aqui a ausência de retenção; recomenda-se validação contábil antes da publicação.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4866,7 +4665,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 37.01 - único do item 37 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput. Atenção: a regra do local da execução prevista no inciso XVIII alcança os subitens do item 12 (diversões, lazer e entretenimento), exceto o 12.13 - e não este subitem.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: na prática, esses serviços são frequentemente prestados por pessoa física, diretamente ou por intermédio de agência, hipótese em que incidem regras inteiramente distintas das analisadas aqui (IRRF pela tabela progressiva e contribuição previdenciária do contribuinte individual, a cargo da empresa contratante, e não a retenção de 11% sobre nota fiscal). A classificação acima pressupõe pagamento de pessoa jurídica a pessoa jurídica.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4891,7 +4689,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 38.01 - único do item 38 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "PONTO DE ATENÇÃO PARA REVISÃO CONTÁBIL: a museologia não é nomeada em nenhuma das listas de retenção, mas os contratos da área frequentemente incluem prestações que estão: curadoria e projetos expográficos podem configurar \"elaboração de projetos\" (art. 714, § 1º, XVI) ou \"assessoria e consultoria técnica\" (inciso VI), com IRRF de 1,5% e CSRF de 4,65%; a conservação e a restauração de acervo aproximam-se de \"conservação\"/\"manutenção\" (art. 716 do RIR/2018 e art. 30 da Lei 10.833/2003). Verificar o objeto concreto do contrato.",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4915,7 +4712,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 39.01 - único do item 39 - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
@@ -4939,7 +4735,6 @@
     "iss_responsavel": "Depende da legislação municipal",
     "iss_local_devido": "Estabelecimento do prestador (regra geral)",
     "iss_local_nota": "O subitem 40.01 - único do item 40 e último da lista anexa - não figura em nenhum dos incisos I a XXV do art. 3º da LC 116/2003, aplicando-se a regra geral do caput.",
-    "observacoes": "",
     "fontes": [
       "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
       "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9580.htm",
