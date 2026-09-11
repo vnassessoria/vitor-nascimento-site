@@ -91,6 +91,22 @@
 
       <div class="calc-breakdown" id="calcBreakdown"></div>
 
+      <div class="calc-aliquotas">
+        <h3>Alíquotas utilizadas no cálculo</h3>
+
+        <div class="calc-aliquotas__block">
+          <h4>INSS — contribuição progressiva</h4>
+          <ul class="calc-aliquotas__list" id="calcInssFaixas"></ul>
+          <p class="calc-aliquotas__nota" id="calcInssNota"></p>
+        </div>
+
+        <div class="calc-aliquotas__block">
+          <h4>IRRF — Imposto de Renda Retido na Fonte</h4>
+          <p class="calc-aliquotas__texto" id="calcIrrfTexto"></p>
+          <p class="calc-aliquotas__nota" id="calcIrrfNota"></p>
+        </div>
+      </div>
+
       <div class="calc-disclaimer">
         <p>Este cálculo usa a tabela de INSS (Portaria Interministerial MPS/MF nº 13/2026) e a tabela de IRRF com o redutor da Lei nº 15.270/2025, comparando automaticamente a dedução padrão (INSS + dependentes + pensão) com o desconto simplificado mensal, e aplicando a que resultar em menos imposto. Não considera 13º salário, horas extras, PLR, múltiplos vínculos empregatícios ou outras situações específicas. Fale com a gente para uma análise personalizada da sua folha de pagamento.</p>
         <a href="#" class="btn btn--gold btn--sm" data-contact="whatsapp-link" target="_blank" rel="noopener">Falar no WhatsApp</a>
@@ -155,6 +171,10 @@
     const resultsEl = document.getElementById("calcResults");
     const liquidoValorEl = document.getElementById("calcLiquidoValor");
     const breakdownEl = document.getElementById("calcBreakdown");
+    const inssFaixasEl = document.getElementById("calcInssFaixas");
+    const inssNotaEl = document.getElementById("calcInssNota");
+    const irrfTextoEl = document.getElementById("calcIrrfTexto");
+    const irrfNotaEl = document.getElementById("calcIrrfNota");
 
     function row(label, value, { tone = "", note = "" } = {}) {
       return `
@@ -208,6 +228,30 @@
       });
 
       breakdownEl.innerHTML = html;
+
+      inssFaixasEl.innerHTML = r.inssFaixas
+        .map(
+          (faixa) => `
+        <li>
+          <span>${formatarMoeda(faixa.de)} até ${formatarMoeda(faixa.ate)}</span>
+          <span><strong>${formatarPercentual(faixa.aliquota)}</strong> = ${formatarMoeda(faixa.valor)}</span>
+        </li>`
+        )
+        .join("");
+      inssNotaEl.textContent =
+        `Alíquota marginal: ${formatarPercentual(r.inssAliquotaMarginal)} · Alíquota efetiva sobre o bruto: ${formatarPercentual(r.inssAliquotaEfetiva)}` +
+        (r.inssAtingiuTeto ? ` · Salário acima do teto do INSS (${formatarMoeda(8475.55)}): contribuição limitada a esse valor.` : "");
+
+      if (r.isentoPorLei15270) {
+        irrfTextoEl.textContent = `Isento de IRRF: rendimento bruto até ${formatarMoeda(5000)}/mês (Lei nº 15.270/2025).`;
+      } else {
+        irrfTextoEl.textContent =
+          `Faixa aplicada sobre a base de ${formatarMoeda(r.baseIR)}: alíquota nominal de ${formatarPercentual(r.irrfFaixaAliquota)}` +
+          (r.irrfFaixaDeducao > 0 ? ` (parcela a deduzir: ${formatarMoeda(r.irrfFaixaDeducao)})` : "") +
+          (r.redutorAplicado > 0 ? `. Redução aplicada pela Lei nº 15.270/2025: ${formatarMoeda(r.redutorAplicado)}.` : ".");
+      }
+      irrfNotaEl.textContent = `Alíquota efetiva sobre o salário bruto: ${formatarPercentual(r.irrfAliquotaEfetiva)}`;
+
       resultsEl.classList.add("is-visible");
     });
   })();

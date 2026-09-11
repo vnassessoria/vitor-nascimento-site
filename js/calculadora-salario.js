@@ -29,26 +29,43 @@ const IRRF_DESCONTO_SIMPLIFICADO = 607.20;
 const IRRF_ISENCAO_2026 = 5000.00;
 const IRRF_REDUTOR_LIMITE_2026 = 7350.00;
 
-function calcularINSS(bruto) {
+function calcularINSSDetalhado(bruto) {
   const baseCalculo = Math.min(bruto, INSS_TETO_2026);
-  let inss = 0;
+  let total = 0;
   let anterior = 0;
+  const faixas = [];
   for (const faixa of INSS_FAIXAS_2026) {
     if (baseCalculo <= anterior) break;
-    const valorFaixa = Math.min(baseCalculo, faixa.ate) - anterior;
-    inss += valorFaixa * faixa.aliquota;
+    const de = anterior;
+    const ate = Math.min(baseCalculo, faixa.ate);
+    const valorFaixa = ate - de;
+    const valorContribuido = valorFaixa * faixa.aliquota;
+    total += valorContribuido;
+    faixas.push({ de, ate, aliquota: faixa.aliquota, valor: valorContribuido });
     anterior = faixa.ate;
   }
-  return inss;
+  return {
+    total,
+    faixas,
+    aliquotaMarginal: faixas.length ? faixas[faixas.length - 1].aliquota : 0,
+    atingiuTeto: bruto > INSS_TETO_2026,
+  };
+}
+
+function calcularINSS(bruto) {
+  return calcularINSSDetalhado(bruto).total;
+}
+
+function encontrarFaixaIRRF(base) {
+  for (const faixa of IRRF_FAIXAS_2026) {
+    if (base <= faixa.ate) return faixa;
+  }
+  return IRRF_FAIXAS_2026[IRRF_FAIXAS_2026.length - 1];
 }
 
 function calcularIRRFTabela(base) {
-  for (const faixa of IRRF_FAIXAS_2026) {
-    if (base <= faixa.ate) {
-      return Math.max(0, base * faixa.aliquota - faixa.deducao);
-    }
-  }
-  return 0;
+  const faixa = encontrarFaixaIRRF(base);
+  return Math.max(0, base * faixa.aliquota - faixa.deducao);
 }
 
 function calcularRedutorLei15270(brutoTributavel) {
@@ -58,20 +75,24 @@ function calcularRedutorLei15270(brutoTributavel) {
 }
 
 function calcularSalarioLiquido({ bruto, dependentes = 0, pensaoAlimenticia = 0, outrosDescontos = 0 }) {
-  const inss = calcularINSS(bruto);
+  const inssDetalhe = calcularINSSDetalhado(bruto);
+  const inss = inssDetalhe.total;
   const deducaoDependentes = dependentes * IRRF_DEDUCAO_DEPENDENTE;
   const deducaoPadrao = inss + deducaoDependentes + pensaoAlimenticia;
   const usaSimplificado = IRRF_DESCONTO_SIMPLIFICADO > deducaoPadrao;
   const deducaoUsada = Math.max(deducaoPadrao, IRRF_DESCONTO_SIMPLIFICADO);
   const baseIR = Math.max(0, bruto - deducaoUsada);
+  const irrfFaixa = encontrarFaixaIRRF(baseIR);
+  const isentoPorLei15270 = bruto <= IRRF_ISENCAO_2026;
 
   let irrf;
-  if (bruto <= IRRF_ISENCAO_2026) {
+  let redutorAplicado = 0;
+  if (isentoPorLei15270) {
     irrf = 0;
   } else {
     const impostoProvisorio = calcularIRRFTabela(baseIR);
-    const redutor = calcularRedutorLei15270(bruto);
-    irrf = Math.max(0, impostoProvisorio - redutor);
+    redutorAplicado = Math.min(calcularRedutorLei15270(bruto), impostoProvisorio);
+    irrf = Math.max(0, impostoProvisorio - redutorAplicado);
   }
 
   const liquido = bruto - inss - irrf - pensaoAlimenticia - outrosDescontos;
@@ -80,12 +101,21 @@ function calcularSalarioLiquido({ bruto, dependentes = 0, pensaoAlimenticia = 0,
   return {
     bruto,
     inss,
+    inssFaixas: inssDetalhe.faixas,
+    inssAliquotaMarginal: inssDetalhe.aliquotaMarginal,
+    inssAliquotaEfetiva: bruto > 0 ? inss / bruto : 0,
+    inssAtingiuTeto: inssDetalhe.atingiuTeto,
     deducaoDependentes,
     deducaoPadrao,
     usaSimplificado,
     deducaoUsada,
     baseIR,
+    irrfFaixaAliquota: irrfFaixa.aliquota,
+    irrfFaixaDeducao: irrfFaixa.deducao,
+    isentoPorLei15270,
+    redutorAplicado,
     irrf,
+    irrfAliquotaEfetiva: bruto > 0 ? irrf / bruto : 0,
     pensaoAlimenticia,
     outrosDescontos,
     liquido,
@@ -95,4 +125,8 @@ function calcularSalarioLiquido({ bruto, dependentes = 0, pensaoAlimenticia = 0,
 
 function formatarMoeda(valor) {
   return valor.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+}
+
+function formatarPercentual(valor) {
+  return (valor * 100).toLocaleString("pt-BR", { minimumFractionDigits: 1, maximumFractionDigits: 2 }) + "%";
 }

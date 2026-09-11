@@ -76,6 +76,48 @@
 .calc-row--desconto .calc-row__value { color: #b3442f; }
 .calc-row--info .calc-row__value { color: var(--ink-muted); font-weight: 600; }
 
+.calc-aliquotas {
+  padding: 24px 26px;
+  border-radius: var(--radius);
+  background: var(--paper-card);
+  border: 1px solid rgba(150, 121, 74, 0.22);
+  margin-bottom: 20px;
+}
+.calc-aliquotas h3 {
+  font-size: 1.05rem;
+  margin: 0 0 16px;
+}
+.calc-aliquotas__block + .calc-aliquotas__block {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(150, 121, 74, 0.14);
+}
+.calc-aliquotas__block h4 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-muted);
+  margin: 0 0 10px;
+}
+.calc-aliquotas__list {
+  list-style: none;
+  margin: 0 0 8px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.calc-aliquotas__list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.88rem;
+  color: var(--ink);
+}
+.calc-aliquotas__list li strong { color: var(--gold-dark); }
+.calc-aliquotas__texto { font-size: 0.92rem; color: var(--ink); margin: 0 0 6px; line-height: 1.6; }
+.calc-aliquotas__nota { font-size: 0.8rem; color: var(--ink-muted); margin: 0; }
+
 .calc-disclaimer {
   margin-top: 2.4rem;
   padding: 32px 36px;
