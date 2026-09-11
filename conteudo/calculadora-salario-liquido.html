@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de Salário Líquido | Vitor Nascimento</title>
+<meta name="description" content="Calcule o salário líquido de um empregado CLT a partir do salário bruto, com desconto de INSS e IRRF pelas tabelas vigentes.">
+<link rel="icon" href="../assets/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/calculadora.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="../index.html#inicio" class="brand">
+      <img src="../assets/logo.jpg" alt="Vitor Nascimento Assessoria Contábil" class="brand__logo">
+      <span class="brand__text">
+        <span class="brand__name">Vitor Nascimento</span>
+        <span class="brand__sub">Assessoria Contábil</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="../index.html#inicio">Início</a>
+      <a href="../index.html#noticias">Notícias</a>
+      <a href="../index.html#sobre">Sobre</a>
+      <a href="../index.html#servicos">Serviços</a>
+      <div class="nav-dropdown">
+        <button type="button" class="nav-dropdown__trigger">Conteúdo</button>
+        <div class="nav-dropdown__menu">
+          <a href="consulta-cnae.html">Consulta CNAE</a>
+          <a href="consulta-retencoes.html">Consulta Retenções</a>
+          <a href="calculadora-salario-liquido.html">Calculadora de Salário Líquido</a>
+        </div>
+      </div>
+      <a href="../index.html#contato">Contato</a>
+    </nav>
+
+    <a href="#" class="btn btn--gold btn--sm header__cta" data-contact="whatsapp-link" target="_blank" rel="noopener">Fale no WhatsApp</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= CALCULADORA ================= -->
+<section class="section article-hero section--light">
+  <div class="container">
+    <span class="article-hero__tag">Conteúdo</span>
+    <h1>Calculadora de Salário Líquido</h1>
+    <p class="article-hero__meta">Informe o salário bruto de um empregado CLT e veja o cálculo de INSS, IRRF e o valor líquido, pelas tabelas vigentes desde janeiro de 2026.</p>
+  </div>
+</section>
+
+<section class="section calc-section section--light" style="padding-top:0;">
+  <div class="container calc-layout">
+    <form class="calc-form" id="calcForm">
+      <div class="calc-form__field">
+        <label for="calcBruto">Salário bruto (R$)</label>
+        <input type="number" id="calcBruto" min="0" step="0.01" placeholder="Ex: 3500,00" required>
+      </div>
+      <div class="calc-form__field">
+        <label for="calcDependentes">Dependentes (IR)</label>
+        <input type="number" id="calcDependentes" min="0" step="1" value="0">
+      </div>
+      <div class="calc-form__field">
+        <label for="calcPensao">Pensão alimentícia judicial (R$/mês)</label>
+        <input type="number" id="calcPensao" min="0" step="0.01" value="0">
+      </div>
+      <div class="calc-form__field">
+        <label for="calcOutros">Outros descontos (R$/mês)</label>
+        <input type="number" id="calcOutros" min="0" step="0.01" value="0">
+        <span class="calc-form__hint">Ex: vale-transporte, adiantamentos, faltas. Não entram na base do IR.</span>
+      </div>
+      <div class="calc-form__submit">
+        <button type="submit" class="btn btn--gold">Calcular</button>
+      </div>
+    </form>
+
+    <div class="calc-results" id="calcResults">
+      <div class="calc-liquido">
+        <div class="calc-liquido__label">Salário líquido</div>
+        <div class="calc-liquido__value" id="calcLiquidoValor">—</div>
+      </div>
+
+      <div class="calc-breakdown" id="calcBreakdown"></div>
+
+      <div class="calc-disclaimer">
+        <p>Este cálculo usa a tabela de INSS (Portaria Interministerial MPS/MF nº 13/2026) e a tabela de IRRF com o redutor da Lei nº 15.270/2025, comparando automaticamente a dedução padrão (INSS + dependentes + pensão) com o desconto simplificado mensal, e aplicando a que resultar em menos imposto. Não considera 13º salário, horas extras, PLR, múltiplos vínculos empregatícios ou outras situações específicas. Fale com a gente para uma análise personalizada da sua folha de pagamento.</p>
+        <a href="#" class="btn btn--gold btn--sm" data-contact="whatsapp-link" target="_blank" rel="noopener">Falar no WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <a href="../index.html#inicio" class="brand brand--footer">
+      <img src="../assets/logo.jpg" alt="Vitor Nascimento Assessoria Contábil" class="brand__logo">
+    </a>
+
+    <nav class="footer__nav">
+      <a href="../index.html#inicio">Início</a>
+      <a href="../index.html#noticias">Notícias</a>
+      <a href="../index.html#sobre">Sobre</a>
+      <a href="../index.html#servicos">Serviços</a>
+      <a href="consulta-cnae.html">Consulta CNAE</a>
+      <a href="consulta-retencoes.html">Consulta Retenções</a>
+      <a href="calculadora-salario-liquido.html">Calculadora de Salário Líquido</a>
+      <a href="../index.html#contato">Contato</a>
+    </nav>
+
+    <div class="footer__social">
+      <a href="#" data-contact="instagram-link" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+      </a>
+      <a href="#" data-contact="whatsapp-link" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24"><path d="M3 5a2 2 0 0 1 2-2h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 12l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 5z"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container footer__bottom-inner">
+      <span data-contact-text="crc-display">CRC/UF 000000/O-0</span>
+      <span>&copy; <span id="year"></span> Vitor Nascimento Assessoria Contábil. Todos os direitos reservados.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="floating-cta" id="floatingCta">
+  <button type="button" class="floating-cta__close" id="floatingCtaClose" aria-label="Fechar">&times;</button>
+  <p>Precisa de ajuda para entender sua situação tributária? Agende uma consultoria personalizada.</p>
+  <a href="#" class="btn btn--gold btn--sm" data-contact="whatsapp-link" target="_blank" rel="noopener">Falar no WhatsApp</a>
+</div>
+
+<a href="#" class="whatsapp-float" data-contact="whatsapp-link" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M3 5a2 2 0 0 1 2-2h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 12l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 5z"/></svg>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../js/supabase-config.js"></script>
+<script src="../js/icons.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/calculadora-salario.js"></script>
+<script>
+  (function () {
+    const form = document.getElementById("calcForm");
+    const resultsEl = document.getElementById("calcResults");
+    const liquidoValorEl = document.getElementById("calcLiquidoValor");
+    const breakdownEl = document.getElementById("calcBreakdown");
+
+    function row(label, value, { tone = "", note = "" } = {}) {
+      return `
+        <div class="calc-row${tone ? ` calc-row--${tone}` : ""}">
+          <span class="calc-row__label">${label}${note ? `<span class="calc-row__note">${note}</span>` : ""}</span>
+          <span class="calc-row__value">${value}</span>
+        </div>`;
+    }
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const bruto = parseFloat(document.getElementById("calcBruto").value) || 0;
+      const dependentes = parseInt(document.getElementById("calcDependentes").value, 10) || 0;
+      const pensao = parseFloat(document.getElementById("calcPensao").value) || 0;
+      const outros = parseFloat(document.getElementById("calcOutros").value) || 0;
+
+      if (bruto <= 0) {
+        resultsEl.classList.remove("is-visible");
+        return;
+      }
+
+      const r = calcularSalarioLiquido({
+        bruto,
+        dependentes,
+        pensaoAlimenticia: pensao,
+        outrosDescontos: outros,
+      });
+
+      liquidoValorEl.textContent = formatarMoeda(r.liquido);
+
+      const baseNota = r.usaSimplificado
+        ? `Base do IR usando o desconto simplificado (${formatarMoeda(IRRF_DESCONTO_SIMPLIFICADO)}), mais vantajoso que a dedução padrão`
+        : `Base do IR usando a dedução padrão (INSS + dependentes + pensão)`;
+
+      let html = "";
+      html += row("Salário bruto", formatarMoeda(r.bruto));
+      html += row("INSS", `- ${formatarMoeda(r.inss)}`, { tone: "desconto" });
+      html += row("Base de cálculo do IRRF", formatarMoeda(r.baseIR), { note: baseNota });
+      html += row("IRRF", `- ${formatarMoeda(r.irrf)}`, { tone: "desconto" });
+      if (r.pensaoAlimenticia > 0) {
+        html += row("Pensão alimentícia", `- ${formatarMoeda(r.pensaoAlimenticia)}`, { tone: "desconto" });
+      }
+      if (r.outrosDescontos > 0) {
+        html += row("Outros descontos", `- ${formatarMoeda(r.outrosDescontos)}`, { tone: "desconto" });
+      }
+      html += row("Salário líquido", formatarMoeda(r.liquido), { tone: "total" });
+      html += row("FGTS (depositado pelo empregador)", formatarMoeda(r.fgts), {
+        tone: "info",
+        note: "Informativo: não é descontado do salário do empregado.",
+      });
+
+      breakdownEl.innerHTML = html;
+      resultsEl.classList.add("is-visible");
+    });
+  })();
+</script>
+</body>
+</html>
