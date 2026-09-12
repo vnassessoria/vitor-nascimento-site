@@ -258,8 +258,8 @@
       liquidoValorEl.textContent = formatarMoeda(r.liquido);
 
       const baseNota = r.usaSimplificado
-        ? `Base do IR usando o desconto simplificado (${formatarMoeda(IRRF_DESCONTO_SIMPLIFICADO)}), mais vantajoso que a dedução padrão`
-        : `Base do IR usando a dedução padrão (INSS + dependentes + pensão)`;
+        ? `Base do IR usando o desconto simplificado (${formatarMoeda(IRRF_DESCONTO_SIMPLIFICADO)}), mais vantajoso que a dedução padrão.`
+        : `Base do IR usando a dedução padrão (INSS + dependentes + pensão).`;
 
       let html = "";
       html += row("Salário bruto", formatarMoeda(r.bruto));
@@ -270,7 +270,7 @@
         html += row("Pensão alimentícia", `- ${formatarMoeda(r.pensaoAlimenticia)}`, { tone: "desconto" });
       }
       if (valeTransporte > 0) {
-        const vtNota = vtModo === "percentual" ? "6% do salário bruto" : "Valor informado manualmente";
+        const vtNota = vtModo === "percentual" ? "6% do salário bruto." : "Valor informado manualmente.";
         html += row("Desconto de vale-transporte", `- ${formatarMoeda(valeTransporte)}`, { tone: "desconto", note: vtNota });
       }
       if (outros > 0) {
@@ -295,7 +295,7 @@
         .join("");
       inssNotaEl.textContent =
         `Alíquota marginal: ${formatarPercentual(r.inssAliquotaMarginal)} · Alíquota efetiva sobre o bruto: ${formatarPercentual(r.inssAliquotaEfetiva)}` +
-        (r.inssAtingiuTeto ? ` · Salário acima do teto do INSS (${formatarMoeda(8475.55)}): contribuição limitada a esse valor.` : "");
+        (r.inssAtingiuTeto ? ` · Salário acima do teto do INSS (${formatarMoeda(8475.55)}): contribuição limitada a esse valor.` : ".");
 
       if (r.isentoPorLei15270) {
         irrfTextoEl.textContent = `Isento de IRRF: rendimento bruto até ${formatarMoeda(5000)}/mês (Lei nº 15.270/2025).`;
@@ -305,7 +305,7 @@
           (r.irrfFaixaDeducao > 0 ? ` (parcela a deduzir: ${formatarMoeda(r.irrfFaixaDeducao)})` : "") +
           (r.redutorAplicado > 0 ? `. Redução aplicada pela Lei nº 15.270/2025: ${formatarMoeda(r.redutorAplicado)}.` : ".");
       }
-      irrfNotaEl.textContent = `Alíquota efetiva sobre o salário bruto: ${formatarPercentual(r.irrfAliquotaEfetiva)}`;
+      irrfNotaEl.textContent = `Alíquota efetiva sobre o salário bruto: ${formatarPercentual(r.irrfAliquotaEfetiva)}.`;
 
       resultsEl.classList.add("is-visible");
     });
