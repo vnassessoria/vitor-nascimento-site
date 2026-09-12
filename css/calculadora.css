@@ -16,6 +16,7 @@
   margin-bottom: 28px;
 }
 .calc-form__field { display: flex; flex-direction: column; gap: 6px; }
+.calc-form__field[hidden] { display: none; }
 .calc-form__field--full { grid-column: 1 / -1; }
 .calc-form__field label {
   font-size: 0.78rem;
@@ -35,6 +36,32 @@
 .calc-form__field input:focus { outline: none; border-color: var(--gold); }
 .calc-form__hint { font-size: 0.8rem; color: var(--ink-muted); }
 .calc-form__submit { grid-column: 1 / -1; margin-top: 6px; }
+
+.calc-toggle {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.calc-toggle__btn {
+  font-family: inherit;
+  font-size: 0.88rem;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(150, 121, 74, 0.3);
+  background: #fff;
+  color: var(--ink-muted);
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+.calc-toggle__btn:hover { border-color: var(--gold); }
+.calc-toggle__btn.is-active {
+  border-color: var(--gold);
+  background: var(--gold);
+  color: #fff;
+  font-weight: 600;
+}
+#calcVtOpcoes { margin-top: -6px; }
+#calcVtValorManual { margin-top: 10px; }
 
 .calc-results { display: none; }
 .calc-results.is-visible { display: block; }
