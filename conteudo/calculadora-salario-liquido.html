@@ -87,8 +87,22 @@
           <button type="button" class="calc-toggle__btn is-active" data-value="percentual">6% do salário bruto</button>
           <button type="button" class="calc-toggle__btn" data-value="manual">Informar valor manualmente</button>
         </div>
-        <input type="number" id="calcVtValorManual" min="0" step="0.01" placeholder="Valor do desconto de VT (R$)" hidden>
-        <span class="calc-form__hint">O desconto de VT é limitado a 6% do salário (Lei nº 7.418/1985) e não entra na base do IR.</span>
+        <span class="calc-form__hint">O desconto de VT é limitado a 6% do salário bruto e ao valor do benefício concedido (Lei nº 7.418/1985); não entra na base do IR.</span>
+      </div>
+
+      <div class="calc-form__field" id="calcVtValorDiarioCampo" hidden>
+        <label for="calcVtValorDiario">Valor diário do vale-transporte (R$)</label>
+        <input type="number" id="calcVtValorDiario" min="0" step="0.01" placeholder="Ex: 9,20">
+      </div>
+
+      <div class="calc-form__field" id="calcVtDiasCampo" hidden>
+        <label for="calcVtDias">Dias com direito ao vale-transporte no mês</label>
+        <input type="number" id="calcVtDias" min="0" step="1" value="22">
+      </div>
+
+      <div class="calc-form__field" id="calcVtManualCampo" hidden>
+        <label for="calcVtValorManual">Valor do desconto de VT (R$)</label>
+        <input type="number" id="calcVtValorManual" min="0" step="0.01" placeholder="Ex: 150,00">
       </div>
 
       <div class="calc-form__field">
@@ -197,6 +211,11 @@
     const vtTemToggle = document.getElementById("calcVtTemToggle");
     const vtOpcoesEl = document.getElementById("calcVtOpcoes");
     const vtModoToggle = document.getElementById("calcVtModoToggle");
+    const vtValorDiarioCampoEl = document.getElementById("calcVtValorDiarioCampo");
+    const vtDiasCampoEl = document.getElementById("calcVtDiasCampo");
+    const vtManualCampoEl = document.getElementById("calcVtManualCampo");
+    const vtValorDiarioEl = document.getElementById("calcVtValorDiario");
+    const vtDiasEl = document.getElementById("calcVtDias");
     const vtValorManualEl = document.getElementById("calcVtValorManual");
 
     let vtTem = "nao";
@@ -212,14 +231,21 @@
       });
     }
 
+    function atualizarCamposVt() {
+      vtOpcoesEl.hidden = vtTem !== "sim";
+      vtValorDiarioCampoEl.hidden = !(vtTem === "sim" && vtModo === "percentual");
+      vtDiasCampoEl.hidden = !(vtTem === "sim" && vtModo === "percentual");
+      vtManualCampoEl.hidden = !(vtTem === "sim" && vtModo === "manual");
+    }
+
     wireToggle(vtTemToggle, (value) => {
       vtTem = value;
-      vtOpcoesEl.hidden = value !== "sim";
+      atualizarCamposVt();
     });
 
     wireToggle(vtModoToggle, (value) => {
       vtModo = value;
-      vtValorManualEl.hidden = value !== "manual";
+      atualizarCamposVt();
     });
 
     function row(label, value, { tone = "", note = "" } = {}) {
@@ -239,8 +265,23 @@
       const outros = parseFloat(document.getElementById("calcOutros").value) || 0;
 
       let valeTransporte = 0;
+      let vtValorBeneficio = 0;
+      let vtLimitadoPeloBeneficio = false;
       if (vtTem === "sim") {
-        valeTransporte = vtModo === "percentual" ? bruto * 0.06 : parseFloat(vtValorManualEl.value) || 0;
+        if (vtModo === "percentual") {
+          const valorDiario = parseFloat(vtValorDiarioEl.value) || 0;
+          const dias = parseInt(vtDiasEl.value, 10) || 0;
+          vtValorBeneficio = valorDiario * dias;
+          const seisPorCento = bruto * 0.06;
+          if (vtValorBeneficio > 0) {
+            valeTransporte = Math.min(seisPorCento, vtValorBeneficio);
+            vtLimitadoPeloBeneficio = vtValorBeneficio < seisPorCento;
+          } else {
+            valeTransporte = seisPorCento;
+          }
+        } else {
+          valeTransporte = parseFloat(vtValorManualEl.value) || 0;
+        }
       }
 
       if (bruto <= 0) {
@@ -270,7 +311,14 @@
         html += row("Pensão alimentícia", `- ${formatarMoeda(r.pensaoAlimenticia)}`, { tone: "desconto" });
       }
       if (valeTransporte > 0) {
-        const vtNota = vtModo === "percentual" ? "6% do salário bruto." : "Valor informado manualmente.";
+        let vtNota;
+        if (vtModo === "percentual") {
+          vtNota = vtLimitadoPeloBeneficio
+            ? `Limitado ao valor do benefício (${formatarMoeda(vtValorBeneficio)}), menor que 6% do salário bruto.`
+            : "6% do salário bruto.";
+        } else {
+          vtNota = "Valor informado manualmente.";
+        }
         html += row("Desconto de vale-transporte", `- ${formatarMoeda(valeTransporte)}`, { tone: "desconto", note: vtNota });
       }
       if (outros > 0) {
