@@ -280,7 +280,7 @@
           const dias = parseInt(vtDiasEl.value, 10) || 0;
           vtValorBeneficio = valorDiario * dias;
           const seisPorCento = bruto * 0.06;
-          if (vtValorBeneficio > 0) {
+          if (valorDiario > 0) {
             valeTransporte = Math.min(seisPorCento, vtValorBeneficio);
             vtLimitadoPeloBeneficio = vtValorBeneficio < seisPorCento;
           } else {

@@ -34,7 +34,7 @@
 }
 .calc-form__field input:focus { outline: none; border-color: var(--gold); }
 .calc-form__hint { font-size: 0.8rem; color: var(--ink-muted); }
-.calc-form__submit { grid-column: 1 / -1; margin-top: 6px; }
+.calc-form__submit { margin-top: 6px; }
 
 .calc-toggle {
   display: flex;
@@ -60,7 +60,6 @@
   font-weight: 600;
 }
 #calcVtOpcoes { margin-top: -6px; }
-#calcVtValorManual { margin-top: 10px; }
 
 .calc-results { display: none; }
 .calc-results.is-visible { display: block; }
