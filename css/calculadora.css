@@ -6,8 +6,8 @@
 .calc-layout { max-width: 720px; margin: 0 auto; }
 
 .calc-form {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 18px;
   padding: 28px 30px;
   border-radius: var(--radius);
@@ -17,7 +17,6 @@
 }
 .calc-form__field { display: flex; flex-direction: column; gap: 6px; }
 .calc-form__field[hidden] { display: none; }
-.calc-form__field--full { grid-column: 1 / -1; }
 .calc-form__field label {
   font-size: 0.78rem;
   text-transform: uppercase;
@@ -165,6 +164,5 @@
 .calc-disclaimer p { margin: 0 auto; color: var(--ink-muted); font-size: 0.9rem; max-width: 560px; line-height: 1.6; }
 
 @media (max-width: 560px) {
-  .calc-form { grid-template-columns: 1fr; }
   .calc-liquido__value { font-size: 1.9rem; }
 }
