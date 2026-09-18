@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Calculadora de Férias | Vitor Nascimento</title>
-<meta name="description" content="Calcule o valor líquido das férias de um empregado CLT, com 1/3 constitucional, abono pecuniário, INSS e IRRF pelas tabelas vigentes.">
+<title>Calculadora de 13º Salário | Vitor Nascimento</title>
+<meta name="description" content="Calcule o valor líquido do 13º salário de um empregado CLT, com 1ª e 2ª parcela, INSS e IRRF pelas tabelas vigentes.">
 <link rel="icon" href="../assets/logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,8 +55,8 @@
 <section class="section article-hero section--light">
   <div class="container">
     <span class="article-hero__tag">Conteúdo</span>
-    <h1>Calculadora de Férias</h1>
-    <p class="article-hero__meta">Informe o salário bruto e os dias de férias de um empregado CLT e veja o valor líquido, com 1/3 constitucional, abono pecuniário, INSS e IRRF pelas tabelas vigentes desde janeiro de 2026.</p>
+    <h1>Calculadora de 13º Salário</h1>
+    <p class="article-hero__meta">Informe o salário bruto e os meses trabalhados no ano e veja o valor líquido do 13º, com 1ª e 2ª parcela, INSS e IRRF pelas tabelas vigentes desde janeiro de 2026.</p>
   </div>
 </section>
 
@@ -64,41 +64,21 @@
   <div class="container calc-layout">
     <form class="calc-form" id="calcForm">
       <div class="calc-form__field">
-        <label for="calcFeriasBruto">Salário bruto mensal (R$)</label>
-        <input type="number" id="calcFeriasBruto" min="0" step="0.01" placeholder="Ex: 3500,00" required>
+        <label for="calc13Bruto">Salário bruto mensal (R$)</label>
+        <input type="number" id="calc13Bruto" min="0" step="0.01" placeholder="Ex: 3500,00" required>
       </div>
       <div class="calc-form__field">
-        <label for="calcFeriasDias">Dias de férias a gozar</label>
-        <input type="number" id="calcFeriasDias" min="1" max="30" step="1" value="30">
+        <label for="calc13Meses">Meses trabalhados no ano</label>
+        <input type="number" id="calc13Meses" min="1" max="12" step="1" value="12">
+        <span class="calc-form__hint">Fração igual ou superior a 15 dias no mês conta como mês completo. Use 12 para o 13º integral.</span>
       </div>
       <div class="calc-form__field">
-        <label for="calcFeriasDependentes">Dependentes (IR)</label>
-        <input type="number" id="calcFeriasDependentes" min="0" step="1" value="0">
+        <label for="calc13Dependentes">Dependentes (IR)</label>
+        <input type="number" id="calc13Dependentes" min="0" step="1" value="0">
       </div>
       <div class="calc-form__field">
-        <label for="calcFeriasPensao">Pensão alimentícia judicial (R$)</label>
-        <input type="number" id="calcFeriasPensao" min="0" step="0.01" value="0">
-      </div>
-
-      <div class="calc-form__field">
-        <label>Vender parte das férias (abono pecuniário)?</label>
-        <div class="calc-toggle" id="calcAbonoToggle">
-          <button type="button" class="calc-toggle__btn is-active" data-value="nao">Não</button>
-          <button type="button" class="calc-toggle__btn" data-value="sim">Sim</button>
-        </div>
-        <span class="calc-form__hint">É permitido vender até 1/3 do período de férias (até 10 dias), conforme o art. 143 da CLT.</span>
-      </div>
-
-      <div class="calc-form__field" id="calcAbonoDiasCampo" hidden>
-        <label for="calcFeriasVendidos">Dias vendidos (abono pecuniário)</label>
-        <input type="number" id="calcFeriasVendidos" min="1" max="10" step="1" value="10">
-      </div>
-
-      <div class="calc-form__field">
-        <label for="calcFeriasEmprestimo">Desconto de empréstimo do trabalhador (R$)</label>
-        <input type="number" id="calcFeriasEmprestimo" min="0" step="0.01" value="0">
-        <span class="calc-form__hint">Ex: empréstimo consignado. Não entra na base do INSS ou do IR.</span>
-        <span class="calc-form__hint">Informe aqui o valor da parcela, caso exista algum empréstimo ativo.</span>
+        <label for="calc13Pensao">Pensão alimentícia judicial (R$)</label>
+        <input type="number" id="calc13Pensao" min="0" step="0.01" value="0">
       </div>
 
       <div class="calc-form__submit">
@@ -108,7 +88,7 @@
 
     <div class="calc-results" id="calcResults">
       <div class="calc-liquido">
-        <div class="calc-liquido__label">Total líquido de férias</div>
+        <div class="calc-liquido__label">Total líquido do 13º</div>
         <div class="calc-liquido__value" id="calcLiquidoValor">—</div>
       </div>
 
@@ -118,7 +98,7 @@
         <h3>Alíquotas utilizadas no cálculo</h3>
 
         <div class="calc-aliquotas__block">
-          <h4>INSS — contribuição progressiva sobre férias + 1/3</h4>
+          <h4>INSS — contribuição progressiva sobre o 13º integral</h4>
           <ul class="calc-aliquotas__list" id="calcInssFaixas"></ul>
           <p class="calc-aliquotas__nota" id="calcInssNota"></p>
         </div>
@@ -131,7 +111,7 @@
       </div>
 
       <div class="calc-disclaimer">
-        <p>Este cálculo trata as férias como um pagamento tributado isoladamente do salário do mês (IN RFB nº 1.500/2014, art. 12), usando a tabela de INSS (Portaria Interministerial MPS/MF nº 13/2026) e a tabela de IRRF com o redutor da Lei nº 15.270/2025. O abono pecuniário e seu terço são isentos de INSS; o abono é isento de IRRF, mas o terço sobre o abono é tributado (Solução de Consulta Cosit nº 209/2021). Não considera férias em dobro, rescisão de contrato ou múltiplos vínculos empregatícios. Fale com a gente para uma análise personalizada da sua folha de pagamento.</p>
+        <p>Este cálculo trata o 13º como um pagamento com tributação exclusiva na fonte, à parte do salário do mês (IN RFB nº 1.500/2014, art. 12), usando a tabela de INSS (Portaria Interministerial MPS/MF nº 13/2026) e a tabela de IRRF com o redutor da Lei nº 15.270/2025. O INSS e o IRRF incidem sobre o valor integral do 13º e são descontados de uma só vez na 2ª parcela; a 1ª parcela (adiantamento) não sofre nenhum desconto. Não considera rescisão de contrato ou múltiplos vínculos empregatícios. Fale com a gente para uma análise personalizada da sua folha de pagamento.</p>
         <a href="#" class="btn btn--gold btn--sm" data-contact="whatsapp-link" target="_blank" rel="noopener">Falar no WhatsApp</a>
       </div>
     </div>
@@ -190,7 +170,7 @@
 <script src="../js/icons.js"></script>
 <script src="../js/script.js"></script>
 <script src="../js/calculadora-salario.js"></script>
-<script src="../js/calculadora-ferias.js"></script>
+<script src="../js/calculadora-13.js"></script>
 <script>
   (function () {
     const form = document.getElementById("calcForm");
@@ -201,27 +181,6 @@
     const inssNotaEl = document.getElementById("calcInssNota");
     const irrfTextoEl = document.getElementById("calcIrrfTexto");
     const irrfNotaEl = document.getElementById("calcIrrfNota");
-
-    const abonoToggle = document.getElementById("calcAbonoToggle");
-    const abonoDiasCampoEl = document.getElementById("calcAbonoDiasCampo");
-    const feriasVendidosEl = document.getElementById("calcFeriasVendidos");
-
-    let vendeAbono = "nao";
-
-    function wireToggle(toggleEl, onChange) {
-      toggleEl.addEventListener("click", (e) => {
-        const btn = e.target.closest(".calc-toggle__btn");
-        if (!btn) return;
-        toggleEl.querySelectorAll(".calc-toggle__btn").forEach((b) => b.classList.remove("is-active"));
-        btn.classList.add("is-active");
-        onChange(btn.dataset.value);
-      });
-    }
-
-    wireToggle(abonoToggle, (value) => {
-      vendeAbono = value;
-      abonoDiasCampoEl.hidden = value !== "sim";
-    });
 
     function row(label, value, { tone = "", note = "" } = {}) {
       return `
@@ -234,58 +193,49 @@
     form.addEventListener("submit", (e) => {
       e.preventDefault();
 
-      const bruto = parseFloat(document.getElementById("calcFeriasBruto").value) || 0;
-      const diasGozados = parseInt(document.getElementById("calcFeriasDias").value, 10) || 0;
-      const dependentes = parseInt(document.getElementById("calcFeriasDependentes").value, 10) || 0;
-      const pensao = parseFloat(document.getElementById("calcFeriasPensao").value) || 0;
-      const emprestimo = parseFloat(document.getElementById("calcFeriasEmprestimo").value) || 0;
-      const diasVendidos = vendeAbono === "sim" ? parseInt(feriasVendidosEl.value, 10) || 0 : 0;
+      const bruto = parseFloat(document.getElementById("calc13Bruto").value) || 0;
+      const meses = parseInt(document.getElementById("calc13Meses").value, 10) || 0;
+      const dependentes = parseInt(document.getElementById("calc13Dependentes").value, 10) || 0;
+      const pensao = parseFloat(document.getElementById("calc13Pensao").value) || 0;
 
-      if (bruto <= 0 || diasGozados <= 0) {
+      if (bruto <= 0 || meses <= 0) {
         resultsEl.classList.remove("is-visible");
         return;
       }
 
-      const r = calcularFerias({
+      const r = calcularDecimoTerceiro({
         bruto,
-        diasGozados,
-        diasVendidos,
+        mesesTrabalhados: meses,
         dependentes,
         pensaoAlimenticia: pensao,
       });
 
-      const liquidoFinal = r.liquido - emprestimo;
-      liquidoValorEl.textContent = formatarMoeda(liquidoFinal);
+      liquidoValorEl.textContent = formatarMoeda(r.liquido);
 
       const baseNota = r.usaSimplificado
         ? `Base do IR usando o desconto simplificado (${formatarMoeda(IRRF_DESCONTO_SIMPLIFICADO)}), mais vantajoso que a dedução padrão.`
-        : `Base do IR usando a dedução padrão (INSS sobre férias + dependentes + pensão).`;
+        : `Base do IR usando a dedução padrão (INSS sobre o 13º + dependentes + pensão).`;
 
       let html = "";
-      html += row("Salário bruto mensal", formatarMoeda(r.valorDiario * 30));
-      html += row(`Férias (${diasGozados} dia${diasGozados > 1 ? "s" : ""})`, formatarMoeda(r.feriasGozadas));
-      html += row("1/3 constitucional sobre férias", formatarMoeda(r.tercoGozadas));
-      if (r.abono > 0) {
-        html += row(`Abono pecuniário (${diasVendidos} dia${diasVendidos > 1 ? "s" : ""} vendidos)`, formatarMoeda(r.abono), {
-          note: "Isento de INSS e de IRRF.",
-        });
-        html += row("1/3 constitucional sobre o abono", formatarMoeda(r.tercoAbono), {
-          note: "Isento de INSS; sujeito a IRRF (Solução de Consulta Cosit nº 209/2021).",
-        });
-      }
-      html += row("INSS sobre férias", `- ${formatarMoeda(r.inss)}`, { tone: "desconto" });
+      html += row("Salário bruto mensal", formatarMoeda(bruto));
+      html += row(`13º salário (${meses}/12 ${meses > 1 ? "meses" : "mês"})`, formatarMoeda(r.integral));
+      html += row("1ª parcela (sem desconto)", formatarMoeda(r.primeiraParcela), {
+        note: "Adiantamento pago até 30/11, sem INSS ou IRRF.",
+      });
+      html += row("2ª parcela (bruta)", formatarMoeda(r.segundaParcelaBruta), {
+        note: "Paga até 20/12, com todos os descontos abaixo.",
+      });
+      html += row("INSS sobre o 13º", `- ${formatarMoeda(r.inss)}`, { tone: "desconto" });
       html += row("Base de cálculo do IRRF", formatarMoeda(r.baseIR), { note: baseNota });
-      html += row("IRRF sobre férias", `- ${formatarMoeda(r.irrf)}`, { tone: "desconto" });
+      html += row("IRRF sobre o 13º", `- ${formatarMoeda(r.irrf)}`, { tone: "desconto" });
       if (r.pensaoAlimenticia > 0) {
         html += row("Pensão alimentícia", `- ${formatarMoeda(r.pensaoAlimenticia)}`, { tone: "desconto" });
       }
-      if (emprestimo > 0) {
-        html += row("Desconto de empréstimo do trabalhador", `- ${formatarMoeda(emprestimo)}`, { tone: "desconto" });
-      }
-      html += row("Total líquido de férias", formatarMoeda(liquidoFinal), { tone: "total" });
-      html += row("FGTS sobre férias (depositado pelo empregador)", formatarMoeda(r.fgts), {
+      html += row("2ª parcela líquida", formatarMoeda(r.segundaParcelaLiquida));
+      html += row("Total líquido do 13º", formatarMoeda(r.liquido), { tone: "total" });
+      html += row("FGTS sobre o 13º (depositado pelo empregador)", formatarMoeda(r.fgts), {
         tone: "info",
-        note: "Informativo: incide sobre férias + 1/3, não sobre o abono. Não é descontado do empregado.",
+        note: "Informativo: não é descontado do empregado.",
       });
 
       breakdownEl.innerHTML = html;
@@ -299,17 +249,17 @@
         </li>`
         )
         .join("");
-      inssNotaEl.textContent = `Alíquota marginal: ${formatarPercentual(r.inssAliquotaMarginal)} · Alíquota efetiva sobre a base do INSS: ${formatarPercentual(r.inssAliquotaEfetiva)}.`;
+      inssNotaEl.textContent = `Alíquota marginal: ${formatarPercentual(r.inssAliquotaMarginal)} · Alíquota efetiva sobre o 13º: ${formatarPercentual(r.inssAliquotaEfetiva)}.`;
 
       if (r.isentoPorLei15270) {
-        irrfTextoEl.textContent = `Isento de IRRF: base tributável de férias até ${formatarMoeda(5000)} (Lei nº 15.270/2025).`;
+        irrfTextoEl.textContent = `Isento de IRRF: 13º integral até ${formatarMoeda(5000)} (Lei nº 15.270/2025).`;
       } else {
         irrfTextoEl.textContent =
           `Faixa aplicada sobre a base de ${formatarMoeda(r.baseIR)}: alíquota nominal de ${formatarPercentual(r.irrfFaixaAliquota)}` +
           (r.irrfFaixaDeducao > 0 ? ` (parcela a deduzir: ${formatarMoeda(r.irrfFaixaDeducao)})` : "") +
           (r.redutorAplicado > 0 ? `. Redução aplicada pela Lei nº 15.270/2025: ${formatarMoeda(r.redutorAplicado)}.` : ".");
       }
-      irrfNotaEl.textContent = `Alíquota efetiva sobre a base tributável de férias: ${formatarPercentual(r.irrfAliquotaEfetiva)}.`;
+      irrfNotaEl.textContent = `Alíquota efetiva sobre o 13º integral: ${formatarPercentual(r.irrfAliquotaEfetiva)}.`;
 
       resultsEl.classList.add("is-visible");
     });
