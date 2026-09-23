@@ -43,7 +43,7 @@ const SIMPLES_TABELAS = {
     ],
   },
   III: {
-    nome: "Anexo III — Serviços (Fator R ≥ 28%)",
+    nome: "Anexo III — Serviços",
     faixas: [
       { ate: 180000, aliquota: 0.06, deducao: 0, partilha: { irpj: 4.0, csll: 3.5, cofins: 12.82, pis: 2.78, cpp: 43.4, iss: 33.5 } },
       { ate: 360000, aliquota: 0.112, deducao: 9360, partilha: { irpj: 4.0, csll: 3.5, cofins: 14.05, pis: 3.05, cpp: 43.4, iss: 32.0 } },
@@ -65,7 +65,7 @@ const SIMPLES_TABELAS = {
     ],
   },
   V: {
-    nome: "Anexo V — Serviços (Fator R < 28%)",
+    nome: "Anexo V — Serviços",
     faixas: [
       { ate: 180000, aliquota: 0.155, deducao: 0, partilha: { irpj: 25.0, csll: 15.0, cofins: 14.10, pis: 3.05, cpp: 28.85, iss: 14.0 } },
       { ate: 360000, aliquota: 0.18, deducao: 4500, partilha: { irpj: 23.0, csll: 15.0, cofins: 14.10, pis: 3.05, cpp: 27.85, iss: 17.0 } },
