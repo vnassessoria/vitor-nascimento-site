@@ -6,6 +6,7 @@
 <title>Vitor Nascimento | Assessoria Contábil</title>
 <meta name="description" content="Assessoria contábil completa para pessoas físicas e jurídicas: abertura de empresas, contabilidade mensal, folha de pagamento, IR, planejamento tributário e muito mais.">
 <link rel="icon" href="assets/logo.jpg">
+<link rel="preload" as="image" href="assets/logo.jpg" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -54,9 +55,38 @@
 <!-- ================= HERO ================= -->
 <section class="hero section--light" id="inicio">
   <div class="hero__glow"></div>
-  <div class="hero__intro" aria-hidden="true">
-    <img src="assets/logo.jpg" alt="" class="hero__intro-logo">
+  <div class="hero__intro" aria-hidden="true" id="heroIntro">
+    <img src="assets/logo.jpg" alt="" class="hero__intro-logo" id="heroIntroLogo">
   </div>
+  <script>
+    (function () {
+      var intro = document.getElementById("heroIntro");
+      var logo = document.getElementById("heroIntroLogo");
+      if (!intro || !logo || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+      // A animação do intro tem duração fixa em CSS, mas o carregamento da
+      // imagem não — em conexões/navegadores mais lentos, a logo podia nunca
+      // chegar a ser desenhada antes do intro já ter terminado e desaparecido.
+      // Por isso a animação começa pausada e só roda depois que a imagem
+      // estiver de fato pronta (com um limite de segurança para não travar
+      // o site caso a imagem falhe).
+      intro.style.animationPlayState = "paused";
+      logo.style.animationPlayState = "paused";
+
+      function comecar() {
+        intro.style.animationPlayState = "running";
+        logo.style.animationPlayState = "running";
+      }
+
+      if (logo.complete && logo.naturalWidth > 0) {
+        comecar();
+      } else {
+        logo.addEventListener("load", comecar, { once: true });
+        logo.addEventListener("error", comecar, { once: true });
+        setTimeout(comecar, 3000);
+      }
+    })();
+  </script>
   <div class="container hero__inner">
     <h1 class="hero__title" data-reveal>Contabilidade estratégica para <span>o crescimento</span> do seu negócio</h1>
     <p class="hero__subtitle" data-reveal>Atendimento personalizado para pessoas físicas e jurídicas, com precisão técnica, agilidade digital e a segurança que sua empresa e sua vida financeira merecem.</p>
