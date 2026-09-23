@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Calculadora de 13º Salário | Vitor Nascimento</title>
-<meta name="description" content="Calcule o valor líquido do 13º salário de um empregado CLT, com 1ª e 2ª parcela, INSS e IRRF pelas tabelas vigentes.">
+<title>Calculadora do Simples Nacional | Vitor Nascimento</title>
+<meta name="description" content="Calcule a alíquota efetiva e o valor do DAS de uma empresa optante pelo Simples Nacional, com o detalhamento por tributo (IRPJ, CSLL, COFINS, PIS, CPP, ICMS/ISS/IPI).">
 <link rel="icon" href="../assets/logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,8 +56,8 @@
 <section class="section article-hero section--light">
   <div class="container">
     <span class="article-hero__tag">Conteúdo</span>
-    <h1>Calculadora de 13º Salário</h1>
-    <p class="article-hero__meta">Informe o salário bruto e os meses trabalhados no ano e veja o valor líquido do 13º, com 1ª e 2ª parcela, INSS e IRRF pelas tabelas vigentes desde janeiro de 2026.</p>
+    <h1>Calculadora do Simples Nacional</h1>
+    <p class="article-hero__meta">Informe o Anexo, a receita bruta dos últimos 12 meses e o faturamento do mês, e veja a alíquota efetiva, o valor do DAS e o detalhamento por tributo, pelas regras vigentes da LC 123/2006.</p>
   </div>
 </section>
 
@@ -65,21 +65,38 @@
   <div class="container calc-layout">
     <form class="calc-form" id="calcForm">
       <div class="calc-form__field">
-        <label for="calc13Bruto">Salário bruto mensal (R$)</label>
-        <input type="number" id="calc13Bruto" min="0" step="0.01" placeholder="Ex: 3500,00" required>
+        <label for="calcSimplesAnexo">Anexo do Simples Nacional</label>
+        <select id="calcSimplesAnexo">
+          <option value="I">Anexo I — Comércio</option>
+          <option value="II">Anexo II — Indústria</option>
+          <option value="III">Anexo III — Serviços (Fator R ≥ 28%)</option>
+          <option value="IV">Anexo IV — Serviços (sem CPP no DAS, ex: construção, advocacia)</option>
+          <option value="V">Anexo V — Serviços (Fator R &lt; 28%)</option>
+        </select>
+        <span class="calc-form__hint">Não sabe qual Anexo se aplica à sua atividade? Consulte o <a href="consulta-cnae.html">CNAE</a> da empresa.</span>
+      </div>
+
+      <div class="calc-form__field">
+        <label>Precisa calcular o Fator R (Anexo III ou V)?</label>
+        <div class="calc-toggle" id="calcFatorRToggle">
+          <button type="button" class="calc-toggle__btn is-active" data-value="nao">Não</button>
+          <button type="button" class="calc-toggle__btn" data-value="sim">Sim</button>
+        </div>
+      </div>
+
+      <div class="calc-form__field" id="calcFatorRCampo" hidden>
+        <label for="calcSimplesFolha">Folha de salários dos últimos 12 meses (R$, com encargos)</label>
+        <input type="number" id="calcSimplesFolha" min="0" step="0.01" placeholder="Ex: 120000,00">
+        <span class="calc-form__hint" id="calcFatorRResultado">Inclui pró-labore, salários, CPP e FGTS efetivamente recolhidos nos últimos 12 meses.</span>
+      </div>
+
+      <div class="calc-form__field">
+        <label for="calcSimplesRbt12">Receita bruta acumulada nos últimos 12 meses — RBT12 (R$)</label>
+        <input type="number" id="calcSimplesRbt12" min="0" step="0.01" placeholder="Ex: 480000,00" required>
       </div>
       <div class="calc-form__field">
-        <label for="calc13Meses">Meses trabalhados no ano</label>
-        <input type="number" id="calc13Meses" min="1" max="12" step="1" value="12">
-        <span class="calc-form__hint">Fração igual ou superior a 15 dias no mês conta como mês completo. Use 12 para o 13º integral.</span>
-      </div>
-      <div class="calc-form__field">
-        <label for="calc13Dependentes">Dependentes (IR)</label>
-        <input type="number" id="calc13Dependentes" min="0" step="1" value="0">
-      </div>
-      <div class="calc-form__field">
-        <label for="calc13Pensao">Pensão alimentícia judicial (R$)</label>
-        <input type="number" id="calc13Pensao" min="0" step="0.01" value="0">
+        <label for="calcSimplesFaturamento">Faturamento do mês (R$)</label>
+        <input type="number" id="calcSimplesFaturamento" min="0" step="0.01" placeholder="Ex: 40000,00" required>
       </div>
 
       <div class="calc-form__submit">
@@ -89,30 +106,20 @@
 
     <div class="calc-results" id="calcResults">
       <div class="calc-liquido">
-        <div class="calc-liquido__label">Total líquido do 13º</div>
+        <div class="calc-liquido__label">Valor do DAS no mês</div>
         <div class="calc-liquido__value" id="calcLiquidoValor">—</div>
       </div>
 
       <div class="calc-breakdown" id="calcBreakdown"></div>
 
       <div class="calc-aliquotas">
-        <h3>Alíquotas utilizadas no cálculo</h3>
-
-        <div class="calc-aliquotas__block">
-          <h4>INSS — contribuição progressiva sobre o 13º integral</h4>
-          <ul class="calc-aliquotas__list" id="calcInssFaixas"></ul>
-          <p class="calc-aliquotas__nota" id="calcInssNota"></p>
-        </div>
-
-        <div class="calc-aliquotas__block">
-          <h4>IRRF — Imposto de Renda Retido na Fonte</h4>
-          <p class="calc-aliquotas__texto" id="calcIrrfTexto"></p>
-          <p class="calc-aliquotas__nota" id="calcIrrfNota"></p>
-        </div>
+        <h3>Detalhamento por tributo</h3>
+        <ul class="calc-aliquotas__list" id="calcInssFaixas"></ul>
+        <p class="calc-aliquotas__nota" id="calcInssNota"></p>
       </div>
 
       <div class="calc-disclaimer">
-        <p>Este cálculo trata o 13º como um pagamento com tributação exclusiva na fonte, à parte do salário do mês (IN RFB nº 1.500/2014, art. 12), usando a tabela de INSS (Portaria Interministerial MPS/MF nº 13/2026) e a tabela de IRRF com o redutor da Lei nº 15.270/2025. O INSS e o IRRF incidem sobre o valor integral do 13º e são descontados de uma só vez na 2ª parcela; a 1ª parcela (adiantamento) não sofre nenhum desconto. Não considera rescisão de contrato ou múltiplos vínculos empregatícios. Fale com a gente para uma análise personalizada da sua folha de pagamento.</p>
+        <p>Este cálculo usa as tabelas e percentuais de repartição vigentes dos Anexos I a V da LC 123/2006 (redação da LC 155/2016), incluindo o limite de 5% para o ICMS/ISS com redistribuição aos tributos federais (art. 18, § 17). Não considera sublimites estaduais de ICMS/ISS para receita acima de R$ 3.600.000,00, receitas de mais de uma atividade (Anexos combinados) nem eventuais retenções na fonte. Fale com a gente para uma análise personalizada do enquadramento e do cálculo da sua empresa.</p>
         <a href="#" class="btn btn--gold btn--sm" data-contact="whatsapp-link" target="_blank" rel="noopener">Falar no WhatsApp</a>
       </div>
     </div>
@@ -172,17 +179,53 @@
 <script src="../js/icons.js"></script>
 <script src="../js/script.js"></script>
 <script src="../js/calculadora-salario.js"></script>
-<script src="../js/calculadora-13.js"></script>
+<script src="../js/calculadora-simples.js"></script>
 <script>
   (function () {
     const form = document.getElementById("calcForm");
     const resultsEl = document.getElementById("calcResults");
     const liquidoValorEl = document.getElementById("calcLiquidoValor");
     const breakdownEl = document.getElementById("calcBreakdown");
-    const inssFaixasEl = document.getElementById("calcInssFaixas");
-    const inssNotaEl = document.getElementById("calcInssNota");
-    const irrfTextoEl = document.getElementById("calcIrrfTexto");
-    const irrfNotaEl = document.getElementById("calcIrrfNota");
+    const tributosListEl = document.getElementById("calcInssFaixas");
+    const tributosNotaEl = document.getElementById("calcInssNota");
+
+    const fatorRToggle = document.getElementById("calcFatorRToggle");
+    const fatorRCampoEl = document.getElementById("calcFatorRCampo");
+    const fatorRResultadoEl = document.getElementById("calcFatorRResultado");
+    const folhaEl = document.getElementById("calcSimplesFolha");
+    const rbt12El = document.getElementById("calcSimplesRbt12");
+
+    let quererFatorR = "nao";
+
+    function wireToggle(toggleEl, onChange) {
+      toggleEl.addEventListener("click", (e) => {
+        const btn = e.target.closest(".calc-toggle__btn");
+        if (!btn) return;
+        toggleEl.querySelectorAll(".calc-toggle__btn").forEach((b) => b.classList.remove("is-active"));
+        btn.classList.add("is-active");
+        onChange(btn.dataset.value);
+      });
+    }
+
+    function atualizarFatorR() {
+      const folha = parseFloat(folhaEl.value) || 0;
+      const rbt12 = parseFloat(rbt12El.value) || 0;
+      if (rbt12 <= 0 || folha <= 0) {
+        fatorRResultadoEl.textContent = "Inclui pró-labore, salários, CPP e FGTS efetivamente recolhidos nos últimos 12 meses.";
+        return;
+      }
+      const fatorR = calcularFatorR(folha, rbt12);
+      const anexoIndicado = fatorR >= 0.28 ? "Anexo III" : "Anexo V";
+      fatorRResultadoEl.textContent = `Fator R: ${formatarPercentual(fatorR)} → indica o ${anexoIndicado} (${fatorR >= 0.28 ? "≥" : "<"} 28%).`;
+    }
+
+    wireToggle(fatorRToggle, (value) => {
+      quererFatorR = value;
+      fatorRCampoEl.hidden = value !== "sim";
+    });
+
+    folhaEl.addEventListener("input", atualizarFatorR);
+    rbt12El.addEventListener("input", atualizarFatorR);
 
     function row(label, value, { tone = "", note = "" } = {}) {
       return `
@@ -195,73 +238,46 @@
     form.addEventListener("submit", (e) => {
       e.preventDefault();
 
-      const bruto = parseFloat(document.getElementById("calc13Bruto").value) || 0;
-      const meses = parseInt(document.getElementById("calc13Meses").value, 10) || 0;
-      const dependentes = parseInt(document.getElementById("calc13Dependentes").value, 10) || 0;
-      const pensao = parseFloat(document.getElementById("calc13Pensao").value) || 0;
+      const anexo = document.getElementById("calcSimplesAnexo").value;
+      const rbt12 = parseFloat(rbt12El.value) || 0;
+      const faturamentoMes = parseFloat(document.getElementById("calcSimplesFaturamento").value) || 0;
 
-      if (bruto <= 0 || meses <= 0) {
+      if (rbt12 <= 0 || faturamentoMes <= 0) {
         resultsEl.classList.remove("is-visible");
         return;
       }
 
-      const r = calcularDecimoTerceiro({
-        bruto,
-        mesesTrabalhados: meses,
-        dependentes,
-        pensaoAlimenticia: pensao,
-      });
+      const r = calcularSimplesNacional({ anexo, rbt12, faturamentoMes });
 
-      liquidoValorEl.textContent = formatarMoeda(r.liquido);
-
-      const baseNota = r.usaSimplificado
-        ? `Base do IR usando o desconto simplificado (${formatarMoeda(IRRF_DESCONTO_SIMPLIFICADO)}), mais vantajoso que a dedução padrão.`
-        : `Base do IR usando a dedução padrão (INSS sobre o 13º + dependentes + pensão).`;
+      liquidoValorEl.textContent = formatarMoeda(r.dasMensal);
 
       let html = "";
-      html += row("Salário bruto mensal", formatarMoeda(bruto));
-      html += row(`13º salário (${meses}/12 ${meses > 1 ? "meses" : "mês"})`, formatarMoeda(r.integral));
-      html += row("1ª parcela (sem desconto)", formatarMoeda(r.primeiraParcela), {
-        note: "Adiantamento pago até 30/11, sem INSS ou IRRF.",
+      html += row("Anexo", r.anexoNome);
+      html += row("Receita bruta acumulada (RBT12)", formatarMoeda(r.rbt12));
+      html += row("Faturamento do mês", formatarMoeda(r.faturamentoMes));
+      html += row("Alíquota nominal da faixa", formatarPercentual(r.faixaAliquota), {
+        note: r.faixaDeducao > 0 ? `Parcela a deduzir: ${formatarMoeda(r.faixaDeducao)}` : "",
       });
-      html += row("2ª parcela (bruta)", formatarMoeda(r.segundaParcelaBruta), {
-        note: "Paga até 20/12, com todos os descontos abaixo.",
-      });
-      html += row("INSS sobre o 13º", `- ${formatarMoeda(r.inss)}`, { tone: "desconto" });
-      html += row("Base de cálculo do IRRF", formatarMoeda(r.baseIR), { note: baseNota });
-      html += row("IRRF sobre o 13º", `- ${formatarMoeda(r.irrf)}`, { tone: "desconto" });
-      if (r.pensaoAlimenticia > 0) {
-        html += row("Pensão alimentícia", `- ${formatarMoeda(r.pensaoAlimenticia)}`, { tone: "desconto" });
-      }
-      html += row("2ª parcela líquida", formatarMoeda(r.segundaParcelaLiquida));
-      html += row("Total líquido do 13º", formatarMoeda(r.liquido), { tone: "total" });
-      html += row("FGTS sobre o 13º (depositado pelo empregador)", formatarMoeda(r.fgts), {
-        tone: "info",
-        note: "Informativo: não é descontado do empregado.",
-      });
+      html += row("Alíquota efetiva", formatarPercentual(r.aliquotaEfetiva));
+      html += row("Valor do DAS no mês", formatarMoeda(r.dasMensal), { tone: "total" });
 
       breakdownEl.innerHTML = html;
 
-      inssFaixasEl.innerHTML = r.inssFaixas
-        .map(
-          (faixa) => `
+      tributosListEl.innerHTML = Object.keys(r.valores)
+        .map((tributo) => {
+          const percentual = r.partilha[tributo];
+          const nota = r.limiteAplicado && tributo === r.capKey ? " (limitado a 5% da receita do mês)" : "";
+          return `
         <li>
-          <span>${formatarMoeda(faixa.de)} até ${formatarMoeda(faixa.ate)}</span>
-          <span><strong>${formatarPercentual(faixa.aliquota)}</strong> = ${formatarMoeda(faixa.valor)}</span>
-        </li>`
-        )
+          <span>${SIMPLES_TRIBUTO_LABEL[tributo]}${nota}</span>
+          <span><strong>${formatarMoeda(r.valores[tributo])}</strong></span>
+        </li>`;
+        })
         .join("");
-      inssNotaEl.textContent = `Alíquota marginal: ${formatarPercentual(r.inssAliquotaMarginal)} · Alíquota efetiva sobre o 13º: ${formatarPercentual(r.inssAliquotaEfetiva)}.`;
 
-      if (r.isentoPorLei15270) {
-        irrfTextoEl.textContent = `Isento de IRRF: 13º integral até ${formatarMoeda(5000)} (Lei nº 15.270/2025).`;
-      } else {
-        irrfTextoEl.textContent =
-          `Faixa aplicada sobre a base de ${formatarMoeda(r.baseIR)}: alíquota nominal de ${formatarPercentual(r.irrfFaixaAliquota)}` +
-          (r.irrfFaixaDeducao > 0 ? ` (parcela a deduzir: ${formatarMoeda(r.irrfFaixaDeducao)})` : "") +
-          (r.redutorAplicado > 0 ? `. Redução aplicada pela Lei nº 15.270/2025: ${formatarMoeda(r.redutorAplicado)}.` : ".");
-      }
-      irrfNotaEl.textContent = `Alíquota efetiva sobre o 13º integral: ${formatarPercentual(r.irrfAliquotaEfetiva)}.`;
+      tributosNotaEl.textContent = r.limiteAplicado
+        ? `O percentual efetivo de ${SIMPLES_TRIBUTO_LABEL[r.capKey]} superava 5% da receita do mês; o excedente de ${formatarMoeda(r.valorExcedente)} foi redistribuído entre os tributos federais, conforme o art. 18, § 17, da LC 123/2006.`
+        : "Nenhum limite de partilha foi acionado neste cálculo.";
 
       resultsEl.classList.add("is-visible");
     });
