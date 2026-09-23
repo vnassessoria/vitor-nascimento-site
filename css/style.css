@@ -371,6 +371,8 @@ h1, h2, h3 {
   align-items: center;
   justify-content: center;
   background: var(--cream-bg);
+}
+.hero__intro.is-playing {
   animation: heroIntroOverlayOut 0.6s ease forwards;
   animation-delay: 1.5s;
 }
@@ -380,6 +382,9 @@ h1, h2, h3 {
   object-fit: cover;
   border-radius: 40px;
   box-shadow: 0 20px 60px rgba(203, 180, 141, 0.3);
+  opacity: 0;
+}
+.hero__intro-logo.is-playing {
   animation: heroIntroLogo 1.5s ease forwards;
 }
 @media (max-width: 560px) {

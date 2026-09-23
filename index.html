@@ -67,15 +67,16 @@
       // A animação do intro tem duração fixa em CSS, mas o carregamento da
       // imagem não — em conexões/navegadores mais lentos, a logo podia nunca
       // chegar a ser desenhada antes do intro já ter terminado e desaparecido.
-      // Por isso a animação começa pausada e só roda depois que a imagem
+      // Por isso a animação só é aplicada (via classe) depois que a imagem
       // estiver de fato pronta (com um limite de segurança para não travar
-      // o site caso a imagem falhe).
-      intro.style.animationPlayState = "paused";
-      logo.style.animationPlayState = "paused";
-
+      // o site caso a imagem falhe). Sem a classe, o quadro fica visível e
+      // a logo invisível (ver CSS), à espera — nunca soltando a animação
+      // sozinha, o que evitava o problema anterior mas travava o quadro
+      // visível pra sempre caso a imagem já estivesse com cache "completo"
+      // antes deste script rodar.
       function comecar() {
-        intro.style.animationPlayState = "running";
-        logo.style.animationPlayState = "running";
+        intro.classList.add("is-playing");
+        logo.classList.add("is-playing");
       }
 
       if (logo.complete && logo.naturalWidth > 0) {
