@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Calculadora do Simples Nacional | Vitor Nascimento</title>
-<meta name="description" content="Calcule a alíquota efetiva e o valor do DAS de uma empresa optante pelo Simples Nacional, com o detalhamento por tributo (IRPJ, CSLL, COFINS, PIS, CPP, ICMS/ISS/IPI).">
+<meta name="description" content="Calcule a alíquota efetiva e o valor do DAS de uma empresa optante pelo Simples Nacional, mesmo com mais de uma atividade em Anexos diferentes, com o detalhamento por tributo (IRPJ, CSLL, COFINS, PIS, CPP, ICMS/ISS/IPI).">
 <link rel="icon" href="../assets/logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,7 +57,7 @@
   <div class="container">
     <span class="article-hero__tag">Conteúdo</span>
     <h1>Calculadora do Simples Nacional</h1>
-    <p class="article-hero__meta">Informe o Anexo, a receita bruta dos últimos 12 meses e o faturamento do mês, e veja a alíquota efetiva, o valor do DAS e o detalhamento por tributo, pelas regras vigentes da LC 123/2006.</p>
+    <p class="article-hero__meta">Informe a receita bruta dos últimos 12 meses e o faturamento do mês de cada atividade — a empresa pode ter mais de uma, tributada em Anexos diferentes — e veja a alíquota efetiva, o valor do DAS e o detalhamento por tributo, pelas regras vigentes da LC 123/2006.</p>
   </div>
 </section>
 
@@ -65,19 +65,13 @@
   <div class="container calc-layout">
     <form class="calc-form" id="calcForm">
       <div class="calc-form__field">
-        <label for="calcSimplesAnexo">Anexo do Simples Nacional</label>
-        <select id="calcSimplesAnexo">
-          <option value="I">Anexo I — Comércio</option>
-          <option value="II">Anexo II — Indústria</option>
-          <option value="III">Anexo III — Serviços (Fator R ≥ 28%)</option>
-          <option value="IV">Anexo IV — Serviços (sem CPP no DAS, ex: construção, advocacia)</option>
-          <option value="V">Anexo V — Serviços (Fator R &lt; 28%)</option>
-        </select>
-        <span class="calc-form__hint">Não sabe qual Anexo se aplica à sua atividade? Consulte o <a href="consulta-cnae.html">CNAE</a> da empresa.</span>
+        <label for="calcSimplesRbt12">Receita bruta acumulada nos últimos 12 meses — RBT12 (R$)</label>
+        <input type="number" id="calcSimplesRbt12" min="0" step="0.01" placeholder="Ex: 480000,00" required>
+        <span class="calc-form__hint">É a receita bruta total da empresa, somando todas as atividades — usada para achar a faixa em cada Anexo abaixo.</span>
       </div>
 
       <div class="calc-form__field">
-        <label>Precisa calcular o Fator R (Anexo III ou V)?</label>
+        <label>Precisa calcular o Fator R (para escolher entre Anexo III ou V)?</label>
         <div class="calc-toggle" id="calcFatorRToggle">
           <button type="button" class="calc-toggle__btn is-active" data-value="nao">Não</button>
           <button type="button" class="calc-toggle__btn" data-value="sim">Sim</button>
@@ -91,12 +85,14 @@
       </div>
 
       <div class="calc-form__field">
-        <label for="calcSimplesRbt12">Receita bruta acumulada nos últimos 12 meses — RBT12 (R$)</label>
-        <input type="number" id="calcSimplesRbt12" min="0" step="0.01" placeholder="Ex: 480000,00" required>
+        <label>Atividades da empresa</label>
+        <span class="calc-form__hint">Empresas com mais de uma atividade recolhem o Simples separadamente para cada uma, no Anexo correspondente — mas usando a mesma RBT12 acima. Não sabe o Anexo de uma atividade? Consulte o <a href="consulta-cnae.html">CNAE</a> dela.</span>
       </div>
+
+      <div id="calcAtividadesList"></div>
+
       <div class="calc-form__field">
-        <label for="calcSimplesFaturamento">Faturamento do mês (R$)</label>
-        <input type="number" id="calcSimplesFaturamento" min="0" step="0.01" placeholder="Ex: 40000,00" required>
+        <button type="button" class="btn btn--outline btn--sm" id="calcAddAtividade">+ Adicionar outra atividade</button>
       </div>
 
       <div class="calc-form__submit">
@@ -119,7 +115,7 @@
       </div>
 
       <div class="calc-disclaimer">
-        <p>Este cálculo usa as tabelas e percentuais de repartição vigentes dos Anexos I a V da LC 123/2006 (redação da LC 155/2016), incluindo o limite de 5% para o ICMS/ISS com redistribuição aos tributos federais (art. 18, § 17). Não considera sublimites estaduais de ICMS/ISS para receita acima de R$ 3.600.000,00, receitas de mais de uma atividade (Anexos combinados) nem eventuais retenções na fonte. Fale com a gente para uma análise personalizada do enquadramento e do cálculo da sua empresa.</p>
+        <p>Este cálculo usa as tabelas e percentuais de repartição vigentes dos Anexos I a V da LC 123/2006 (redação da LC 155/2016), incluindo o limite de 5% para o ICMS/ISS com redistribuição aos tributos federais (art. 18, § 17). Cada atividade é tributada separadamente no seu próprio Anexo, mas todas usam a mesma RBT12 da empresa para achar a faixa (art. 18, § 4º). Não considera sublimites estaduais de ICMS/ISS para receita acima de R$ 3.600.000,00 nem eventuais retenções na fonte. Fale com a gente para uma análise personalizada do enquadramento e do cálculo da sua empresa.</p>
         <a href="#" class="btn btn--gold btn--sm" data-contact="whatsapp-link" target="_blank" rel="noopener">Falar no WhatsApp</a>
       </div>
     </div>
@@ -195,7 +191,10 @@
     const folhaEl = document.getElementById("calcSimplesFolha");
     const rbt12El = document.getElementById("calcSimplesRbt12");
 
-    let quererFatorR = "nao";
+    const atividadesListEl = document.getElementById("calcAtividadesList");
+    const addAtividadeBtn = document.getElementById("calcAddAtividade");
+
+    let atividadeSeq = 0;
 
     function wireToggle(toggleEl, onChange) {
       toggleEl.addEventListener("click", (e) => {
@@ -220,12 +219,58 @@
     }
 
     wireToggle(fatorRToggle, (value) => {
-      quererFatorR = value;
       fatorRCampoEl.hidden = value !== "sim";
     });
 
     folhaEl.addEventListener("input", atualizarFatorR);
     rbt12El.addEventListener("input", atualizarFatorR);
+
+    function renumerarAtividades() {
+      atividadesListEl.querySelectorAll(".calc-atividade-row").forEach((linha, i) => {
+        linha.querySelector(".calc-atividade-row__numero").textContent = `Anexo (atividade ${i + 1})`;
+      });
+    }
+
+    function criarLinhaAtividade() {
+      atividadeSeq += 1;
+      const id = atividadeSeq;
+      const wrapper = document.createElement("div");
+      wrapper.className = "calc-form__field calc-atividade-row";
+      wrapper.dataset.atividadeId = id;
+      wrapper.innerHTML = `
+        <div class="calc-atividade-row__grid">
+          <div class="calc-atividade-row__field">
+            <label class="calc-atividade-row__numero">Anexo (atividade ${id})</label>
+            <select class="calc-atividade-anexo">
+              <option value="I">Anexo I — Comércio</option>
+              <option value="II">Anexo II — Indústria</option>
+              <option value="III">Anexo III — Serviços (Fator R ≥ 28%)</option>
+              <option value="IV">Anexo IV — Serviços (sem CPP no DAS)</option>
+              <option value="V">Anexo V — Serviços (Fator R &lt; 28%)</option>
+            </select>
+          </div>
+          <div class="calc-atividade-row__field">
+            <label>Faturamento do mês (R$)</label>
+            <input type="number" class="calc-atividade-faturamento" min="0" step="0.01" placeholder="Ex: 20000,00">
+          </div>
+        </div>
+        <button type="button" class="calc-atividade-remove" aria-label="Remover atividade">&times;</button>
+      `;
+      wrapper.querySelector(".calc-atividade-remove").addEventListener("click", () => {
+        if (atividadesListEl.children.length > 1) {
+          wrapper.remove();
+          renumerarAtividades();
+        }
+      });
+      return wrapper;
+    }
+
+    addAtividadeBtn.addEventListener("click", () => {
+      atividadesListEl.appendChild(criarLinhaAtividade());
+      renumerarAtividades();
+    });
+
+    atividadesListEl.appendChild(criarLinhaAtividade());
 
     function row(label, value, { tone = "", note = "" } = {}) {
       return `
@@ -238,46 +283,67 @@
     form.addEventListener("submit", (e) => {
       e.preventDefault();
 
-      const anexo = document.getElementById("calcSimplesAnexo").value;
       const rbt12 = parseFloat(rbt12El.value) || 0;
-      const faturamentoMes = parseFloat(document.getElementById("calcSimplesFaturamento").value) || 0;
+      const atividades = [...atividadesListEl.querySelectorAll(".calc-atividade-row")]
+        .map((linha) => ({
+          anexo: linha.querySelector(".calc-atividade-anexo").value,
+          faturamentoMes: parseFloat(linha.querySelector(".calc-atividade-faturamento").value) || 0,
+        }))
+        .filter((a) => a.faturamentoMes > 0);
 
-      if (rbt12 <= 0 || faturamentoMes <= 0) {
+      if (rbt12 <= 0 || atividades.length === 0) {
         resultsEl.classList.remove("is-visible");
         return;
       }
 
-      const r = calcularSimplesNacional({ anexo, rbt12, faturamentoMes });
+      const resultados = atividades.map((a) => calcularSimplesNacional({ anexo: a.anexo, rbt12, faturamentoMes: a.faturamentoMes }));
 
-      liquidoValorEl.textContent = formatarMoeda(r.dasMensal);
+      const dasTotal = resultados.reduce((soma, r) => soma + r.dasMensal, 0);
+      const faturamentoTotal = resultados.reduce((soma, r) => soma + r.faturamentoMes, 0);
+      const aliquotaEfetivaMedia = faturamentoTotal > 0 ? dasTotal / faturamentoTotal : 0;
+
+      const valoresAgregados = {};
+      resultados.forEach((r) => {
+        Object.keys(r.valores).forEach((tributo) => {
+          valoresAgregados[tributo] = (valoresAgregados[tributo] || 0) + r.valores[tributo];
+        });
+      });
+
+      liquidoValorEl.textContent = formatarMoeda(dasTotal);
 
       let html = "";
-      html += row("Anexo", r.anexoNome);
-      html += row("Receita bruta acumulada (RBT12)", formatarMoeda(r.rbt12));
-      html += row("Faturamento do mês", formatarMoeda(r.faturamentoMes));
-      html += row("Alíquota nominal da faixa", formatarPercentual(r.faixaAliquota), {
-        note: r.faixaDeducao > 0 ? `Parcela a deduzir: ${formatarMoeda(r.faixaDeducao)}` : "",
+      html += row("Receita bruta acumulada (RBT12)", formatarMoeda(rbt12));
+      html += row("Faturamento total do mês", formatarMoeda(faturamentoTotal));
+
+      resultados.forEach((r, i) => {
+        const nota = r.limiteAplicado
+          ? `Alíquota efetiva ${formatarPercentual(r.aliquotaEfetiva)}. O limite de 5% de ${SIMPLES_TRIBUTO_LABEL[r.capKey]} foi acionado nesta atividade.`
+          : `Alíquota efetiva ${formatarPercentual(r.aliquotaEfetiva)}.`;
+        html += row(`Atividade ${i + 1} — ${r.anexoNome}`, formatarMoeda(r.dasMensal), { note: nota });
       });
-      html += row("Alíquota efetiva", formatarPercentual(r.aliquotaEfetiva));
-      html += row("Valor do DAS no mês", formatarMoeda(r.dasMensal), { tone: "total" });
+
+      html += row("Alíquota efetiva média do grupo", formatarPercentual(aliquotaEfetivaMedia), {
+        note: "DAS total dividido pelo faturamento total do mês.",
+      });
+      html += row("Valor do DAS no mês", formatarMoeda(dasTotal), { tone: "total" });
 
       breakdownEl.innerHTML = html;
 
-      tributosListEl.innerHTML = Object.keys(r.valores)
-        .map((tributo) => {
-          const percentual = r.partilha[tributo];
-          const nota = r.limiteAplicado && tributo === r.capKey ? " (limitado a 5% da receita do mês)" : "";
-          return `
+      tributosListEl.innerHTML = Object.keys(valoresAgregados)
+        .map(
+          (tributo) => `
         <li>
-          <span>${SIMPLES_TRIBUTO_LABEL[tributo]}${nota}</span>
-          <span><strong>${formatarMoeda(r.valores[tributo])}</strong></span>
-        </li>`;
-        })
+          <span>${SIMPLES_TRIBUTO_LABEL[tributo]}</span>
+          <span><strong>${formatarMoeda(valoresAgregados[tributo])}</strong></span>
+        </li>`
+        )
         .join("");
 
-      tributosNotaEl.textContent = r.limiteAplicado
-        ? `O percentual efetivo de ${SIMPLES_TRIBUTO_LABEL[r.capKey]} superava 5% da receita do mês; o excedente de ${formatarMoeda(r.valorExcedente)} foi redistribuído entre os tributos federais, conforme o art. 18, § 17, da LC 123/2006.`
-        : "Nenhum limite de partilha foi acionado neste cálculo.";
+      const atividadesComLimite = resultados.filter((r) => r.limiteAplicado);
+      tributosNotaEl.textContent =
+        atividadesComLimite.length > 0
+          ? `Valores somados de todas as atividades. O limite de 5% (art. 18, § 17, da LC 123/2006) foi acionado em ${atividadesComLimite.length === 1 ? "1 atividade" : `${atividadesComLimite.length} atividades`}, com o excedente redistribuído aos tributos federais dentro de cada uma.`
+          : "Valores somados de todas as atividades. Nenhum limite de partilha foi acionado neste cálculo.";
 
       resultsEl.classList.add("is-visible");
     });
