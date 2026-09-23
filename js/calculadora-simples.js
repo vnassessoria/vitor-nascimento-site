@@ -98,17 +98,51 @@ function encontrarFaixaSimples(anexo, rbt12) {
   return faixas[faixas.length - 1];
 }
 
-function calcularSimplesNacional({ anexo, rbt12, faturamentoMes }) {
+function calcularSimplesNacional({ anexo, rbt12, faturamentoMes, issRetido = false }) {
   const faixa = encontrarFaixaSimples(anexo, rbt12);
   const aliquotaEfetiva = rbt12 > 0 ? Math.max(0, (rbt12 * faixa.aliquota - faixa.deducao) / rbt12) : faixa.aliquota;
-  const dasMensal = faturamentoMes * aliquotaEfetiva;
+  const dasCompleto = faturamentoMes * aliquotaEfetiva;
 
   const valores = {};
   Object.keys(faixa.partilha).forEach((tributo) => {
-    valores[tributo] = dasMensal * (faixa.partilha[tributo] / 100);
+    valores[tributo] = dasCompleto * (faixa.partilha[tributo] / 100);
   });
 
   const capKey = SIMPLES_TRIBUTO_SUBNACIONAL[anexo];
+  const temIss = capKey === "iss" && faixa.partilha.iss !== undefined;
+
+  // Retenção na fonte / substituição tributária do ISS (art. 21, § 4º, da LC 123/2006):
+  // o ISS sai INTEIRAMENTE do DAS (sem o limite de 5% com redistribuição, que só vale
+  // para o ISS recolhido dentro do próprio DAS). O tomador retém, no máximo, 5% da
+  // receita; se o percentual efetivo do ISS for maior que isso, a diferença não é
+  // cobrada por ninguém.
+  if (issRetido && temIss) {
+    const valorIssExcluidoDoDAS = valores.iss;
+    delete valores.iss;
+    const dasMensal = dasCompleto - valorIssExcluidoDoDAS;
+    const percentualEfetivoIss = aliquotaEfetiva * (faixa.partilha.iss / 100);
+    const valorRetidoPeloTomador = faturamentoMes * Math.min(percentualEfetivoIss, 0.05);
+
+    return {
+      anexo,
+      anexoNome: SIMPLES_TABELAS[anexo].nome,
+      rbt12,
+      faturamentoMes,
+      faixaAliquota: faixa.aliquota,
+      faixaDeducao: faixa.deducao,
+      aliquotaEfetiva,
+      dasMensal,
+      partilha: faixa.partilha,
+      valores,
+      capKey,
+      limiteAplicado: false,
+      valorExcedente: 0,
+      issRetido: true,
+      valorIssExcluidoDoDAS,
+      valorRetidoPeloTomador,
+    };
+  }
+
   let limiteAplicado = false;
   let valorExcedente = 0;
   if (faixa.partilha[capKey] !== undefined) {
@@ -135,12 +169,13 @@ function calcularSimplesNacional({ anexo, rbt12, faturamentoMes }) {
     faixaAliquota: faixa.aliquota,
     faixaDeducao: faixa.deducao,
     aliquotaEfetiva,
-    dasMensal,
+    dasMensal: dasCompleto,
     partilha: faixa.partilha,
     valores,
     capKey,
     limiteAplicado,
     valorExcedente,
+    issRetido: false,
   };
 }
 

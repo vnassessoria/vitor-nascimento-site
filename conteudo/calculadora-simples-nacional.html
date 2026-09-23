@@ -115,7 +115,7 @@
       </div>
 
       <div class="calc-disclaimer">
-        <p>Este cálculo usa as tabelas e percentuais de repartição vigentes dos Anexos I a V da LC 123/2006 (redação da LC 155/2016), incluindo o limite de 5% para o ICMS/ISS com redistribuição aos tributos federais (art. 18, § 17). Cada atividade é tributada separadamente no seu próprio Anexo, mas todas usam a mesma RBT12 da empresa para achar a faixa (art. 18, § 4º). Não considera sublimites estaduais de ICMS/ISS para receita acima de R$ 3.600.000,00 nem eventuais retenções na fonte. Fale com a gente para uma análise personalizada do enquadramento e do cálculo da sua empresa.</p>
+        <p>Este cálculo usa as tabelas e percentuais de repartição vigentes dos Anexos I a V da LC 123/2006 (redação da LC 155/2016), incluindo o limite de 5% para o ICMS/ISS com redistribuição aos tributos federais (art. 18, § 17). Cada atividade é tributada separadamente no seu próprio Anexo, mas todas usam a mesma RBT12 da empresa para achar a faixa (art. 18, § 4º). Quando o ISS de uma atividade é retido pelo tomador ou sujeito a substituição tributária (art. 21, § 4º), o valor sai do DAS e a alíquota de retenção usada é a alíquota efetiva do próprio mês, limitada a 5% — na prática, a Receita usa a alíquota efetiva do mês anterior, uma pequena simplificação deste cálculo. Não considera sublimites estaduais de ICMS/ISS para receita acima de R$ 3.600.000,00. Fale com a gente para uma análise personalizada do enquadramento e do cálculo da sua empresa.</p>
         <a href="#" class="btn btn--gold btn--sm" data-contact="whatsapp-link" target="_blank" rel="noopener">Falar no WhatsApp</a>
       </div>
     </div>
@@ -238,24 +238,47 @@
       wrapper.className = "calc-form__field calc-atividade-row";
       wrapper.dataset.atividadeId = id;
       wrapper.innerHTML = `
-        <div class="calc-atividade-row__grid">
-          <div class="calc-atividade-row__field">
-            <label class="calc-atividade-row__numero">Anexo (atividade ${id})</label>
-            <select class="calc-atividade-anexo">
-              <option value="I">Anexo I — Comércio</option>
-              <option value="II">Anexo II — Indústria</option>
-              <option value="III">Anexo III — Serviços (Fator R ≥ 28%)</option>
-              <option value="IV">Anexo IV — Serviços (sem CPP no DAS)</option>
-              <option value="V">Anexo V — Serviços (Fator R &lt; 28%)</option>
-            </select>
+        <div class="calc-atividade-row__top">
+          <div class="calc-atividade-row__grid">
+            <div class="calc-atividade-row__field">
+              <label class="calc-atividade-row__numero">Anexo (atividade ${id})</label>
+              <select class="calc-atividade-anexo">
+                <option value="I">Anexo I — Comércio</option>
+                <option value="II">Anexo II — Indústria</option>
+                <option value="III">Anexo III — Serviços (Fator R ≥ 28%)</option>
+                <option value="IV">Anexo IV — Serviços (sem CPP no DAS)</option>
+                <option value="V">Anexo V — Serviços (Fator R &lt; 28%)</option>
+              </select>
+            </div>
+            <div class="calc-atividade-row__field">
+              <label>Faturamento do mês (R$)</label>
+              <input type="number" class="calc-atividade-faturamento" min="0" step="0.01" placeholder="Ex: 20000,00">
+            </div>
           </div>
-          <div class="calc-atividade-row__field">
-            <label>Faturamento do mês (R$)</label>
-            <input type="number" class="calc-atividade-faturamento" min="0" step="0.01" placeholder="Ex: 20000,00">
-          </div>
+          <button type="button" class="calc-atividade-remove" aria-label="Remover atividade">&times;</button>
         </div>
-        <button type="button" class="calc-atividade-remove" aria-label="Remover atividade">&times;</button>
+        <div class="calc-atividade-row__iss" hidden>
+          <label>O ISS desta atividade é próprio ou retido/substituído?</label>
+          <div class="calc-toggle calc-atividade-iss-toggle">
+            <button type="button" class="calc-toggle__btn is-active" data-value="nao">Próprio (recolhido no DAS)</button>
+            <button type="button" class="calc-toggle__btn" data-value="sim">Retido / substituição tributária</button>
+          </div>
+          <span class="calc-form__hint">Quando o tomador retém o ISS (ou há substituição tributária pela legislação municipal), esse imposto sai do DAS e é pago diretamente ao Município pelo tomador, no limite de 5% — sem o limite de 5% com redistribuição interna do Simples.</span>
+        </div>
       `;
+      const anexoSelect = wrapper.querySelector(".calc-atividade-anexo");
+      const issBlockEl = wrapper.querySelector(".calc-atividade-row__iss");
+      const issToggleEl = wrapper.querySelector(".calc-atividade-iss-toggle");
+
+      function atualizarBlocoIss() {
+        const temIss = ["III", "IV", "V"].includes(anexoSelect.value);
+        issBlockEl.hidden = !temIss;
+      }
+      anexoSelect.addEventListener("change", atualizarBlocoIss);
+      atualizarBlocoIss();
+
+      wireToggle(issToggleEl, () => {});
+
       wrapper.querySelector(".calc-atividade-remove").addEventListener("click", () => {
         if (atividadesListEl.children.length > 1) {
           wrapper.remove();
@@ -288,6 +311,7 @@
         .map((linha) => ({
           anexo: linha.querySelector(".calc-atividade-anexo").value,
           faturamentoMes: parseFloat(linha.querySelector(".calc-atividade-faturamento").value) || 0,
+          issRetido: linha.querySelector(".calc-atividade-iss-toggle .is-active").dataset.value === "sim",
         }))
         .filter((a) => a.faturamentoMes > 0);
 
@@ -296,7 +320,9 @@
         return;
       }
 
-      const resultados = atividades.map((a) => calcularSimplesNacional({ anexo: a.anexo, rbt12, faturamentoMes: a.faturamentoMes }));
+      const resultados = atividades.map((a) =>
+        calcularSimplesNacional({ anexo: a.anexo, rbt12, faturamentoMes: a.faturamentoMes, issRetido: a.issRetido })
+      );
 
       const dasTotal = resultados.reduce((soma, r) => soma + r.dasMensal, 0);
       const faturamentoTotal = resultados.reduce((soma, r) => soma + r.faturamentoMes, 0);
@@ -316,9 +342,12 @@
       html += row("Faturamento total do mês", formatarMoeda(faturamentoTotal));
 
       resultados.forEach((r, i) => {
-        const nota = r.limiteAplicado
-          ? `Alíquota efetiva ${formatarPercentual(r.aliquotaEfetiva)}. O limite de 5% de ${SIMPLES_TRIBUTO_LABEL[r.capKey]} foi acionado nesta atividade.`
-          : `Alíquota efetiva ${formatarPercentual(r.aliquotaEfetiva)}.`;
+        let nota = `Alíquota efetiva ${formatarPercentual(r.aliquotaEfetiva)}.`;
+        if (r.issRetido) {
+          nota += ` ISS retido/substituído pelo tomador: ${formatarMoeda(r.valorRetidoPeloTomador)} (fora do DAS, pago direto ao Município).`;
+        } else if (r.limiteAplicado) {
+          nota += ` O limite de 5% de ${SIMPLES_TRIBUTO_LABEL[r.capKey]} foi acionado nesta atividade.`;
+        }
         html += row(`Atividade ${i + 1} — ${r.anexoNome}`, formatarMoeda(r.dasMensal), { note: nota });
       });
 
@@ -326,6 +355,14 @@
         note: "DAS total dividido pelo faturamento total do mês.",
       });
       html += row("Valor do DAS no mês", formatarMoeda(dasTotal), { tone: "total" });
+
+      const totalIssRetido = resultados.filter((r) => r.issRetido).reduce((soma, r) => soma + r.valorRetidoPeloTomador, 0);
+      if (totalIssRetido > 0) {
+        html += row("ISS retido/substituído pelo tomador (fora do DAS)", formatarMoeda(totalIssRetido), {
+          tone: "info",
+          note: "Pago direto ao Município pelo tomador do serviço; não entra no DAS.",
+        });
+      }
 
       breakdownEl.innerHTML = html;
 
@@ -340,10 +377,22 @@
         .join("");
 
       const atividadesComLimite = resultados.filter((r) => r.limiteAplicado);
-      tributosNotaEl.textContent =
-        atividadesComLimite.length > 0
-          ? `Valores somados de todas as atividades. O limite de 5% (art. 18, § 17, da LC 123/2006) foi acionado em ${atividadesComLimite.length === 1 ? "1 atividade" : `${atividadesComLimite.length} atividades`}, com o excedente redistribuído aos tributos federais dentro de cada uma.`
-          : "Valores somados de todas as atividades. Nenhum limite de partilha foi acionado neste cálculo.";
+      const atividadesComRetencao = resultados.filter((r) => r.issRetido);
+      const notas = ["Valores somados de todas as atividades (não inclui o ISS retido/substituído, mostrado separadamente)."];
+      if (atividadesComLimite.length > 0) {
+        notas.push(
+          `O limite de 5% (art. 18, § 17, da LC 123/2006) foi acionado em ${atividadesComLimite.length === 1 ? "1 atividade" : `${atividadesComLimite.length} atividades`}, com o excedente redistribuído aos tributos federais dentro de cada uma.`
+        );
+      }
+      if (atividadesComRetencao.length > 0) {
+        notas.push(
+          `${atividadesComRetencao.length === 1 ? "1 atividade tem" : `${atividadesComRetencao.length} atividades têm`} ISS retido/substituído: o valor correspondente já saiu do DAS dessas atividades.`
+        );
+      }
+      if (atividadesComLimite.length === 0 && atividadesComRetencao.length === 0) {
+        notas.push("Nenhum limite de partilha ou retenção de ISS foi considerado neste cálculo.");
+      }
+      tributosNotaEl.textContent = notas.join(" ");
 
       resultsEl.classList.add("is-visible");
     });
