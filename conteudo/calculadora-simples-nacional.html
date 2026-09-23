@@ -238,24 +238,21 @@
       wrapper.className = "calc-form__field calc-atividade-row";
       wrapper.dataset.atividadeId = id;
       wrapper.innerHTML = `
-        <div class="calc-atividade-row__top">
-          <div class="calc-atividade-row__grid">
-            <div class="calc-atividade-row__field">
-              <label class="calc-atividade-row__numero">Anexo (atividade ${id})</label>
-              <select class="calc-atividade-anexo">
-                <option value="I">Anexo I — Comércio</option>
-                <option value="II">Anexo II — Indústria</option>
-                <option value="III">Anexo III — Serviços (Fator R ≥ 28%)</option>
-                <option value="IV">Anexo IV — Serviços (sem CPP no DAS)</option>
-                <option value="V">Anexo V — Serviços (Fator R &lt; 28%)</option>
-              </select>
-            </div>
-            <div class="calc-atividade-row__field">
-              <label>Faturamento do mês (R$)</label>
-              <input type="number" class="calc-atividade-faturamento" min="0" step="0.01" placeholder="Ex: 20000,00">
-            </div>
-          </div>
-          <button type="button" class="calc-atividade-remove" aria-label="Remover atividade">&times;</button>
+        <button type="button" class="calc-atividade-remove" aria-label="Remover atividade">&times;</button>
+        <div class="calc-atividade-row__field">
+          <label class="calc-atividade-row__numero">Anexo (atividade ${id})</label>
+          <select class="calc-atividade-anexo">
+            <option value="I">Anexo I — Comércio</option>
+            <option value="II">Anexo II — Indústria</option>
+            <option value="III">Anexo III — Serviços</option>
+            <option value="IV">Anexo IV — Serviços (sem CPP no DAS)</option>
+            <option value="V">Anexo V — Serviços</option>
+          </select>
+          <span class="calc-form__hint calc-atividade-fatorr-hint" hidden>Anexos III e V são a mesma atividade de serviço, mas em regimes diferentes conforme o Fator R (folha de salários ÷ receita bruta, ambos nos últimos 12 meses): <strong>III</strong> se o Fator R for igual ou maior que 28%, <strong>V</strong> se for menor. Use o auxiliar "Precisa calcular o Fator R?" acima para descobrir o seu.</span>
+        </div>
+        <div class="calc-atividade-row__field">
+          <label>Faturamento do mês (R$)</label>
+          <input type="number" class="calc-atividade-faturamento" min="0" step="0.01" placeholder="Ex: 20000,00">
         </div>
         <div class="calc-atividade-row__iss" hidden>
           <label>O ISS desta atividade é próprio ou retido/substituído?</label>
@@ -269,10 +266,12 @@
       const anexoSelect = wrapper.querySelector(".calc-atividade-anexo");
       const issBlockEl = wrapper.querySelector(".calc-atividade-row__iss");
       const issToggleEl = wrapper.querySelector(".calc-atividade-iss-toggle");
+      const fatorRHintEl = wrapper.querySelector(".calc-atividade-fatorr-hint");
 
       function atualizarBlocoIss() {
         const temIss = ["III", "IV", "V"].includes(anexoSelect.value);
         issBlockEl.hidden = !temIss;
+        fatorRHintEl.hidden = !["III", "V"].includes(anexoSelect.value);
       }
       anexoSelect.addEventListener("change", atualizarBlocoIss);
       atualizarBlocoIss();
