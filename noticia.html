@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Notícia | Vitor Nascimento</title>
-<meta name="description" content="Notícias e atualizações contábeis e tributárias da Vitor Nascimento Assessoria Contábil.">
+<title>Notícia | Nascimento & Martins</title>
+<meta name="description" content="Notícias e atualizações contábeis e tributárias da Nascimento & Martins Contabilidade.">
 <link rel="icon" href="assets/logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,10 +17,10 @@
 <header class="header" id="header">
   <div class="container header__inner">
     <a href="index.html#inicio" class="brand">
-      <img src="assets/logo.jpg" alt="Vitor Nascimento Assessoria Contábil" class="brand__logo">
+      <img src="assets/logo.jpg" alt="Nascimento & Martins Contabilidade" class="brand__logo">
       <span class="brand__text">
-        <span class="brand__name">Vitor Nascimento</span>
-        <span class="brand__sub">Assessoria Contábil</span>
+        <span class="brand__name">Nascimento & Martins</span>
+        <span class="brand__sub">Contabilidade</span>
       </span>
     </a>
 
@@ -80,7 +80,7 @@
 <footer class="footer">
   <div class="container footer__inner">
     <a href="index.html#inicio" class="brand brand--footer">
-      <img src="assets/logo.jpg" alt="Vitor Nascimento Assessoria Contábil" class="brand__logo">
+      <img src="assets/logo.jpg" alt="Nascimento & Martins Contabilidade" class="brand__logo">
     </a>
 
     <nav class="footer__nav">
@@ -109,7 +109,7 @@
   <div class="footer__bottom">
     <div class="container footer__bottom-inner">
       <span data-contact-text="crc-display">CRC/UF 000000/O-0</span>
-      <span>&copy; <span id="year"></span> Vitor Nascimento Assessoria Contábil. Todos os direitos reservados.</span>
+      <span>&copy; <span id="year"></span> Nascimento & Martins Contabilidade. Todos os direitos reservados.</span>
     </div>
   </div>
 </footer>
@@ -148,10 +148,10 @@
         .single();
       if (error || !item) throw error || new Error("not found");
 
-      document.title = `${item.title} | Vitor Nascimento`;
+      document.title = `${item.title} | Nascimento & Martins`;
       tagEl.textContent = item.tag;
       titleEl.textContent = item.title;
-      metaEl.textContent = "Vitor Nascimento Assessoria Contábil";
+      metaEl.textContent = "Nascimento & Martins Contabilidade";
       if (item.image_url) {
         imageEl.src = item.image_url;
         imageEl.alt = item.title;

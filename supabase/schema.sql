@@ -1,5 +1,5 @@
 -- ============================================================
--- Vitor Nascimento Assessoria Contábil — Schema do Supabase
+-- Nascimento & Martins Contabilidade — Schema do Supabase
 -- ============================================================
 -- Como usar:
 -- 1) Crie um projeto em https://supabase.com
@@ -141,7 +141,7 @@ insert into news (tag, title, summary, slug, body, is_active, sort_order) values
   'Fique de olho nas mudanças do Simples Nacional',
   'Acompanhamos as atualizações de alíquotas, faixas de faturamento e obrigações acessórias que podem impactar o seu negócio.',
   'simples-nacional',
-  E'O Simples Nacional é o regime tributário mais utilizado por micro e pequenas empresas no Brasil, justamente por unificar tributos e simplificar o pagamento de impostos em uma única guia. Mas essa simplicidade não significa que o regime seja estático: alíquotas, faixas de faturamento, anexos e obrigações acessórias podem passar por atualizações ao longo do tempo, e ficar de fora dessas mudanças pode custar caro.\n\n## Por que acompanhar as mudanças importa\n\nUma empresa que ultrapassa o limite de faturamento da sua faixa, muda de atividade ou deixa de observar uma nova exigência pode acabar pagando mais impostos do que deveria — ou, pior, ser desenquadrada do regime. Acompanhar de perto essas variações é o que garante que sua empresa continue no enquadramento tributário mais vantajoso.\n\n## Como a Vitor Nascimento pode ajudar\n\nCuidamos do acompanhamento contínuo do enquadramento tributário da sua empresa, avaliando se o Simples Nacional continua sendo a opção mais vantajosa e alertando você sobre qualquer mudança relevante antes que ela vire um problema.',
+  E'O Simples Nacional é o regime tributário mais utilizado por micro e pequenas empresas no Brasil, justamente por unificar tributos e simplificar o pagamento de impostos em uma única guia. Mas essa simplicidade não significa que o regime seja estático: alíquotas, faixas de faturamento, anexos e obrigações acessórias podem passar por atualizações ao longo do tempo, e ficar de fora dessas mudanças pode custar caro.\n\n## Por que acompanhar as mudanças importa\n\nUma empresa que ultrapassa o limite de faturamento da sua faixa, muda de atividade ou deixa de observar uma nova exigência pode acabar pagando mais impostos do que deveria — ou, pior, ser desenquadrada do regime. Acompanhar de perto essas variações é o que garante que sua empresa continue no enquadramento tributário mais vantajoso.\n\n## Como a Nascimento & Martins pode ajudar\n\nCuidamos do acompanhamento contínuo do enquadramento tributário da sua empresa, avaliando se o Simples Nacional continua sendo a opção mais vantajosa e alertando você sobre qualquer mudança relevante antes que ela vire um problema.',
   true, 0
 ),
 (
@@ -149,7 +149,7 @@ insert into news (tag, title, summary, slug, body, is_active, sort_order) values
   'Novidades no eSocial e na folha de pagamento',
   'Prazos e resoluções mudam com frequência — mantemos sua empresa sempre em conformidade com as exigências trabalhistas.',
   'esocial',
-  E'O eSocial unificou o envio de informações trabalhistas, previdenciárias e fiscais relacionadas aos funcionários de uma empresa. Isso trouxe mais organização, mas também exige atenção constante: os eventos, prazos e regras de preenchimento passam por ajustes periódicos, e qualquer inconsistência pode gerar pendências, multas ou retrabalho.\n\n## O que acompanhamos por você\n\nPrazos de envio de cada evento do eSocial, atualizações nas regras de preenchimento, cálculo correto de encargos trabalhistas e previdenciários, e consistência entre a folha de pagamento e as informações enviadas ao governo.\n\n## Como a Vitor Nascimento pode ajudar\n\nCuidamos de toda a rotina de departamento pessoal — da admissão à rescisão — garantindo que sua empresa permaneça em conformidade com as exigências trabalhistas, sem surpresas.',
+  E'O eSocial unificou o envio de informações trabalhistas, previdenciárias e fiscais relacionadas aos funcionários de uma empresa. Isso trouxe mais organização, mas também exige atenção constante: os eventos, prazos e regras de preenchimento passam por ajustes periódicos, e qualquer inconsistência pode gerar pendências, multas ou retrabalho.\n\n## O que acompanhamos por você\n\nPrazos de envio de cada evento do eSocial, atualizações nas regras de preenchimento, cálculo correto de encargos trabalhistas e previdenciários, e consistência entre a folha de pagamento e as informações enviadas ao governo.\n\n## Como a Nascimento & Martins pode ajudar\n\nCuidamos de toda a rotina de departamento pessoal — da admissão à rescisão — garantindo que sua empresa permaneça em conformidade com as exigências trabalhistas, sem surpresas.',
   true, 1
 ),
 (
@@ -157,7 +157,7 @@ insert into news (tag, title, summary, slug, body, is_active, sort_order) values
   'Calendário e novidades do Imposto de Renda',
   'Saiba com antecedência o que muda na declaração anual e como se preparar para entregar tudo dentro do prazo.',
   'irpf',
-  E'Todos os anos, a declaração de Imposto de Renda da Pessoa Física passa por ajustes no calendário, nas regras de obrigatoriedade e nos documentos exigidos. Chegar perto do prazo final sem ter organizado a documentação é uma das principais causas de erros, inconsistências e até queda na malha fina.\n\n## Por que vale a pena se antecipar\n\nReunir informes de rendimentos, comprovantes de despesas médicas e educacionais, dados de bens e direitos com calma reduz o risco de esquecer algo importante.\n\n## Como a Vitor Nascimento pode ajudar\n\nCuidamos da organização e do envio da sua declaração com atenção aos detalhes que fazem diferença no resultado final, buscando sempre a opção mais vantajosa.',
+  E'Todos os anos, a declaração de Imposto de Renda da Pessoa Física passa por ajustes no calendário, nas regras de obrigatoriedade e nos documentos exigidos. Chegar perto do prazo final sem ter organizado a documentação é uma das principais causas de erros, inconsistências e até queda na malha fina.\n\n## Por que vale a pena se antecipar\n\nReunir informes de rendimentos, comprovantes de despesas médicas e educacionais, dados de bens e direitos com calma reduz o risco de esquecer algo importante.\n\n## Como a Nascimento & Martins pode ajudar\n\nCuidamos da organização e do envio da sua declaração com atenção aos detalhes que fazem diferença no resultado final, buscando sempre a opção mais vantajosa.',
   true, 2
 )
 on conflict (slug) do nothing;
