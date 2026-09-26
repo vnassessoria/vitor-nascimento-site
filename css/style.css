@@ -1083,7 +1083,8 @@ h1, h2, h3 {
     transition: max-height var(--transition);
   }
   .nav-dropdown.is-open .nav-dropdown__menu {
-    max-height: 200px;
+    transform: none;
+    max-height: 320px;
     margin-top: 10px;
     padding: 4px 0 0 12px;
   }
