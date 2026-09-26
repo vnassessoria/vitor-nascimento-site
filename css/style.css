@@ -391,8 +391,8 @@ h1, h2, h3 {
   .hero__intro-logo { width: 260px; height: 260px; border-radius: 28px; }
 }
 @keyframes heroIntroLogo {
-  0% { opacity: 0; transform: scale(0.82); }
-  30% { opacity: 1; transform: scale(1); }
+  0% { opacity: 1; transform: scale(0.82); }
+  15% { opacity: 1; transform: scale(1); }
   70% { opacity: 1; transform: scale(1); }
   100% { opacity: 0; transform: scale(1.08); }
 }
